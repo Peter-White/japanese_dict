@@ -1,3 +1,3 @@
 from django.shortcuts import render, HttpResponse
-from furigana.models import Hiragna, Kataganas
+from base_chars.models import Hiragna, Kataganas
 
