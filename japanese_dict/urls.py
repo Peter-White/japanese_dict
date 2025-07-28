@@ -22,5 +22,5 @@ from app import views as home_views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", home_views.index),
-    path("/about", home_views.abouts)
+    path("/about", home_views.about)
 ]
