@@ -22,5 +22,5 @@ from base_chars import urls as base
 
 urlpatterns = [
     path("", include(home)),
-    path("symbols", include(base))
+    path("symbols/", include(base))
 ]
