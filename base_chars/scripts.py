@@ -1,4 +1,4 @@
-from models import Hiragana, Katakana
+from base_chars.models import Hiragana, Katakana
 
 def getAllGana():
     return Hiragana.objects.all()

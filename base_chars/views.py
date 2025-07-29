@@ -1,5 +1,5 @@
 from django.shortcuts import render, HttpResponse
-from base_chars.models import Hiragna, Kataganas
+from base_chars.models import Hiragana, Katakana
 from base_chars import scripts
 
 def ganaBaseList(request):
