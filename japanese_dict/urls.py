@@ -16,11 +16,11 @@ Including another URLconf
 """
 
 from django.contrib import admin
-from django.urls import path
-from app import views as home_views
+from django.urls import path, include
+from app import urls as home
+from base_chars import urls as base
 
 urlpatterns = [
-    path("admin/", admin.site.urls),
-    path("", home_views.index),
-    path("about/", home_views.about)
+    path("", include(home)),
+    path("symbols", include(base))
 ]
