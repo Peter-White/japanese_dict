@@ -67,7 +67,10 @@ wheels/
 .installed.cfg 
 *.egg 
 *.manifest 
-*.spec 
+*.spec
+
+# SQLite
+*.sqlite3
 
 # Installer logs 
 pip-log.txt 
