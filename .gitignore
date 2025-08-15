@@ -3,11 +3,13 @@
 *.pot
 *.pyc
 __pycache__
-db.sqlite3
 media
 
 # Backup files # 
 *.bak 
+
+# Database
+*.sqlite3
 
 # If you are using PyCharm # 
 # User-specific stuff
@@ -139,3 +141,6 @@ GitHub.sublime-settings
 !.vscode/launch.json 
 !.vscode/extensions.json 
 .history
+
+# Migrations
+migrations/*

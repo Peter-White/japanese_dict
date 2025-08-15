@@ -8,5 +8,9 @@ def ganaBaseList(request):
 def kanaBaseList(request):
     return HttpResponse("List Kanagana")
 
+def postHiragana(request):
+    return HttpResponse(request)
 
+def postKatakana(request):
+    return HttpResponse(request)
 
