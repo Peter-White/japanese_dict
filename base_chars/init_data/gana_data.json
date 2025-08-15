@@ -1,0 +1,18 @@
+[
+     {
+    "model": "base_chars.hiragana",
+    "pk": 1,
+    "fields": {
+      "symbol": "あ",
+      "romaji": "a"
+    }
+  },
+  {
+    "model": "base_chars.hiragana",
+    "pk": 2,
+    "fields": {
+      "first_name": "い",
+      "last_name": "i"
+    }
+  }
+]
