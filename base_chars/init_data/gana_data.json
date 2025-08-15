@@ -11,8 +11,8 @@
     "model": "base_chars.hiragana",
     "pk": 1,
     "fields": {
-      "first_name": "い",
-      "last_name": "i"
+      "symbol": "い",
+      "romaji": "i"
     }
 },
 {
@@ -27,16 +27,16 @@
     "model": "base_chars.hiragana",
     "pk": 3,
     "fields": {
-      "first_name": "え",
-      "last_name": "e"
+      "symbol": "え",
+      "romaji": "e"
     }
 },
 {
     "model": "base_chars.hiragana",
     "pk": 4,
     "fields": {
-      "first_name": "お",
-      "last_name": "o"
+      "symbol": "お",
+      "romaji": "o"
     }
 }
 ]

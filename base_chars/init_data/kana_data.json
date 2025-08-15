@@ -11,8 +11,8 @@
     "model": "base_chars.katakana",
     "pk": 1,
     "fields": {
-      "first_name": "イ",
-      "last_name": "i"
+      "symbol": "イ",
+      "romaji": "i"
     }
 },
 {
@@ -27,16 +27,16 @@
     "model": "base_chars.katakana",
     "pk": 3,
     "fields": {
-      "first_name": "エ",
-      "last_name": "e"
+      "symbol": "エ",
+      "romaji": "e"
     }
 },
 {
     "model": "base_chars.katakana",
     "pk": 4,
     "fields": {
-      "first_name": "オ",
-      "last_name": "o"
+      "symbol": "オ",
+      "romaji": "o"
     }
 }
 ]
