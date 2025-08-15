@@ -1,41 +1,41 @@
 [
 {
-    "model": "base_chars.hiragana",
+    "model": "base_chars.katakana",
     "pk": 0,
     "fields": {
-      "symbol": "あ",
+      "symbol": "ア",
       "romaji": "a"
     }
 },
 {
-    "model": "base_chars.hiragana",
+    "model": "base_chars.katakana",
     "pk": 1,
     "fields": {
-      "first_name": "い",
+      "first_name": "イ",
       "last_name": "i"
     }
 },
 {
-    "model": "base_chars.hiragana",
+    "model": "base_chars.katakana",
     "pk": 2,
     "fields": {
-      "symbol": "う",
+      "symbol": "ウ",
       "romaji": "u"
     }
 },
 {
-    "model": "base_chars.hiragana",
+    "model": "base_chars.katakana",
     "pk": 3,
     "fields": {
-      "first_name": "え",
+      "first_name": "エ",
       "last_name": "e"
     }
 },
 {
-    "model": "base_chars.hiragana",
+    "model": "base_chars.katakana",
     "pk": 4,
     "fields": {
-      "first_name": "お",
+      "first_name": "オ",
       "last_name": "o"
     }
 }
