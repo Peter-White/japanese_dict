@@ -859,8 +859,152 @@
     "model": "base_chars.hiragana",
     "pk": 107,
     "fields": {
-      "symbol": "っ",
-      "romaji": ""
+      "symbol": "っか",
+      "romaji": "kka"
+    }
+},
+{
+    "model": "base_chars.hiragana",
+    "pk": 108,
+    "fields": {
+      "symbol": "っき",
+      "romaji": "kki"
+    }
+},
+{
+    "model": "base_chars.hiragana",
+    "pk": 109,
+    "fields": {
+      "symbol": "っく",
+      "romaji": "kku"
+    }
+},
+{
+    "model": "base_chars.hiragana",
+    "pk": 110,
+    "fields": {
+      "symbol": "っけ",
+      "romaji": "kke"
+    }
+},
+{
+    "model": "base_chars.hiragana",
+    "pk": 111,
+    "fields": {
+      "symbol": "っこ",
+      "romaji": "kko"
+    }
+},
+{
+    "model": "base_chars.hiragana",
+    "pk": 112,
+    "fields": {
+      "symbol": "っが",
+      "romaji": "gga"
+    }
+},
+{
+    "model": "base_chars.hiragana",
+    "pk": 113,
+    "fields": {
+      "symbol": "っぎ",
+      "romaji": "ggi"
+    }
+},
+{
+    "model": "base_chars.hiragana",
+    "pk": 114,
+    "fields": {
+      "symbol": "っぐ",
+      "romaji": "ggu"
+    }
+},
+{
+    "model": "base_chars.hiragana",
+    "pk": 115,
+    "fields": {
+      "symbol": "っげ",
+      "romaji": "gge"
+    }
+},
+{
+    "model": "base_chars.hiragana",
+    "pk": 116,
+    "fields": {
+      "symbol": "っご",
+      "romaji": "ggo"
+    }
+},
+{
+    "model": "base_chars.hiragana",
+    "pk": 117,
+    "fields": {
+      "symbol": "った",
+      "romaji": "tta"
+    }
+},
+{
+    "model": "base_chars.hiragana",
+    "pk": 118,
+    "fields": {
+      "symbol": "っち",
+      "romaji": "cchi"
+    }
+},
+{
+    "model": "base_chars.hiragana",
+    "pk": 119,
+    "fields": {
+      "symbol": "って",
+      "romaji": "tte"
+    }
+},
+{
+    "model": "base_chars.hiragana",
+    "pk": 120,
+    "fields": {
+      "symbol": "っと",
+      "romaji": "tto"
+    }
+},
+{
+    "model": "base_chars.hiragana",
+    "pk": 121,
+    "fields": {
+      "symbol": "っさ",
+      "romaji": "ssa"
+    }
+},
+{
+    "model": "base_chars.hiragana",
+    "pk": 122,
+    "fields": {
+      "symbol": "っし",
+      "romaji": "sshi"
+    }
+},
+{
+    "model": "base_chars.hiragana",
+    "pk": 123,
+    "fields": {
+      "symbol": "っす",
+      "romaji": "ssu"
+    }
+},
+{
+    "model": "base_chars.hiragana",
+    "pk": 124,
+    "fields": {
+      "symbol": "っせ",
+      "romaji": "sse"
+    }
+},
+{
+    "model": "base_chars.hiragana",
+    "pk": 125,
+    "fields": {
+      "symbol": "っそ",
+      "romaji": "sso"
     }
 }
 ]
