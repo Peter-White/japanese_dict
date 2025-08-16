@@ -854,5 +854,13 @@
       "symbol": "りょ",
       "romaji": "ryo"
     }
+},
+{
+    "model": "base_chars.hiragana",
+    "pk": 107,
+    "fields": {
+      "symbol": "っ",
+      "romaji": ""
+    }
 }
 ]
