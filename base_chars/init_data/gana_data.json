@@ -1079,6 +1079,22 @@
             "romaji": "n"
         }
     },
+        {
+        "model": "base_chars.hiragana",
+        "pk": 135,
+        "fields": {
+            "symbol": "\u304d\u3083",
+            "romaji": "kkya"
+        }
+    },
+        {
+        "model": "base_chars.hiragana",
+        "pk": 135,
+        "fields": {
+            "symbol": "\u304d\u3083",
+            "romaji": "kkya"
+        }
+    },
     {
         "model": "base_chars.hiragana",
         "pk": 135,
@@ -1305,6 +1321,54 @@
     },
     {
         "model": "base_chars.hiragana",
+        "pk": 153,
+        "fields": {
+            "symbol": "ぢゃ",
+            "romaji": "dya"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 154,
+        "fields": {
+            "symbol": "っぢゃ",
+            "romaji": "ddya"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 155,
+        "fields": {
+            "symbol": "ぢゅ",
+            "romaji": "dyu"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 156,
+        "fields": {
+            "symbol": "っぢゅ",
+            "romaji": "ddyu"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 151,
+        "fields": {
+            "symbol": "ぢょ",
+            "romaji": "dyo"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 152,
+        "fields": {
+            "symbol": "っぢょ",
+            "romaji": "ddyo"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
         "pk": 163,
         "fields": {
             "symbol": "\u306b\u3083",
@@ -1435,7 +1499,7 @@
         "model": "base_chars.hiragana",
         "pk": 179,
         "fields": {
-            "symbol": "\u3074\u3087",
+            "symbol": "\u3073\u3087",
             "romaji": "byo"
         }
     },
@@ -1443,7 +1507,7 @@
         "model": "base_chars.hiragana",
         "pk": 180,
         "fields": {
-            "symbol": "\u3063\u3074\u3087",
+            "symbol": "\u3063\u3073\u3087",
             "romaji": "bbyo"
         }
     },
