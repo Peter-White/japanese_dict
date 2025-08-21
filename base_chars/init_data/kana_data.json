@@ -1654,5 +1654,181 @@
             "symbol": "\u30c3\u30ea\u30e7",
             "romaji": "rryo"
         }
+    },
+        {
+        "model": "base_chars.hiragana",
+        "pk": 204,
+        "fields": {
+            "symbol": "ウィ",
+            "romaji": "wi"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 205,
+        "fields": {
+            "symbol": "ウェ",
+            "romaji": "we"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 206,
+        "fields": {
+            "symbol": "ウォ",
+            "romaji": "wo"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 203,
+        "fields": {
+            "symbol": "ヴァ",
+            "romaji": "va"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 204,
+        "fields": {
+            "symbol": "ヴィ",
+            "romaji": "vi"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 205,
+        "fields": {
+            "symbol": "ヴェ",
+            "romaji": "ve"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 206,
+        "fields": {
+            "symbol": "ヴォ",
+            "romaji": "vo"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 203,
+        "fields": {
+            "symbol": "ファ",
+            "romaji": "fa"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 204,
+        "fields": {
+            "symbol": "フィ",
+            "romaji": "fi"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 205,
+        "fields": {
+            "symbol": "フェ",
+            "romaji": "fe"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 206,
+        "fields": {
+            "symbol": "フォ",
+            "romaji": "fo"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 203,
+        "fields": {
+            "symbol": "ツァ",
+            "romaji": "tsa"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 204,
+        "fields": {
+            "symbol": "ツィ",
+            "romaji": "tsi"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 205,
+        "fields": {
+            "symbol": "ツェ",
+            "romaji": "tse"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 206,
+        "fields": {
+            "symbol": "ツォ",
+            "romaji": "tso"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 204,
+        "fields": {
+            "symbol": "シェ",
+            "romaji": "she"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 205,
+        "fields": {
+            "symbol": "ジェ",
+            "romaji": "je"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 206,
+        "fields": {
+            "symbol": "チェ",
+            "romaji": "che"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 203,
+        "fields": {
+            "symbol": "トゥ",
+            "romaji": "two"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 204,
+        "fields": {
+            "symbol": "ティ",
+            "romaji": "ti"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 205,
+        "fields": {
+            "symbol": "ドゥ",
+            "romaji": "dwu"
+        }
+    },
+    {
+        "model": "base_chars.hiragana",
+        "pk": 206,
+        "fields": {
+            "symbol": "ディ",
+            "romaji": "di"
+        }
     }
 ]
