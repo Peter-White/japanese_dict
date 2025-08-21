@@ -1079,25 +1079,25 @@
             "romaji": "n"
         }
     },
-        {
+    {
         "model": "base_chars.hiragana",
         "pk": 135,
         "fields": {
             "symbol": "\u304d\u3083",
-            "romaji": "kkya"
+            "romaji": "kya"
         }
     },
-        {
+    {
         "model": "base_chars.hiragana",
-        "pk": 135,
+        "pk": 136,
         "fields": {
-            "symbol": "\u304d\u3083",
+            "symbol": "\u3063\u304d\u3083",
             "romaji": "kkya"
         }
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 135,
+        "pk": 137,
         "fields": {
             "symbol": "\u304d\u3085",
             "romaji": "kyu"
@@ -1105,7 +1105,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 136,
+        "pk": 138,
         "fields": {
             "symbol": "\u3063\u304d\u3085",
             "romaji": "kkyu"
@@ -1113,7 +1113,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 137,
+        "pk": 139,
         "fields": {
             "symbol": "\u304d\u3087",
             "romaji": "kyo"
@@ -1121,7 +1121,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 138,
+        "pk": 140,
         "fields": {
             "symbol": "\u3063\u304d\u3087",
             "romaji": "kkyo"
@@ -1129,7 +1129,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 139,
+        "pk": 141,
         "fields": {
             "symbol": "\u304e\u3083",
             "romaji": "gya"
@@ -1137,7 +1137,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 140,
+        "pk": 142,
         "fields": {
             "symbol": "\u3063\u304e\u3083",
             "romaji": "ggya"
@@ -1145,7 +1145,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 141,
+        "pk": 143,
         "fields": {
             "symbol": "\u304e\u3085",
             "romaji": "gyu"
@@ -1153,7 +1153,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 142,
+        "pk": 144,
         "fields": {
             "symbol": "\u3063\u304e\u3085",
             "romaji": "ggyu"
@@ -1161,7 +1161,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 143,
+        "pk": 145,
         "fields": {
             "symbol": "\u304e\u3087",
             "romaji": "gyo"
@@ -1169,7 +1169,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 144,
+        "pk": 146,
         "fields": {
             "symbol": "\u3063\u304e\u3087",
             "romaji": "ggyo"
@@ -1177,7 +1177,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 145,
+        "pk": 147,
         "fields": {
             "symbol": "\u3057\u3083",
             "romaji": "sha"
@@ -1185,7 +1185,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 146,
+        "pk": 148,
         "fields": {
             "symbol": "\u3063\u3057\u3083",
             "romaji": "ssha"
@@ -1193,7 +1193,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 147,
+        "pk": 149,
         "fields": {
             "symbol": "\u3057\u3085",
             "romaji": "shu"
@@ -1201,7 +1201,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 148,
+        "pk": 150,
         "fields": {
             "symbol": "\u3063\u3057\u3085",
             "romaji": "sshu"
@@ -1209,7 +1209,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 149,
+        "pk": 151,
         "fields": {
             "symbol": "\u3057\u3087",
             "romaji": "sho"
@@ -1217,7 +1217,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 150,
+        "pk": 152,
         "fields": {
             "symbol": "\u3063\u3057\u3087",
             "romaji": "ssho"
@@ -1225,7 +1225,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 151,
+        "pk": 153,
         "fields": {
             "symbol": "\u3058\u3083",
             "romaji": "ja"
@@ -1233,7 +1233,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 152,
+        "pk": 154,
         "fields": {
             "symbol": "\u3063\u3058\u3083",
             "romaji": "jja"
@@ -1241,7 +1241,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 153,
+        "pk": 155,
         "fields": {
             "symbol": "\u3058\u3085",
             "romaji": "ju"
@@ -1249,7 +1249,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 154,
+        "pk": 156,
         "fields": {
             "symbol": "\u3063\u3058\u3085",
             "romaji": "jju"
@@ -1257,7 +1257,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 155,
+        "pk": 157,
         "fields": {
             "symbol": "\u3058\u3087",
             "romaji": "jo"
@@ -1265,7 +1265,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 156,
+        "pk": 158,
         "fields": {
             "symbol": "\u3063\u3058\u3087",
             "romaji": "jjo"
@@ -1273,7 +1273,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 157,
+        "pk": 159,
         "fields": {
             "symbol": "\u3061\u3083",
             "romaji": "cha"
@@ -1281,7 +1281,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 158,
+        "pk": 160,
         "fields": {
             "symbol": "\u3063\u3061\u3083",
             "romaji": "ccha"
@@ -1289,7 +1289,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 159,
+        "pk": 161,
         "fields": {
             "symbol": "\u3061\u3085",
             "romaji": "chu"
@@ -1297,7 +1297,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 160,
+        "pk": 162,
         "fields": {
             "symbol": "\u3063\u3061\u3085",
             "romaji": "cchu"
@@ -1305,7 +1305,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 161,
+        "pk": 163,
         "fields": {
             "symbol": "\u3061\u3087",
             "romaji": "cho"
@@ -1313,7 +1313,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 162,
+        "pk": 164,
         "fields": {
             "symbol": "\u3063\u3061\u3087",
             "romaji": "ccho"
@@ -1321,55 +1321,55 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 153,
+        "pk": 165,
         "fields": {
-            "symbol": "ぢゃ",
+            "symbol": "\u3062\u3083",
             "romaji": "dya"
         }
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 154,
+        "pk": 166,
         "fields": {
-            "symbol": "っぢゃ",
+            "symbol": "\u3063\u3062\u3083",
             "romaji": "ddya"
         }
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 155,
+        "pk": 167,
         "fields": {
-            "symbol": "ぢゅ",
+            "symbol": "\u3062\u3085",
             "romaji": "dyu"
         }
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 156,
+        "pk": 168,
         "fields": {
-            "symbol": "っぢゅ",
+            "symbol": "\u3063\u3062\u3085",
             "romaji": "ddyu"
         }
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 151,
+        "pk": 169,
         "fields": {
-            "symbol": "ぢょ",
+            "symbol": "\u3062\u3087",
             "romaji": "dyo"
         }
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 152,
+        "pk": 170,
         "fields": {
-            "symbol": "っぢょ",
+            "symbol": "\u3063\u3062\u3087",
             "romaji": "ddyo"
         }
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 163,
+        "pk": 171,
         "fields": {
             "symbol": "\u306b\u3083",
             "romaji": "nya"
@@ -1377,7 +1377,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 164,
+        "pk": 172,
         "fields": {
             "symbol": "\u3063\u306b\u3083",
             "romaji": "nnya"
@@ -1385,7 +1385,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 165,
+        "pk": 173,
         "fields": {
             "symbol": "\u306b\u3085",
             "romaji": "nyu"
@@ -1393,7 +1393,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 166,
+        "pk": 174,
         "fields": {
             "symbol": "\u3063\u306b\u3085",
             "romaji": "nnyu"
@@ -1401,7 +1401,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 167,
+        "pk": 175,
         "fields": {
             "symbol": "\u306b\u3087",
             "romaji": "nyo"
@@ -1409,7 +1409,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 168,
+        "pk": 176,
         "fields": {
             "symbol": "\u3063\u306b\u3087",
             "romaji": "nnyo"
@@ -1417,7 +1417,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 169,
+        "pk": 177,
         "fields": {
             "symbol": "\u3072\u3083",
             "romaji": "hya"
@@ -1425,7 +1425,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 170,
+        "pk": 178,
         "fields": {
             "symbol": "\u3063\u3072\u3083",
             "romaji": "hhya"
@@ -1433,7 +1433,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 171,
+        "pk": 179,
         "fields": {
             "symbol": "\u3072\u3085",
             "romaji": "hyu"
@@ -1441,7 +1441,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 172,
+        "pk": 180,
         "fields": {
             "symbol": "\u3063\u3072\u3085",
             "romaji": "hhyu"
@@ -1449,7 +1449,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 173,
+        "pk": 181,
         "fields": {
             "symbol": "\u3072\u3087",
             "romaji": "hyo"
@@ -1457,7 +1457,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 174,
+        "pk": 182,
         "fields": {
             "symbol": "\u3063\u3072\u3087",
             "romaji": "hhyo"
@@ -1465,7 +1465,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 175,
+        "pk": 183,
         "fields": {
             "symbol": "\u3073\u3083",
             "romaji": "bya"
@@ -1473,7 +1473,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 176,
+        "pk": 184,
         "fields": {
             "symbol": "\u3063\u3073\u3083",
             "romaji": "bbya"
@@ -1481,7 +1481,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 177,
+        "pk": 185,
         "fields": {
             "symbol": "\u3073\u3085",
             "romaji": "byu"
@@ -1489,7 +1489,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 178,
+        "pk": 186,
         "fields": {
             "symbol": "\u3063\u3073\u3085",
             "romaji": "bbyu"
@@ -1497,7 +1497,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 179,
+        "pk": 187,
         "fields": {
             "symbol": "\u3073\u3087",
             "romaji": "byo"
@@ -1505,7 +1505,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 180,
+        "pk": 188,
         "fields": {
             "symbol": "\u3063\u3073\u3087",
             "romaji": "bbyo"
@@ -1513,7 +1513,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 181,
+        "pk": 189,
         "fields": {
             "symbol": "\u3074\u3083",
             "romaji": "pya"
@@ -1521,7 +1521,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 182,
+        "pk": 190,
         "fields": {
             "symbol": "\u3063\u3074\u3083",
             "romaji": "ppya"
@@ -1529,7 +1529,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 183,
+        "pk": 191,
         "fields": {
             "symbol": "\u3074\u3085",
             "romaji": "pyu"
@@ -1537,7 +1537,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 184,
+        "pk": 192,
         "fields": {
             "symbol": "\u3063\u3074\u3085",
             "romaji": "ppyu"
@@ -1545,7 +1545,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 185,
+        "pk": 193,
         "fields": {
             "symbol": "\u3074\u3087",
             "romaji": "pyo"
@@ -1553,7 +1553,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 186,
+        "pk": 194,
         "fields": {
             "symbol": "\u3063\u3074\u3087",
             "romaji": "ppyo"
@@ -1561,7 +1561,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 187,
+        "pk": 195,
         "fields": {
             "symbol": "\u307f\u3083",
             "romaji": "mya"
@@ -1569,7 +1569,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 188,
+        "pk": 196,
         "fields": {
             "symbol": "\u3063\u307f\u3083",
             "romaji": "mmya"
@@ -1577,7 +1577,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 189,
+        "pk": 197,
         "fields": {
             "symbol": "\u307f\u3085",
             "romaji": "myu"
@@ -1585,7 +1585,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 190,
+        "pk": 198,
         "fields": {
             "symbol": "\u3063\u307f\u3085",
             "romaji": "mmyu"
@@ -1593,7 +1593,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 191,
+        "pk": 199,
         "fields": {
             "symbol": "\u307f\u3087",
             "romaji": "myo"
@@ -1601,7 +1601,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 192,
+        "pk": 200,
         "fields": {
             "symbol": "\u3063\u307f\u3087",
             "romaji": "mmyo"
@@ -1609,7 +1609,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 193,
+        "pk": 201,
         "fields": {
             "symbol": "\u308a\u3083",
             "romaji": "rya"
@@ -1617,7 +1617,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 194,
+        "pk": 202,
         "fields": {
             "symbol": "\u3063\u308a\u3083",
             "romaji": "rrya"
@@ -1625,7 +1625,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 195,
+        "pk": 203,
         "fields": {
             "symbol": "\u308a\u3085",
             "romaji": "ryu"
@@ -1633,7 +1633,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 196,
+        "pk": 204,
         "fields": {
             "symbol": "\u3063\u308a\u3085",
             "romaji": "rryu"
@@ -1641,7 +1641,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 197,
+        "pk": 205,
         "fields": {
             "symbol": "\u308a\u3087",
             "romaji": "ryo"
@@ -1649,7 +1649,7 @@
     },
     {
         "model": "base_chars.hiragana",
-        "pk": 198,
+        "pk": 206,
         "fields": {
             "symbol": "\u3063\u308a\u3087",
             "romaji": "rryo"
