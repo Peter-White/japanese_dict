@@ -230,7 +230,7 @@
         "fields": {
             "symbol": "\u3055",
             "romaji": "sa",
-            "group_num": -1
+            "group_num": 2
         }
     },
     {
@@ -266,7 +266,7 @@
         "fields": {
             "symbol": "\u3059",
             "romaji": "su",
-            "group_num": -1
+            "group_num": 2
         }
     },
     {
@@ -284,7 +284,7 @@
         "fields": {
             "symbol": "\u305b",
             "romaji": "se",
-            "group_num": -1
+            "group_num": 2
         }
     },
     {
@@ -302,7 +302,7 @@
         "fields": {
             "symbol": "\u305d",
             "romaji": "so",
-            "group_num": -1
+            "group_num": 2
         }
     },
     {
@@ -410,7 +410,7 @@
         "fields": {
             "symbol": "\u305f",
             "romaji": "ta",
-            "group_num": -1
+            "group_num": 3
         }
     },
     {
@@ -464,7 +464,7 @@
         "fields": {
             "symbol": "\u3066",
             "romaji": "te",
-            "group_num": -1
+            "group_num": 3
         }
     },
     {
@@ -482,7 +482,7 @@
         "fields": {
             "symbol": "\u3068",
             "romaji": "to",
-            "group_num": -1
+            "group_num": 3
         }
     },
     {
@@ -590,7 +590,7 @@
         "fields": {
             "symbol": "\u306a",
             "romaji": "na",
-            "group_num": -1
+            "group_num": 4
         }
     },
     {
@@ -608,7 +608,7 @@
         "fields": {
             "symbol": "\u306b",
             "romaji": "ni",
-            "group_num": -1
+            "group_num": 4
         }
     },
     {
@@ -626,7 +626,7 @@
         "fields": {
             "symbol": "\u306c",
             "romaji": "nu",
-            "group_num": -1
+            "group_num": 4
         }
     },
     {
@@ -644,7 +644,7 @@
         "fields": {
             "symbol": "\u306d",
             "romaji": "ne",
-            "group_num": -1
+            "group_num": 4
         }
     },
     {
@@ -662,7 +662,7 @@
         "fields": {
             "symbol": "\u306e",
             "romaji": "no",
-            "group_num": -1
+            "group_num": 4
         }
     },
     {
@@ -680,7 +680,7 @@
         "fields": {
             "symbol": "\u306f",
             "romaji": "ha",
-            "group_num": -1
+            "group_num": 5
         }
     },
     {
@@ -698,7 +698,7 @@
         "fields": {
             "symbol": "\u3072",
             "romaji": "hi",
-            "group_num": -1
+            "group_num": 5
         }
     },
     {
@@ -734,7 +734,7 @@
         "fields": {
             "symbol": "\u3078",
             "romaji": "he",
-            "group_num": -1
+            "group_num": 5
         }
     },
     {
@@ -752,7 +752,7 @@
         "fields": {
             "symbol": "\u307b",
             "romaji": "ho",
-            "group_num": -1
+            "group_num": 5
         }
     },
     {
@@ -950,7 +950,7 @@
         "fields": {
             "symbol": "\u307e",
             "romaji": "ma",
-            "group_num": -1
+            "group_num": 6
         }
     },
     {
@@ -968,7 +968,7 @@
         "fields": {
             "symbol": "\u307f",
             "romaji": "mi",
-            "group_num": -1
+            "group_num": 6
         }
     },
     {
@@ -986,7 +986,7 @@
         "fields": {
             "symbol": "\u3080",
             "romaji": "mu",
-            "group_num": -1
+            "group_num": 6
         }
     },
     {
@@ -1004,7 +1004,7 @@
         "fields": {
             "symbol": "\u3081",
             "romaji": "me",
-            "group_num": -1
+            "group_num": 6
         }
     },
     {
@@ -1022,7 +1022,7 @@
         "fields": {
             "symbol": "\u3082",
             "romaji": "mo",
-            "group_num": -1
+            "group_num": 6
         }
     },
     {
@@ -1040,7 +1040,7 @@
         "fields": {
             "symbol": "\u3089",
             "romaji": "ra",
-            "group_num": -1
+            "group_num": 7
         }
     },
     {
@@ -1058,7 +1058,7 @@
         "fields": {
             "symbol": "\u308a",
             "romaji": "ri",
-            "group_num": -1
+            "group_num": 7
         }
     },
     {
@@ -1076,7 +1076,7 @@
         "fields": {
             "symbol": "\u308b",
             "romaji": "ru",
-            "group_num": -1
+            "group_num": 7
         }
     },
     {
@@ -1094,7 +1094,7 @@
         "fields": {
             "symbol": "\u308c",
             "romaji": "re",
-            "group_num": -1
+            "group_num": 7
         }
     },
     {
@@ -1112,7 +1112,7 @@
         "fields": {
             "symbol": "\u308d",
             "romaji": "ro",
-            "group_num": -1
+            "group_num": 7
         }
     },
     {
@@ -1862,4 +1862,4 @@
             "group_num": -1
         }
     }
-]I
+]
