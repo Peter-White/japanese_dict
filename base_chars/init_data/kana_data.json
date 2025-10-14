@@ -1,4088 +1,4088 @@
 [
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 0,
         "fields": {
             "symbol": "\u30a2",
             "romaji": "a",
-            "group_num": 0
+            "group_num": 1
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 1,
         "fields": {
             "symbol": "\u30a4",
             "romaji": "i",
-            "group_num": 0
+            "group_num": 1
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 2,
         "fields": {
             "symbol": "\u30a6",
             "romaji": "u",
-            "group_num": 0
+            "group_num": 1
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 3,
         "fields": {
             "symbol": "\u30a8",
             "romaji": "e",
-            "group_num": 0
+            "group_num": 1
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 4,
         "fields": {
             "symbol": "\u30aa",
             "romaji": "o",
-            "group_num": 0
+            "group_num": 1
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 5,
         "fields": {
             "symbol": "\u30ab",
             "romaji": "ka",
-            "group_num": 1
+            "group_num": 2
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 6,
         "fields": {
             "symbol": "\u30c3\u30ab",
             "romaji": "kka",
-            "group_num": 34
+            "group_num": 35
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 7,
         "fields": {
             "symbol": "\u30ad",
             "romaji": "ki",
-            "group_num": 1
+            "group_num": 2
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 8,
         "fields": {
             "symbol": "\u30c3\u30ad",
             "romaji": "kki",
-            "group_num": 34
+            "group_num": 35
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 9,
         "fields": {
             "symbol": "\u30af",
             "romaji": "ku",
-            "group_num": 1
+            "group_num": 2
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 10,
         "fields": {
             "symbol": "\u30c3\u30af",
             "romaji": "kku",
-            "group_num": 34
+            "group_num": 35
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 11,
         "fields": {
             "symbol": "\u30b1",
             "romaji": "ke",
-            "group_num": 1
+            "group_num": 2
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 12,
         "fields": {
             "symbol": "\u30c3\u30b1",
             "romaji": "kke",
-            "group_num": 34
+            "group_num": 35
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 13,
         "fields": {
             "symbol": "\u30b3",
             "romaji": "ko",
-            "group_num": 1
+            "group_num": 2
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 14,
         "fields": {
             "symbol": "\u30c3\u30b3",
             "romaji": "kko",
-            "group_num": 34
+            "group_num": 35
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 15,
         "fields": {
             "symbol": "\u30ac",
             "romaji": "ga",
-            "group_num": 11
+            "group_num": 12
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 16,
         "fields": {
             "symbol": "\u30c3\u30ac",
             "romaji": "gga",
-            "group_num": 43
+            "group_num": 44
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 17,
         "fields": {
             "symbol": "\u30ae",
             "romaji": "gi",
-            "group_num": 11
+            "group_num": 12
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 18,
         "fields": {
             "symbol": "\u30c3\u30ae",
             "romaji": "ggi",
-            "group_num": 43
+            "group_num": 44
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 19,
         "fields": {
             "symbol": "\u30b0",
             "romaji": "gu",
-            "group_num": 11
+            "group_num": 12
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 20,
         "fields": {
             "symbol": "\u30c3\u30b0",
             "romaji": "ggu",
-            "group_num": 43
+            "group_num": 44
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 21,
         "fields": {
             "symbol": "\u30b2",
             "romaji": "ge",
-            "group_num": 11
+            "group_num": 12
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 22,
         "fields": {
             "symbol": "\u30c3\u30b2",
             "romaji": "gge",
-            "group_num": 43
+            "group_num": 44
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 23,
         "fields": {
             "symbol": "\u30b4",
             "romaji": "go",
-            "group_num": 11
+            "group_num": 12
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 24,
         "fields": {
             "symbol": "\u30c3\u30b4",
             "romaji": "ggo",
-            "group_num": 43
+            "group_num": 44
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 25,
         "fields": {
             "symbol": "\u30b5",
             "romaji": "sa",
-            "group_num": 2
+            "group_num": 3
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 26,
         "fields": {
             "symbol": "\u30c3\u30b5",
             "romaji": "ssa",
-            "group_num": 35
+            "group_num": 36
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 27,
         "fields": {
             "symbol": "\u30b7",
             "romaji": "shi",
-            "group_num": 2
+            "group_num": 3
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 28,
         "fields": {
             "symbol": "\u30c3\u30b7",
             "romaji": "sshi",
-            "group_num": 35
+            "group_num": 36
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 29,
         "fields": {
             "symbol": "\u30b9",
             "romaji": "su",
-            "group_num": 2
+            "group_num": 3
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 30,
         "fields": {
             "symbol": "\u30c3\u30b9",
             "romaji": "ssu",
-            "group_num": 35
+            "group_num": 36
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 31,
         "fields": {
             "symbol": "\u30bb",
             "romaji": "se",
-            "group_num": 2
+            "group_num": 3
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 32,
         "fields": {
             "symbol": "\u30c3\u30bb",
             "romaji": "sse",
-            "group_num": 35
+            "group_num": 36
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 33,
         "fields": {
             "symbol": "\u30bd",
             "romaji": "so",
-            "group_num": 2
+            "group_num": 3
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 34,
         "fields": {
             "symbol": "\u30c3\u30bd",
             "romaji": "sso",
-            "group_num": 35
+            "group_num": 36
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 35,
         "fields": {
             "symbol": "\u30b6",
             "romaji": "za",
-            "group_num": 12
+            "group_num": 13
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 36,
         "fields": {
             "symbol": "\u30c3\u30b6",
             "romaji": "zza",
-            "group_num": 44
+            "group_num": 45
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 37,
         "fields": {
             "symbol": "\u30b8",
             "romaji": "ji",
-            "group_num": 12
+            "group_num": 13
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 38,
         "fields": {
             "symbol": "\u30c3\u30b8",
             "romaji": "jji",
-            "group_num": 44
+            "group_num": 45
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 39,
         "fields": {
             "symbol": "\u30ba",
             "romaji": "zu",
-            "group_num": 12
+            "group_num": 13
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 40,
         "fields": {
             "symbol": "\u30c3\u30ba",
             "romaji": "zzu",
-            "group_num": 44
+            "group_num": 45
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 41,
         "fields": {
             "symbol": "\u30bc",
             "romaji": "ze",
-            "group_num": 12
+            "group_num": 13
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 42,
         "fields": {
             "symbol": "\u30c3\u30bc",
             "romaji": "zze",
-            "group_num": 44
+            "group_num": 45
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 43,
         "fields": {
             "symbol": "\u30be",
             "romaji": "zo",
-            "group_num": 12
+            "group_num": 13
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 44,
         "fields": {
             "symbol": "\u30c3\u30be",
             "romaji": "zzo",
-            "group_num": 44
+            "group_num": 45
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 45,
         "fields": {
             "symbol": "\u30bf",
             "romaji": "ta",
-            "group_num": 3
+            "group_num": 4
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 46,
         "fields": {
             "symbol": "\u30c3\u30bf",
             "romaji": "tta",
-            "group_num": 36
+            "group_num": 37
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 47,
         "fields": {
             "symbol": "\u30c1",
             "romaji": "chi",
-            "group_num": 3
+            "group_num": 4
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 48,
         "fields": {
             "symbol": "\u30c3\u30c1",
             "romaji": "cchi",
-            "group_num": 36
+            "group_num": 37
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 49,
         "fields": {
             "symbol": "\u30c4",
             "romaji": "tsu",
-            "group_num": 3
+            "group_num": 4
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 50,
         "fields": {
             "symbol": "\u30c3\u30c4",
             "romaji": "ttsu",
-            "group_num": 36
+            "group_num": 37
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 51,
         "fields": {
             "symbol": "\u30c6",
             "romaji": "te",
-            "group_num": 3
+            "group_num": 4
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 52,
         "fields": {
             "symbol": "\u30c3\u30c6",
             "romaji": "tte",
-            "group_num": 36
+            "group_num": 37
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 53,
         "fields": {
             "symbol": "\u30c8",
             "romaji": "to",
-            "group_num": 3
+            "group_num": 4
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 54,
         "fields": {
             "symbol": "\u30c3\u30c8",
             "romaji": "tto",
-            "group_num": 36
+            "group_num": 37
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 55,
         "fields": {
             "symbol": "\u30c0",
             "romaji": "da",
-            "group_num": 13
+            "group_num": 14
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 56,
         "fields": {
             "symbol": "\u30c3\u30c0",
             "romaji": "dda",
-            "group_num": 45
+            "group_num": 46
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 57,
         "fields": {
             "symbol": "\u30c2",
             "romaji": "ji",
-            "group_num": 13
+            "group_num": 14
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 58,
         "fields": {
             "symbol": "\u30c3\u30c2",
             "romaji": "jji",
-            "group_num": 45
+            "group_num": 46
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 59,
         "fields": {
             "symbol": "\u30c5",
             "romaji": "zu",
-            "group_num": 13
+            "group_num": 14
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 60,
         "fields": {
             "symbol": "\u30c3\u30c5",
             "romaji": "zzu",
-            "group_num": 45
+            "group_num": 46
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 61,
         "fields": {
             "symbol": "\u30c7",
             "romaji": "de",
-            "group_num": 13
+            "group_num": 14
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 62,
         "fields": {
             "symbol": "\u30c3\u30c7",
             "romaji": "dde",
-            "group_num": 45
+            "group_num": 46
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 63,
         "fields": {
             "symbol": "\u30c9",
             "romaji": "do",
-            "group_num": 13
+            "group_num": 14
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 64,
         "fields": {
             "symbol": "\u30c3\u30c9",
             "romaji": "ddo",
-            "group_num": 45
+            "group_num": 46
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 65,
         "fields": {
             "symbol": "\u30ca",
             "romaji": "na",
-            "group_num": 4
+            "group_num": 5
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 66,
         "fields": {
             "symbol": "\u30c3\u30ca",
             "romaji": "nna",
-            "group_num": 37
+            "group_num": 38
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 67,
         "fields": {
             "symbol": "\u30cb",
             "romaji": "ni",
-            "group_num": 4
+            "group_num": 5
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 68,
         "fields": {
             "symbol": "\u30c3\u30cb",
             "romaji": "nni",
-            "group_num": 37
+            "group_num": 38
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 69,
         "fields": {
             "symbol": "\u30cc",
             "romaji": "nu",
-            "group_num": 4
+            "group_num": 5
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 70,
         "fields": {
             "symbol": "\u30c3\u30cc",
             "romaji": "nnu",
-            "group_num": 37
+            "group_num": 38
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 71,
         "fields": {
             "symbol": "\u30cd",
             "romaji": "ne",
-            "group_num": 4
+            "group_num": 5
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 72,
         "fields": {
             "symbol": "\u30c3\u30cd",
             "romaji": "nne",
-            "group_num": 37
+            "group_num": 38
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 73,
         "fields": {
             "symbol": "\u30ce",
             "romaji": "no",
-            "group_num": 4
+            "group_num": 5
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 74,
         "fields": {
             "symbol": "\u30c3\u30ce",
             "romaji": "nno",
-            "group_num": 37
+            "group_num": 38
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 75,
         "fields": {
             "symbol": "\u30cf",
             "romaji": "ha",
-            "group_num": 5
+            "group_num": 6
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 76,
         "fields": {
             "symbol": "\u30c3\u30cf",
             "romaji": "hha",
-            "group_num": 38
+            "group_num": 39
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 77,
         "fields": {
             "symbol": "\u30d2",
             "romaji": "hi",
-            "group_num": 5
+            "group_num": 6
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 78,
         "fields": {
             "symbol": "\u30c3\u30d2",
             "romaji": "hhi",
-            "group_num": 38
+            "group_num": 39
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 79,
         "fields": {
             "symbol": "\u30d5",
             "romaji": "fu",
-            "group_num": 5
+            "group_num": 6
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 80,
         "fields": {
             "symbol": "\u30c3\u30d5",
             "romaji": "ffu",
-            "group_num": 38
+            "group_num": 39
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 81,
         "fields": {
             "symbol": "\u30d8",
             "romaji": "he",
-            "group_num": 5
+            "group_num": 6
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 82,
         "fields": {
             "symbol": "\u30c3\u30d8",
             "romaji": "hhe",
-            "group_num": 38
+            "group_num": 39
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 83,
         "fields": {
             "symbol": "\u30db",
             "romaji": "ho",
-            "group_num": 5
+            "group_num": 6
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 84,
         "fields": {
             "symbol": "\u30c3\u30db",
             "romaji": "hho",
-            "group_num": 38
+            "group_num": 39
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 85,
         "fields": {
             "symbol": "\u30d0",
             "romaji": "ba",
-            "group_num": 14
+            "group_num": 15
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 86,
         "fields": {
             "symbol": "\u30c3\u30d0",
             "romaji": "bba",
-            "group_num": 46
+            "group_num": 47
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 87,
         "fields": {
             "symbol": "\u30d3",
             "romaji": "bi",
-            "group_num": 14
+            "group_num": 15
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 88,
         "fields": {
             "symbol": "\u30c3\u30d3",
             "romaji": "bbi",
-            "group_num": 46
+            "group_num": 47
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 89,
         "fields": {
             "symbol": "\u30d6",
             "romaji": "bu",
-            "group_num": 14
+            "group_num": 15
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 90,
         "fields": {
             "symbol": "\u30c3\u30d6",
             "romaji": "bbu",
-            "group_num": 46
+            "group_num": 47
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 91,
         "fields": {
             "symbol": "\u30d9",
             "romaji": "be",
-            "group_num": 14
+            "group_num": 15
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 92,
         "fields": {
             "symbol": "\u30c3\u30d9",
             "romaji": "bbe",
-            "group_num": 46
+            "group_num": 47
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 93,
         "fields": {
             "symbol": "\u30dc",
             "romaji": "bo",
-            "group_num": 14
+            "group_num": 15
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 94,
         "fields": {
             "symbol": "\u30c3\u30dc",
             "romaji": "bbo",
-            "group_num": 46
+            "group_num": 47
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 95,
         "fields": {
             "symbol": "\u30d1",
             "romaji": "pa",
-            "group_num": 15
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 96,
-        "fields": {
-            "symbol": "\u30c3\u30d1",
-            "romaji": "ppa",
-            "group_num": 47
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 97,
-        "fields": {
-            "symbol": "\u30d4",
-            "romaji": "pi",
-            "group_num": 15
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 98,
-        "fields": {
-            "symbol": "\u30c3\u30d4",
-            "romaji": "ppi",
-            "group_num": 47
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 99,
-        "fields": {
-            "symbol": "\u30d7",
-            "romaji": "pu",
-            "group_num": 15
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 100,
-        "fields": {
-            "symbol": "\u30c3\u30d7",
-            "romaji": "ppu",
-            "group_num": 47
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 101,
-        "fields": {
-            "symbol": "\u30da",
-            "romaji": "pe",
-            "group_num": 15
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 102,
-        "fields": {
-            "symbol": "\u30c3\u30da",
-            "romaji": "ppe",
-            "group_num": 47
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 103,
-        "fields": {
-            "symbol": "\u30dd",
-            "romaji": "po",
-            "group_num": 15
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 104,
-        "fields": {
-            "symbol": "\u30c3\u30dd",
-            "romaji": "ppo",
-            "group_num": 47
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 105,
-        "fields": {
-            "symbol": "\u30de",
-            "romaji": "ma",
-            "group_num": 6
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 106,
-        "fields": {
-            "symbol": "\u30c3\u30de",
-            "romaji": "mma",
-            "group_num": 39
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 107,
-        "fields": {
-            "symbol": "\u30df",
-            "romaji": "mi",
-            "group_num": 6
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 108,
-        "fields": {
-            "symbol": "\u30c3\u30df",
-            "romaji": "mmi",
-            "group_num": 39
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 109,
-        "fields": {
-            "symbol": "\u30e0",
-            "romaji": "mu",
-            "group_num": 6
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 110,
-        "fields": {
-            "symbol": "\u30c3\u30e0",
-            "romaji": "mmu",
-            "group_num": 39
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 111,
-        "fields": {
-            "symbol": "\u30e1",
-            "romaji": "me",
-            "group_num": 6
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 112,
-        "fields": {
-            "symbol": "\u30c3\u30e1",
-            "romaji": "mme",
-            "group_num": 39
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 113,
-        "fields": {
-            "symbol": "\u30e2",
-            "romaji": "mo",
-            "group_num": 6
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 114,
-        "fields": {
-            "symbol": "\u30c3\u30e2",
-            "romaji": "mmo",
-            "group_num": 39
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 115,
-        "fields": {
-            "symbol": "\u30e9",
-            "romaji": "ra",
-            "group_num": 7
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 116,
-        "fields": {
-            "symbol": "\u30c3\u30e9",
-            "romaji": "rra",
-            "group_num": 40
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 117,
-        "fields": {
-            "symbol": "\u30ea",
-            "romaji": "ri",
-            "group_num": 7
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 118,
-        "fields": {
-            "symbol": "\u30c3\u30ea",
-            "romaji": "rri",
-            "group_num": 40
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 119,
-        "fields": {
-            "symbol": "\u30eb",
-            "romaji": "ru",
-            "group_num": 7
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 120,
-        "fields": {
-            "symbol": "\u30c3\u30eb",
-            "romaji": "rru",
-            "group_num": 40
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 121,
-        "fields": {
-            "symbol": "\u30ec",
-            "romaji": "re",
-            "group_num": 7
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 122,
-        "fields": {
-            "symbol": "\u30c3\u30ec",
-            "romaji": "rre",
-            "group_num": 40
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 123,
-        "fields": {
-            "symbol": "\u30ed",
-            "romaji": "ro",
-            "group_num": 7
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 124,
-        "fields": {
-            "symbol": "\u30c3\u30ed",
-            "romaji": "rro",
-            "group_num": 40
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 125,
-        "fields": {
-            "symbol": "\u30e4",
-            "romaji": "ya",
-            "group_num": 8
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 126,
-        "fields": {
-            "symbol": "\u30c3\u30e4",
-            "romaji": "yya",
-            "group_num": 41
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 127,
-        "fields": {
-            "symbol": "\u30e6",
-            "romaji": "yu",
-            "group_num": 8
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 128,
-        "fields": {
-            "symbol": "\u30c3\u30e6",
-            "romaji": "yyu",
-            "group_num": 41
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 129,
-        "fields": {
-            "symbol": "\u30e8",
-            "romaji": "yo",
-            "group_num": 8
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 130,
-        "fields": {
-            "symbol": "\u30c3\u30e8",
-            "romaji": "yyo",
-            "group_num": 41
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 131,
-        "fields": {
-            "symbol": "\u30ef",
-            "romaji": "wa",
-            "group_num": 9
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 132,
-        "fields": {
-            "symbol": "\u30c3\u30ef",
-            "romaji": "wwa",
-            "group_num": 42
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 133,
-        "fields": {
-            "symbol": "\u30f2",
-            "romaji": "wo",
-            "group_num": 9
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 134,
-        "fields": {
-            "symbol": "\u30f3",
-            "romaji": "n",
-            "group_num": 10
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 135,
-        "fields": {
-            "symbol": "\u30ad\u30e3",
-            "romaji": "kya",
-            "group_num": 22
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 136,
-        "fields": {
-            "symbol": "\u30c3\u30ad\u30e3",
-            "romaji": "kkya",
-            "group_num": 48
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 137,
-        "fields": {
-            "symbol": "\u30ad\u30e5",
-            "romaji": "kyu",
-            "group_num": 22
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 138,
-        "fields": {
-            "symbol": "\u30c3\u30ad\u30e5",
-            "romaji": "kkyu",
-            "group_num": 48
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 139,
-        "fields": {
-            "symbol": "\u30ad\u30e7",
-            "romaji": "kyo",
-            "group_num": 22
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 140,
-        "fields": {
-            "symbol": "\u30c3\u30ad\u30e7",
-            "romaji": "kkyo",
-            "group_num": 48
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 141,
-        "fields": {
-            "symbol": "\u30ae\u30e3",
-            "romaji": "gya",
-            "group_num": 29
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 142,
-        "fields": {
-            "symbol": "\u30c3\u30ae\u30e3",
-            "romaji": "ggya",
-            "group_num": 55
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 143,
-        "fields": {
-            "symbol": "\u30ae\u30e5",
-            "romaji": "gyu",
-            "group_num": 29
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 144,
-        "fields": {
-            "symbol": "\u30c3\u30ae\u30e5",
-            "romaji": "ggyu",
-            "group_num": 55
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 145,
-        "fields": {
-            "symbol": "\u30ae\u30e7",
-            "romaji": "gyo",
-            "group_num": 29
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 146,
-        "fields": {
-            "symbol": "\u30c3\u30ae\u30e7",
-            "romaji": "ggyo",
-            "group_num": 55
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 147,
-        "fields": {
-            "symbol": "\u30b7\u30e3",
-            "romaji": "sha",
-            "group_num": 23
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 148,
-        "fields": {
-            "symbol": "\u30c3\u30b7\u30e3",
-            "romaji": "ssha",
-            "group_num": 49
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 149,
-        "fields": {
-            "symbol": "\u30b7\u30e5",
-            "romaji": "shu",
-            "group_num": 23
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 150,
-        "fields": {
-            "symbol": "\u30c3\u30b7\u30e5",
-            "romaji": "sshu",
-            "group_num": 49
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 151,
-        "fields": {
-            "symbol": "\u30b7\u30e7",
-            "romaji": "sho",
-            "group_num": 23
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 152,
-        "fields": {
-            "symbol": "\u30c3\u30b7\u30e7",
-            "romaji": "ssho",
-            "group_num": 49
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 153,
-        "fields": {
-            "symbol": "\u30b8\u30e3",
-            "romaji": "ja",
-            "group_num": 30
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 154,
-        "fields": {
-            "symbol": "\u30c3\u30b8\u30e3",
-            "romaji": "jja",
-            "group_num": 56
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 155,
-        "fields": {
-            "symbol": "\u30b8\u30e5",
-            "romaji": "ju",
-            "group_num": 30
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 156,
-        "fields": {
-            "symbol": "\u30c3\u30b8\u30e5",
-            "romaji": "jju",
-            "group_num": 56
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 157,
-        "fields": {
-            "symbol": "\u30b8\u30e7",
-            "romaji": "jo",
-            "group_num": 30
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 158,
-        "fields": {
-            "symbol": "\u30c3\u30b8\u30e7",
-            "romaji": "jjo",
-            "group_num": 56
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 159,
-        "fields": {
-            "symbol": "\u30c1\u30e3",
-            "romaji": "cha",
-            "group_num": 24
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 160,
-        "fields": {
-            "symbol": "\u30c3\u30c1\u30e3",
-            "romaji": "ccha",
-            "group_num": 50
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 161,
-        "fields": {
-            "symbol": "\u30c1\u30e5",
-            "romaji": "chu",
-            "group_num": 24
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 162,
-        "fields": {
-            "symbol": "\u30c3\u30c1\u30e5",
-            "romaji": "cchu",
-            "group_num": 50
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 163,
-        "fields": {
-            "symbol": "\u30c1\u30e7",
-            "romaji": "cho",
-            "group_num": 24
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 164,
-        "fields": {
-            "symbol": "\u30c3\u30c1\u30e7",
-            "romaji": "ccho",
-            "group_num": 50
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 165,
-        "fields": {
-            "symbol": "\u30c7\u30e3",
-            "romaji": "dya",
-            "group_num": 31
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 166,
-        "fields": {
-            "symbol": "\u30c3\u30c7\u30e3",
-            "romaji": "ddya",
-            "group_num": 57
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 167,
-        "fields": {
-            "symbol": "\u30c7\u30e5",
-            "romaji": "dyu",
-            "group_num": 31
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 168,
-        "fields": {
-            "symbol": "\u30c3\u30c7\u30e5",
-            "romaji": "ddyu",
-            "group_num": 57
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 169,
-        "fields": {
-            "symbol": "\u30c7\u30e7",
-            "romaji": "dyo",
-            "group_num": 31
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 170,
-        "fields": {
-            "symbol": "\u30c3\u30c7\u30e7",
-            "romaji": "ddyo",
-            "group_num": 57
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 171,
-        "fields": {
-            "symbol": "\u30cb\u30e3",
-            "romaji": "nya",
-            "group_num": 25
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 172,
-        "fields": {
-            "symbol": "\u30c3\u30cb\u30e3",
-            "romaji": "nnya",
-            "group_num": 51
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 173,
-        "fields": {
-            "symbol": "\u30cb\u30e5",
-            "romaji": "nyu",
-            "group_num": 25
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 174,
-        "fields": {
-            "symbol": "\u30c3\u30cb\u30e5",
-            "romaji": "nnyu",
-            "group_num": 51
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 175,
-        "fields": {
-            "symbol": "\u30cb\u30e7",
-            "romaji": "nyo",
-            "group_num": 25
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 176,
-        "fields": {
-            "symbol": "\u30c3\u30cb\u30e7",
-            "romaji": "nnyo",
-            "group_num": 51
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 177,
-        "fields": {
-            "symbol": "\u30d2\u30e3",
-            "romaji": "hya",
-            "group_num": 26
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 178,
-        "fields": {
-            "symbol": "\u30c3\u30d2\u30e3",
-            "romaji": "hhya",
-            "group_num": 52
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 179,
-        "fields": {
-            "symbol": "\u30d2\u30e5",
-            "romaji": "hyu",
-            "group_num": 26
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 180,
-        "fields": {
-            "symbol": "\u30c3\u30d2\u30e5",
-            "romaji": "hhyu",
-            "group_num": 52
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 181,
-        "fields": {
-            "symbol": "\u30d2\u30e7",
-            "romaji": "hyo",
-            "group_num": 26
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 182,
-        "fields": {
-            "symbol": "\u30c3\u30d2\u30e7",
-            "romaji": "hhyo",
-            "group_num": 52
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 183,
-        "fields": {
-            "symbol": "\u30d3\u30e3",
-            "romaji": "bya",
-            "group_num": 32
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 184,
-        "fields": {
-            "symbol": "\u30c3\u30d3\u30e3",
-            "romaji": "bbya",
-            "group_num": 58
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 185,
-        "fields": {
-            "symbol": "\u30d3\u30e5",
-            "romaji": "byu",
-            "group_num": 32
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 186,
-        "fields": {
-            "symbol": "\u30c3\u30d3\u30e5",
-            "romaji": "bbyu",
-            "group_num": 58
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 187,
-        "fields": {
-            "symbol": "\u30d3\u30e7",
-            "romaji": "byo",
-            "group_num": 32
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 188,
-        "fields": {
-            "symbol": "\u30c3\u30d3\u30e7",
-            "romaji": "bbyo",
-            "group_num": 58
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 189,
-        "fields": {
-            "symbol": "\u30d4\u30e3",
-            "romaji": "pya",
-            "group_num": 33
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 190,
-        "fields": {
-            "symbol": "\u30c3\u30d4\u30e3",
-            "romaji": "ppya",
-            "group_num": 59
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 191,
-        "fields": {
-            "symbol": "\u30d4\u30e5",
-            "romaji": "pyu",
-            "group_num": 33
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 192,
-        "fields": {
-            "symbol": "\u30c3\u30d4\u30e5",
-            "romaji": "ppyu",
-            "group_num": 59
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 193,
-        "fields": {
-            "symbol": "\u30d4\u30e7",
-            "romaji": "pyo",
-            "group_num": 33
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 194,
-        "fields": {
-            "symbol": "\u30c3\u30d4\u30e7",
-            "romaji": "ppyo",
-            "group_num": 59
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 195,
-        "fields": {
-            "symbol": "\u30df\u30e3",
-            "romaji": "mya",
-            "group_num": 27
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 196,
-        "fields": {
-            "symbol": "\u30c3\u30df\u30e3",
-            "romaji": "mmya",
-            "group_num": 53
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 197,
-        "fields": {
-            "symbol": "\u30df\u30e5",
-            "romaji": "myu",
-            "group_num": 27
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 198,
-        "fields": {
-            "symbol": "\u30c3\u30df\u30e5",
-            "romaji": "mmyu",
-            "group_num": 53
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 199,
-        "fields": {
-            "symbol": "\u30df\u30e7",
-            "romaji": "myo",
-            "group_num": 27
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 200,
-        "fields": {
-            "symbol": "\u30c3\u30df\u30e7",
-            "romaji": "mmyo",
-            "group_num": 53
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 201,
-        "fields": {
-            "symbol": "\u30ea\u30e3",
-            "romaji": "rya",
-            "group_num": 28
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 202,
-        "fields": {
-            "symbol": "\u30c3\u30ea\u30e3",
-            "romaji": "rrya",
-            "group_num": 54
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 203,
-        "fields": {
-            "symbol": "\u30ea\u30e5",
-            "romaji": "ryu",
-            "group_num": 28
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 204,
-        "fields": {
-            "symbol": "\u30c3\u30ea\u30e5",
-            "romaji": "rryu",
-            "group_num": 54
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 205,
-        "fields": {
-            "symbol": "\u30ea\u30e7",
-            "romaji": "ryo",
-            "group_num": 28
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 206,
-        "fields": {
-            "symbol": "\u30c3\u30ea\u30e7",
-            "romaji": "rryo",
-            "group_num": 54
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 207,
-        "fields": {
-            "symbol": "\u30a6\u30a3",
-            "romaji": "wi",
-            "group_num": 18
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 208,
-        "fields": {
-            "symbol": "\u30a6\u30a7",
-            "romaji": "we",
-            "group_num": 18
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 209,
-        "fields": {
-            "symbol": "\u30a6\u30a9",
-            "romaji": "wo",
-            "group_num": 18
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 210,
-        "fields": {
-            "symbol": "\u30f4\u30a1",
-            "romaji": "va",
-            "group_num": 60
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 211,
-        "fields": {
-            "symbol": "\u30f4\u30a3",
-            "romaji": "vi",
-            "group_num": 60
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 212,
-        "fields": {
-            "symbol": "\u30f4\u30a7",
-            "romaji": "ve",
-            "group_num": 60
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 213,
-        "fields": {
-            "symbol": "\u30f4\u30a9",
-            "romaji": "vo",
-            "group_num": 60
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 214,
-        "fields": {
-            "symbol": "\u30d5\u30a1",
-            "romaji": "fa",
-            "group_num": 61
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 215,
-        "fields": {
-            "symbol": "\u30d5\u30a3",
-            "romaji": "fi",
-            "group_num": 61
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 216,
-        "fields": {
-            "symbol": "\u30d5\u30a7",
-            "romaji": "fe",
-            "group_num": 61
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 217,
-        "fields": {
-            "symbol": "\u30d5\u30a9",
-            "romaji": "fo",
-            "group_num": 61
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 218,
-        "fields": {
-            "symbol": "\u30c4\u30a1",
-            "romaji": "tsa",
-            "group_num": 62
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 219,
-        "fields": {
-            "symbol": "\u30c4\u30a3",
-            "romaji": "tsi",
-            "group_num": 62
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 220,
-        "fields": {
-            "symbol": "\u30c4\u30a7",
-            "romaji": "tse",
-            "group_num": 62
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 221,
-        "fields": {
-            "symbol": "\u30c4\u30a9",
-            "romaji": "tso",
-            "group_num": 62
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 222,
-        "fields": {
-            "symbol": "\u30b7\u30a7",
-            "romaji": "she",
-            "group_num": 19
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 223,
-        "fields": {
-            "symbol": "\u30b8\u30a7",
-            "romaji": "je",
-            "group_num": 21
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 224,
-        "fields": {
-            "symbol": "\u30c1\u30a7",
-            "romaji": "che",
-            "group_num": 20
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 225,
-        "fields": {
-            "symbol": "\u30c6\u30a3",
-            "romaji": "ti",
             "group_num": 16
         }
     },
     {
-        "model": "base_chars.hiragana",
-        "pk": 226,
+        "model": "base_chars.katakana",
+        "pk": 96,
         "fields": {
-            "symbol": "\u30c7\u30a3",
-            "romaji": "di",
+            "symbol": "\u30c3\u30d1",
+            "romaji": "ppa",
+            "group_num": 48
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 97,
+        "fields": {
+            "symbol": "\u30d4",
+            "romaji": "pi",
+            "group_num": 16
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 98,
+        "fields": {
+            "symbol": "\u30c3\u30d4",
+            "romaji": "ppi",
+            "group_num": 48
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 99,
+        "fields": {
+            "symbol": "\u30d7",
+            "romaji": "pu",
+            "group_num": 16
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 100,
+        "fields": {
+            "symbol": "\u30c3\u30d7",
+            "romaji": "ppu",
+            "group_num": 48
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 101,
+        "fields": {
+            "symbol": "\u30da",
+            "romaji": "pe",
+            "group_num": 16
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 102,
+        "fields": {
+            "symbol": "\u30c3\u30da",
+            "romaji": "ppe",
+            "group_num": 48
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 103,
+        "fields": {
+            "symbol": "\u30dd",
+            "romaji": "po",
+            "group_num": 16
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 104,
+        "fields": {
+            "symbol": "\u30c3\u30dd",
+            "romaji": "ppo",
+            "group_num": 48
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 105,
+        "fields": {
+            "symbol": "\u30de",
+            "romaji": "ma",
+            "group_num": 7
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 106,
+        "fields": {
+            "symbol": "\u30c3\u30de",
+            "romaji": "mma",
+            "group_num": 40
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 107,
+        "fields": {
+            "symbol": "\u30df",
+            "romaji": "mi",
+            "group_num": 7
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 108,
+        "fields": {
+            "symbol": "\u30c3\u30df",
+            "romaji": "mmi",
+            "group_num": 40
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 109,
+        "fields": {
+            "symbol": "\u30e0",
+            "romaji": "mu",
+            "group_num": 7
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 110,
+        "fields": {
+            "symbol": "\u30c3\u30e0",
+            "romaji": "mmu",
+            "group_num": 40
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 111,
+        "fields": {
+            "symbol": "\u30e1",
+            "romaji": "me",
+            "group_num": 7
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 112,
+        "fields": {
+            "symbol": "\u30c3\u30e1",
+            "romaji": "mme",
+            "group_num": 40
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 113,
+        "fields": {
+            "symbol": "\u30e2",
+            "romaji": "mo",
+            "group_num": 7
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 114,
+        "fields": {
+            "symbol": "\u30c3\u30e2",
+            "romaji": "mmo",
+            "group_num": 40
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 115,
+        "fields": {
+            "symbol": "\u30e9",
+            "romaji": "ra",
+            "group_num": 8
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 116,
+        "fields": {
+            "symbol": "\u30c3\u30e9",
+            "romaji": "rra",
+            "group_num": 41
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 117,
+        "fields": {
+            "symbol": "\u30ea",
+            "romaji": "ri",
+            "group_num": 8
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 118,
+        "fields": {
+            "symbol": "\u30c3\u30ea",
+            "romaji": "rri",
+            "group_num": 41
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 119,
+        "fields": {
+            "symbol": "\u30eb",
+            "romaji": "ru",
+            "group_num": 8
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 120,
+        "fields": {
+            "symbol": "\u30c3\u30eb",
+            "romaji": "rru",
+            "group_num": 41
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 121,
+        "fields": {
+            "symbol": "\u30ec",
+            "romaji": "re",
+            "group_num": 8
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 122,
+        "fields": {
+            "symbol": "\u30c3\u30ec",
+            "romaji": "rre",
+            "group_num": 41
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 123,
+        "fields": {
+            "symbol": "\u30ed",
+            "romaji": "ro",
+            "group_num": 8
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 124,
+        "fields": {
+            "symbol": "\u30c3\u30ed",
+            "romaji": "rro",
+            "group_num": 41
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 125,
+        "fields": {
+            "symbol": "\u30e4",
+            "romaji": "ya",
+            "group_num": 9
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 126,
+        "fields": {
+            "symbol": "\u30c3\u30e4",
+            "romaji": "yya",
+            "group_num": 42
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 127,
+        "fields": {
+            "symbol": "\u30e6",
+            "romaji": "yu",
+            "group_num": 9
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 128,
+        "fields": {
+            "symbol": "\u30c3\u30e6",
+            "romaji": "yyu",
+            "group_num": 42
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 129,
+        "fields": {
+            "symbol": "\u30e8",
+            "romaji": "yo",
+            "group_num": 9
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 130,
+        "fields": {
+            "symbol": "\u30c3\u30e8",
+            "romaji": "yyo",
+            "group_num": 42
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 131,
+        "fields": {
+            "symbol": "\u30ef",
+            "romaji": "wa",
+            "group_num": 10
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 132,
+        "fields": {
+            "symbol": "\u30c3\u30ef",
+            "romaji": "wwa",
+            "group_num": 43
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 133,
+        "fields": {
+            "symbol": "\u30f2",
+            "romaji": "wo",
+            "group_num": 10
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 134,
+        "fields": {
+            "symbol": "\u30f3",
+            "romaji": "n",
+            "group_num": 11
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 135,
+        "fields": {
+            "symbol": "\u30ad\u30e3",
+            "romaji": "kya",
+            "group_num": 23
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 136,
+        "fields": {
+            "symbol": "\u30c3\u30ad\u30e3",
+            "romaji": "kkya",
+            "group_num": 49
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 137,
+        "fields": {
+            "symbol": "\u30ad\u30e5",
+            "romaji": "kyu",
+            "group_num": 23
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 138,
+        "fields": {
+            "symbol": "\u30c3\u30ad\u30e5",
+            "romaji": "kkyu",
+            "group_num": 49
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 139,
+        "fields": {
+            "symbol": "\u30ad\u30e7",
+            "romaji": "kyo",
+            "group_num": 23
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 140,
+        "fields": {
+            "symbol": "\u30c3\u30ad\u30e7",
+            "romaji": "kkyo",
+            "group_num": 49
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 141,
+        "fields": {
+            "symbol": "\u30ae\u30e3",
+            "romaji": "gya",
+            "group_num": 30
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 142,
+        "fields": {
+            "symbol": "\u30c3\u30ae\u30e3",
+            "romaji": "ggya",
+            "group_num": 56
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 143,
+        "fields": {
+            "symbol": "\u30ae\u30e5",
+            "romaji": "gyu",
+            "group_num": 30
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 144,
+        "fields": {
+            "symbol": "\u30c3\u30ae\u30e5",
+            "romaji": "ggyu",
+            "group_num": 56
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 145,
+        "fields": {
+            "symbol": "\u30ae\u30e7",
+            "romaji": "gyo",
+            "group_num": 30
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 146,
+        "fields": {
+            "symbol": "\u30c3\u30ae\u30e7",
+            "romaji": "ggyo",
+            "group_num": 56
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 147,
+        "fields": {
+            "symbol": "\u30b7\u30e3",
+            "romaji": "sha",
+            "group_num": 24
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 148,
+        "fields": {
+            "symbol": "\u30c3\u30b7\u30e3",
+            "romaji": "ssha",
+            "group_num": 50
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 149,
+        "fields": {
+            "symbol": "\u30b7\u30e5",
+            "romaji": "shu",
+            "group_num": 24
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 150,
+        "fields": {
+            "symbol": "\u30c3\u30b7\u30e5",
+            "romaji": "sshu",
+            "group_num": 50
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 151,
+        "fields": {
+            "symbol": "\u30b7\u30e7",
+            "romaji": "sho",
+            "group_num": 24
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 152,
+        "fields": {
+            "symbol": "\u30c3\u30b7\u30e7",
+            "romaji": "ssho",
+            "group_num": 50
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 153,
+        "fields": {
+            "symbol": "\u30b8\u30e3",
+            "romaji": "ja",
+            "group_num": 31
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 154,
+        "fields": {
+            "symbol": "\u30c3\u30b8\u30e3",
+            "romaji": "jja",
+            "group_num": 57
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 155,
+        "fields": {
+            "symbol": "\u30b8\u30e5",
+            "romaji": "ju",
+            "group_num": 31
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 156,
+        "fields": {
+            "symbol": "\u30c3\u30b8\u30e5",
+            "romaji": "jju",
+            "group_num": 57
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 157,
+        "fields": {
+            "symbol": "\u30b8\u30e7",
+            "romaji": "jo",
+            "group_num": 31
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 158,
+        "fields": {
+            "symbol": "\u30c3\u30b8\u30e7",
+            "romaji": "jjo",
+            "group_num": 57
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 159,
+        "fields": {
+            "symbol": "\u30c1\u30e3",
+            "romaji": "cha",
+            "group_num": 25
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 160,
+        "fields": {
+            "symbol": "\u30c3\u30c1\u30e3",
+            "romaji": "ccha",
+            "group_num": 51
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 161,
+        "fields": {
+            "symbol": "\u30c1\u30e5",
+            "romaji": "chu",
+            "group_num": 25
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 162,
+        "fields": {
+            "symbol": "\u30c3\u30c1\u30e5",
+            "romaji": "cchu",
+            "group_num": 51
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 163,
+        "fields": {
+            "symbol": "\u30c1\u30e7",
+            "romaji": "cho",
+            "group_num": 25
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 164,
+        "fields": {
+            "symbol": "\u30c3\u30c1\u30e7",
+            "romaji": "ccho",
+            "group_num": 51
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 165,
+        "fields": {
+            "symbol": "\u30c7\u30e3",
+            "romaji": "dya",
+            "group_num": 32
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 166,
+        "fields": {
+            "symbol": "\u30c3\u30c7\u30e3",
+            "romaji": "ddya",
+            "group_num": 58
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 167,
+        "fields": {
+            "symbol": "\u30c7\u30e5",
+            "romaji": "dyu",
+            "group_num": 32
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 168,
+        "fields": {
+            "symbol": "\u30c3\u30c7\u30e5",
+            "romaji": "ddyu",
+            "group_num": 58
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 169,
+        "fields": {
+            "symbol": "\u30c7\u30e7",
+            "romaji": "dyo",
+            "group_num": 32
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 170,
+        "fields": {
+            "symbol": "\u30c3\u30c7\u30e7",
+            "romaji": "ddyo",
+            "group_num": 58
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 171,
+        "fields": {
+            "symbol": "\u30cb\u30e3",
+            "romaji": "nya",
+            "group_num": 26
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 172,
+        "fields": {
+            "symbol": "\u30c3\u30cb\u30e3",
+            "romaji": "nnya",
+            "group_num": 52
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 173,
+        "fields": {
+            "symbol": "\u30cb\u30e5",
+            "romaji": "nyu",
+            "group_num": 26
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 174,
+        "fields": {
+            "symbol": "\u30c3\u30cb\u30e5",
+            "romaji": "nnyu",
+            "group_num": 52
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 175,
+        "fields": {
+            "symbol": "\u30cb\u30e7",
+            "romaji": "nyo",
+            "group_num": 26
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 176,
+        "fields": {
+            "symbol": "\u30c3\u30cb\u30e7",
+            "romaji": "nnyo",
+            "group_num": 52
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 177,
+        "fields": {
+            "symbol": "\u30d2\u30e3",
+            "romaji": "hya",
+            "group_num": 27
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 178,
+        "fields": {
+            "symbol": "\u30c3\u30d2\u30e3",
+            "romaji": "hhya",
+            "group_num": 53
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 179,
+        "fields": {
+            "symbol": "\u30d2\u30e5",
+            "romaji": "hyu",
+            "group_num": 27
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 180,
+        "fields": {
+            "symbol": "\u30c3\u30d2\u30e5",
+            "romaji": "hhyu",
+            "group_num": 53
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 181,
+        "fields": {
+            "symbol": "\u30d2\u30e7",
+            "romaji": "hyo",
+            "group_num": 27
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 182,
+        "fields": {
+            "symbol": "\u30c3\u30d2\u30e7",
+            "romaji": "hhyo",
+            "group_num": 53
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 183,
+        "fields": {
+            "symbol": "\u30d3\u30e3",
+            "romaji": "bya",
+            "group_num": 33
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 184,
+        "fields": {
+            "symbol": "\u30c3\u30d3\u30e3",
+            "romaji": "bbya",
+            "group_num": 59
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 185,
+        "fields": {
+            "symbol": "\u30d3\u30e5",
+            "romaji": "byu",
+            "group_num": 33
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 186,
+        "fields": {
+            "symbol": "\u30c3\u30d3\u30e5",
+            "romaji": "bbyu",
+            "group_num": 59
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 187,
+        "fields": {
+            "symbol": "\u30d3\u30e7",
+            "romaji": "byo",
+            "group_num": 33
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 188,
+        "fields": {
+            "symbol": "\u30c3\u30d3\u30e7",
+            "romaji": "bbyo",
+            "group_num": 59
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 189,
+        "fields": {
+            "symbol": "\u30d4\u30e3",
+            "romaji": "pya",
+            "group_num": 34
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 190,
+        "fields": {
+            "symbol": "\u30c3\u30d4\u30e3",
+            "romaji": "ppya",
+            "group_num": 60
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 191,
+        "fields": {
+            "symbol": "\u30d4\u30e5",
+            "romaji": "pyu",
+            "group_num": 34
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 192,
+        "fields": {
+            "symbol": "\u30c3\u30d4\u30e5",
+            "romaji": "ppyu",
+            "group_num": 60
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 193,
+        "fields": {
+            "symbol": "\u30d4\u30e7",
+            "romaji": "pyo",
+            "group_num": 34
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 194,
+        "fields": {
+            "symbol": "\u30c3\u30d4\u30e7",
+            "romaji": "ppyo",
+            "group_num": 60
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 195,
+        "fields": {
+            "symbol": "\u30df\u30e3",
+            "romaji": "mya",
+            "group_num": 28
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 196,
+        "fields": {
+            "symbol": "\u30c3\u30df\u30e3",
+            "romaji": "mmya",
+            "group_num": 54
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 197,
+        "fields": {
+            "symbol": "\u30df\u30e5",
+            "romaji": "myu",
+            "group_num": 28
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 198,
+        "fields": {
+            "symbol": "\u30c3\u30df\u30e5",
+            "romaji": "mmyu",
+            "group_num": 54
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 199,
+        "fields": {
+            "symbol": "\u30df\u30e7",
+            "romaji": "myo",
+            "group_num": 28
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 200,
+        "fields": {
+            "symbol": "\u30c3\u30df\u30e7",
+            "romaji": "mmyo",
+            "group_num": 54
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 201,
+        "fields": {
+            "symbol": "\u30ea\u30e3",
+            "romaji": "rya",
+            "group_num": 29
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 202,
+        "fields": {
+            "symbol": "\u30c3\u30ea\u30e3",
+            "romaji": "rrya",
+            "group_num": 55
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 203,
+        "fields": {
+            "symbol": "\u30ea\u30e5",
+            "romaji": "ryu",
+            "group_num": 29
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 204,
+        "fields": {
+            "symbol": "\u30c3\u30ea\u30e5",
+            "romaji": "rryu",
+            "group_num": 55
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 205,
+        "fields": {
+            "symbol": "\u30ea\u30e7",
+            "romaji": "ryo",
+            "group_num": 29
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 206,
+        "fields": {
+            "symbol": "\u30c3\u30ea\u30e7",
+            "romaji": "rryo",
+            "group_num": 55
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 207,
+        "fields": {
+            "symbol": "\u30a6\u30a3",
+            "romaji": "wi",
+            "group_num": 19
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 208,
+        "fields": {
+            "symbol": "\u30a6\u30a7",
+            "romaji": "we",
+            "group_num": 19
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 209,
+        "fields": {
+            "symbol": "\u30a6\u30a9",
+            "romaji": "wo",
+            "group_num": 19
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 210,
+        "fields": {
+            "symbol": "\u30f4\u30a1",
+            "romaji": "va",
+            "group_num": 61
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 211,
+        "fields": {
+            "symbol": "\u30f4\u30a3",
+            "romaji": "vi",
+            "group_num": 61
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 212,
+        "fields": {
+            "symbol": "\u30f4\u30a7",
+            "romaji": "ve",
+            "group_num": 61
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 213,
+        "fields": {
+            "symbol": "\u30f4\u30a9",
+            "romaji": "vo",
+            "group_num": 61
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 214,
+        "fields": {
+            "symbol": "\u30d5\u30a1",
+            "romaji": "fa",
+            "group_num": 62
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 215,
+        "fields": {
+            "symbol": "\u30d5\u30a3",
+            "romaji": "fi",
+            "group_num": 62
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 216,
+        "fields": {
+            "symbol": "\u30d5\u30a7",
+            "romaji": "fe",
+            "group_num": 62
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 217,
+        "fields": {
+            "symbol": "\u30d5\u30a9",
+            "romaji": "fo",
+            "group_num": 62
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 218,
+        "fields": {
+            "symbol": "\u30c4\u30a1",
+            "romaji": "tsa",
+            "group_num": 63
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 219,
+        "fields": {
+            "symbol": "\u30c4\u30a3",
+            "romaji": "tsi",
+            "group_num": 63
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 220,
+        "fields": {
+            "symbol": "\u30c4\u30a7",
+            "romaji": "tse",
+            "group_num": 63
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 221,
+        "fields": {
+            "symbol": "\u30c4\u30a9",
+            "romaji": "tso",
+            "group_num": 63
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 222,
+        "fields": {
+            "symbol": "\u30b7\u30a7",
+            "romaji": "she",
+            "group_num": 20
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 223,
+        "fields": {
+            "symbol": "\u30b8\u30a7",
+            "romaji": "je",
+            "group_num": 22
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 224,
+        "fields": {
+            "symbol": "\u30c1\u30a7",
+            "romaji": "che",
+            "group_num": 21
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 225,
+        "fields": {
+            "symbol": "\u30c6\u30a3",
+            "romaji": "ti",
             "group_num": 17
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
+        "pk": 226,
+        "fields": {
+            "symbol": "\u30c7\u30a3",
+            "romaji": "di",
+            "group_num": 18
+        }
+    },
+    {
+        "model": "base_chars.katakana",
         "pk": 227,
         "fields": {
             "symbol": "\u30a2\u30fc",
             "romaji": "aa",
-            "group_num": 63
+            "group_num": 64
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 228,
         "fields": {
             "symbol": "\u30a4\u30fc",
             "romaji": "ii",
-            "group_num": 63
+            "group_num": 64
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 229,
         "fields": {
             "symbol": "\u30a6\u30fc",
             "romaji": "uu",
-            "group_num": 63
+            "group_num": 64
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 230,
         "fields": {
             "symbol": "\u30a8\u30fc",
             "romaji": "ee",
-            "group_num": 63
+            "group_num": 64
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 231,
         "fields": {
             "symbol": "\u30aa\u30fc",
             "romaji": "oo",
-            "group_num": 63
+            "group_num": 64
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 232,
         "fields": {
             "symbol": "\u30ab\u30fc",
             "romaji": "kaa",
-            "group_num": 64
+            "group_num": 65
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 233,
         "fields": {
             "symbol": "\u30c3\u30ab\u30fc",
             "romaji": "kkaa",
-            "group_num": 97
+            "group_num": 98
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 234,
         "fields": {
             "symbol": "\u30ad\u30fc",
             "romaji": "kii",
-            "group_num": 64
+            "group_num": 65
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 235,
         "fields": {
             "symbol": "\u30c3\u30ad\u30fc",
             "romaji": "kkii",
-            "group_num": 97
+            "group_num": 98
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 236,
         "fields": {
             "symbol": "\u30af\u30fc",
             "romaji": "kuu",
-            "group_num": 64
+            "group_num": 65
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 237,
         "fields": {
             "symbol": "\u30c3\u30af\u30fc",
             "romaji": "kkuu",
-            "group_num": 97
+            "group_num": 98
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 238,
         "fields": {
             "symbol": "\u30b1\u30fc",
             "romaji": "kee",
-            "group_num": 64
+            "group_num": 65
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 239,
         "fields": {
             "symbol": "\u30c3\u30b1\u30fc",
             "romaji": "kkee",
-            "group_num": 97
+            "group_num": 98
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 240,
         "fields": {
             "symbol": "\u30b3\u30fc",
             "romaji": "koo",
-            "group_num": 64
+            "group_num": 65
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 241,
         "fields": {
             "symbol": "\u30c3\u30b3\u30fc",
             "romaji": "kkoo",
-            "group_num": 97
+            "group_num": 98
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 242,
         "fields": {
             "symbol": "\u30ac\u30fc",
             "romaji": "gaa",
-            "group_num": 74
+            "group_num": 75
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 243,
         "fields": {
             "symbol": "\u30c3\u30ac\u30fc",
             "romaji": "ggaa",
-            "group_num": 106
+            "group_num": 107
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 244,
         "fields": {
             "symbol": "\u30ae\u30fc",
             "romaji": "gii",
-            "group_num": 74
+            "group_num": 75
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 245,
         "fields": {
             "symbol": "\u30c3\u30ae\u30fc",
             "romaji": "ggii",
-            "group_num": 106
+            "group_num": 107
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 246,
         "fields": {
             "symbol": "\u30b0\u30fc",
             "romaji": "guu",
-            "group_num": 74
+            "group_num": 75
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 247,
         "fields": {
             "symbol": "\u30c3\u30b0\u30fc",
             "romaji": "gguu",
-            "group_num": 106
+            "group_num": 107
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 248,
         "fields": {
             "symbol": "\u30b2\u30fc",
             "romaji": "gee",
-            "group_num": 74
+            "group_num": 75
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 249,
         "fields": {
             "symbol": "\u30c3\u30b2\u30fc",
             "romaji": "ggee",
-            "group_num": 106
+            "group_num": 107
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 250,
         "fields": {
             "symbol": "\u30b4\u30fc",
             "romaji": "goo",
-            "group_num": 74
+            "group_num": 75
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 251,
         "fields": {
             "symbol": "\u30c3\u30b4\u30fc",
             "romaji": "ggoo",
-            "group_num": 106
+            "group_num": 107
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 252,
         "fields": {
             "symbol": "\u30b5\u30fc",
             "romaji": "saa",
-            "group_num": 65
+            "group_num": 66
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 253,
         "fields": {
             "symbol": "\u30c3\u30b5\u30fc",
             "romaji": "ssaa",
-            "group_num": 98
+            "group_num": 99
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 254,
         "fields": {
             "symbol": "\u30b7\u30fc",
             "romaji": "shii",
-            "group_num": 65
+            "group_num": 66
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 255,
         "fields": {
             "symbol": "\u30c3\u30b7\u30fc",
             "romaji": "sshii",
-            "group_num": 98
+            "group_num": 99
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 256,
         "fields": {
             "symbol": "\u30b9\u30fc",
             "romaji": "suu",
-            "group_num": 65
+            "group_num": 66
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 257,
         "fields": {
             "symbol": "\u30c3\u30b9\u30fc",
             "romaji": "ssuu",
-            "group_num": 98
+            "group_num": 99
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 258,
         "fields": {
             "symbol": "\u30bb\u30fc",
             "romaji": "see",
-            "group_num": 65
+            "group_num": 66
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 259,
         "fields": {
             "symbol": "\u30c3\u30bb\u30fc",
             "romaji": "ssee",
-            "group_num": 98
+            "group_num": 99
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 260,
         "fields": {
             "symbol": "\u30bd\u30fc",
             "romaji": "soo",
-            "group_num": 65
+            "group_num": 66
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 261,
         "fields": {
             "symbol": "\u30c3\u30bd\u30fc",
             "romaji": "ssoo",
-            "group_num": 98
+            "group_num": 99
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 262,
         "fields": {
             "symbol": "\u30b6\u30fc",
             "romaji": "zaa",
-            "group_num": 75
+            "group_num": 76
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 263,
         "fields": {
             "symbol": "\u30c3\u30b6\u30fc",
             "romaji": "zzaa",
-            "group_num": 107
+            "group_num": 108
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 264,
         "fields": {
             "symbol": "\u30b8\u30fc",
             "romaji": "jii",
-            "group_num": 75
+            "group_num": 76
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 265,
         "fields": {
             "symbol": "\u30c3\u30b8\u30fc",
             "romaji": "jjii",
-            "group_num": 107
+            "group_num": 108
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 266,
         "fields": {
             "symbol": "\u30ba\u30fc",
             "romaji": "zuu",
-            "group_num": 75
+            "group_num": 76
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 267,
         "fields": {
             "symbol": "\u30c3\u30ba\u30fc",
             "romaji": "zzuu",
-            "group_num": 107
+            "group_num": 108
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 268,
         "fields": {
             "symbol": "\u30bc\u30fc",
             "romaji": "zee",
-            "group_num": 75
+            "group_num": 76
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 269,
         "fields": {
             "symbol": "\u30c3\u30bc\u30fc",
             "romaji": "zzee",
-            "group_num": 107
+            "group_num": 108
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 270,
         "fields": {
             "symbol": "\u30be\u30fc",
             "romaji": "zoo",
-            "group_num": 75
+            "group_num": 76
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 271,
         "fields": {
             "symbol": "\u30c3\u30be\u30fc",
             "romaji": "zzoo",
-            "group_num": 107
+            "group_num": 108
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 272,
         "fields": {
             "symbol": "\u30bf\u30fc",
             "romaji": "taa",
-            "group_num": 66
+            "group_num": 67
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 273,
         "fields": {
             "symbol": "\u30c3\u30bf\u30fc",
             "romaji": "ttaa",
-            "group_num": 99
+            "group_num": 100
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 274,
         "fields": {
             "symbol": "\u30c1\u30fc",
             "romaji": "chii",
-            "group_num": 66
+            "group_num": 67
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 275,
         "fields": {
             "symbol": "\u30c3\u30c1\u30fc",
             "romaji": "cchii",
-            "group_num": 99
+            "group_num": 100
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 276,
         "fields": {
             "symbol": "\u30c4\u30fc",
             "romaji": "tsuu",
-            "group_num": 66
+            "group_num": 67
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 277,
         "fields": {
             "symbol": "\u30c3\u30c4\u30fc",
             "romaji": "ttsuu",
-            "group_num": 99
+            "group_num": 100
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 278,
         "fields": {
             "symbol": "\u30c6\u30fc",
             "romaji": "tee",
-            "group_num": 66
+            "group_num": 67
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 279,
         "fields": {
             "symbol": "\u30c3\u30c6\u30fc",
             "romaji": "ttee",
-            "group_num": 99
+            "group_num": 100
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 280,
         "fields": {
             "symbol": "\u30c8\u30fc",
             "romaji": "too",
-            "group_num": 66
+            "group_num": 67
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 281,
         "fields": {
             "symbol": "\u30c3\u30c8\u30fc",
             "romaji": "ttoo",
-            "group_num": 99
+            "group_num": 100
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 282,
         "fields": {
             "symbol": "\u30c0\u30fc",
             "romaji": "daa",
-            "group_num": 76
+            "group_num": 77
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 283,
         "fields": {
             "symbol": "\u30c3\u30c0\u30fc",
             "romaji": "ddaa",
-            "group_num": 108
+            "group_num": 109
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 284,
         "fields": {
             "symbol": "\u30c2\u30fc",
             "romaji": "jii",
-            "group_num": 76
+            "group_num": 77
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 285,
         "fields": {
             "symbol": "\u30c3\u30c2\u30fc",
             "romaji": "jjii",
-            "group_num": 108
+            "group_num": 109
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 286,
         "fields": {
             "symbol": "\u30c5\u30fc",
             "romaji": "zuu",
-            "group_num": 76
+            "group_num": 77
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 287,
         "fields": {
             "symbol": "\u30c3\u30c5\u30fc",
             "romaji": "zzuu",
-            "group_num": 108
+            "group_num": 109
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 288,
         "fields": {
             "symbol": "\u30c7\u30fc",
             "romaji": "dee",
-            "group_num": 76
+            "group_num": 77
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 289,
         "fields": {
             "symbol": "\u30c3\u30c7\u30fc",
             "romaji": "ddee",
-            "group_num": 108
+            "group_num": 109
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 290,
         "fields": {
             "symbol": "\u30c9\u30fc",
             "romaji": "doo",
-            "group_num": 76
+            "group_num": 77
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 291,
         "fields": {
             "symbol": "\u30c3\u30c9\u30fc",
             "romaji": "ddoo",
-            "group_num": 108
+            "group_num": 109
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 292,
         "fields": {
             "symbol": "\u30ca\u30fc",
             "romaji": "naa",
-            "group_num": 67
+            "group_num": 68
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 293,
         "fields": {
             "symbol": "\u30c3\u30ca\u30fc",
             "romaji": "nnaa",
-            "group_num": 100
+            "group_num": 101
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 294,
         "fields": {
             "symbol": "\u30cb\u30fc",
             "romaji": "nii",
-            "group_num": 67
+            "group_num": 68
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 295,
         "fields": {
             "symbol": "\u30c3\u30cb\u30fc",
             "romaji": "nnii",
-            "group_num": 100
+            "group_num": 101
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 296,
         "fields": {
             "symbol": "\u30cc\u30fc",
             "romaji": "nuu",
-            "group_num": 67
+            "group_num": 68
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 297,
         "fields": {
             "symbol": "\u30c3\u30cc\u30fc",
             "romaji": "nnuu",
-            "group_num": 100
+            "group_num": 101
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 298,
         "fields": {
             "symbol": "\u30cd\u30fc",
             "romaji": "nee",
-            "group_num": 67
+            "group_num": 68
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 299,
         "fields": {
             "symbol": "\u30c3\u30cd\u30fc",
             "romaji": "nnee",
-            "group_num": 100
+            "group_num": 101
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 300,
         "fields": {
             "symbol": "\u30ce\u30fc",
             "romaji": "noo",
-            "group_num": 67
+            "group_num": 68
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 301,
         "fields": {
             "symbol": "\u30c3\u30ce\u30fc",
             "romaji": "nnoo",
-            "group_num": 100
+            "group_num": 101
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 302,
         "fields": {
             "symbol": "\u30cf\u30fc",
             "romaji": "haa",
-            "group_num": 68
+            "group_num": 69
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 303,
         "fields": {
             "symbol": "\u30c3\u30cf\u30fc",
             "romaji": "hhaa",
-            "group_num": 101
+            "group_num": 102
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 304,
         "fields": {
             "symbol": "\u30d2\u30fc",
             "romaji": "hii",
-            "group_num": 68
+            "group_num": 69
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 305,
         "fields": {
             "symbol": "\u30c3\u30d2\u30fc",
             "romaji": "hhii",
-            "group_num": 101
+            "group_num": 102
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 306,
         "fields": {
             "symbol": "\u30d5\u30fc",
             "romaji": "fuu",
-            "group_num": 68
+            "group_num": 69
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 307,
         "fields": {
             "symbol": "\u30c3\u30d5\u30fc",
             "romaji": "ffuu",
-            "group_num": 101
+            "group_num": 102
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 308,
         "fields": {
             "symbol": "\u30d8\u30fc",
             "romaji": "hee",
-            "group_num": 68
+            "group_num": 69
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 309,
         "fields": {
             "symbol": "\u30c3\u30d8\u30fc",
             "romaji": "hhee",
-            "group_num": 101
+            "group_num": 102
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 310,
         "fields": {
             "symbol": "\u30db\u30fc",
             "romaji": "hoo",
-            "group_num": 68
+            "group_num": 69
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 311,
         "fields": {
             "symbol": "\u30c3\u30db\u30fc",
             "romaji": "hhoo",
-            "group_num": 101
+            "group_num": 102
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 312,
         "fields": {
             "symbol": "\u30d0\u30fc",
             "romaji": "baa",
-            "group_num": 77
+            "group_num": 78
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 313,
         "fields": {
             "symbol": "\u30c3\u30d0\u30fc",
             "romaji": "bbaa",
-            "group_num": 109
+            "group_num": 110
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 314,
         "fields": {
             "symbol": "\u30d3\u30fc",
             "romaji": "bii",
-            "group_num": 77
+            "group_num": 78
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 315,
         "fields": {
             "symbol": "\u30c3\u30d3\u30fc",
             "romaji": "bbii",
-            "group_num": 109
+            "group_num": 110
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 316,
         "fields": {
             "symbol": "\u30d6\u30fc",
             "romaji": "buu",
-            "group_num": 77
+            "group_num": 78
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 317,
         "fields": {
             "symbol": "\u30c3\u30d6\u30fc",
             "romaji": "bbuu",
-            "group_num": 109
+            "group_num": 110
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 318,
         "fields": {
             "symbol": "\u30d9\u30fc",
             "romaji": "bee",
-            "group_num": 77
+            "group_num": 78
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 319,
         "fields": {
             "symbol": "\u30c3\u30d9\u30fc",
             "romaji": "bbee",
-            "group_num": 109
+            "group_num": 110
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 320,
         "fields": {
             "symbol": "\u30dc\u30fc",
             "romaji": "boo",
-            "group_num": 77
+            "group_num": 78
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 321,
         "fields": {
             "symbol": "\u30c3\u30dc\u30fc",
             "romaji": "bboo",
-            "group_num": 109
+            "group_num": 110
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
         "pk": 322,
         "fields": {
             "symbol": "\u30d1\u30fc",
             "romaji": "paa",
-            "group_num": 78
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 323,
-        "fields": {
-            "symbol": "\u30c3\u30d1\u30fc",
-            "romaji": "ppaa",
-            "group_num": 110
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 324,
-        "fields": {
-            "symbol": "\u30d4\u30fc",
-            "romaji": "pii",
-            "group_num": 78
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 325,
-        "fields": {
-            "symbol": "\u30c3\u30d4\u30fc",
-            "romaji": "ppii",
-            "group_num": 110
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 326,
-        "fields": {
-            "symbol": "\u30d7\u30fc",
-            "romaji": "puu",
-            "group_num": 78
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 327,
-        "fields": {
-            "symbol": "\u30c3\u30d7\u30fc",
-            "romaji": "ppuu",
-            "group_num": 110
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 328,
-        "fields": {
-            "symbol": "\u30da\u30fc",
-            "romaji": "pee",
-            "group_num": 78
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 329,
-        "fields": {
-            "symbol": "\u30c3\u30da\u30fc",
-            "romaji": "ppee",
-            "group_num": 110
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 330,
-        "fields": {
-            "symbol": "\u30dd\u30fc",
-            "romaji": "poo",
-            "group_num": 78
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 331,
-        "fields": {
-            "symbol": "\u30c3\u30dd\u30fc",
-            "romaji": "ppoo",
-            "group_num": 110
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 332,
-        "fields": {
-            "symbol": "\u30de\u30fc",
-            "romaji": "maa",
-            "group_num": 69
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 333,
-        "fields": {
-            "symbol": "\u30c3\u30de\u30fc",
-            "romaji": "mmaa",
-            "group_num": 102
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 334,
-        "fields": {
-            "symbol": "\u30df\u30fc",
-            "romaji": "mii",
-            "group_num": 69
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 335,
-        "fields": {
-            "symbol": "\u30c3\u30df\u30fc",
-            "romaji": "mmii",
-            "group_num": 102
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 336,
-        "fields": {
-            "symbol": "\u30e0\u30fc",
-            "romaji": "muu",
-            "group_num": 69
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 337,
-        "fields": {
-            "symbol": "\u30c3\u30e0\u30fc",
-            "romaji": "mmuu",
-            "group_num": 102
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 338,
-        "fields": {
-            "symbol": "\u30e1\u30fc",
-            "romaji": "mee",
-            "group_num": 69
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 339,
-        "fields": {
-            "symbol": "\u30c3\u30e1\u30fc",
-            "romaji": "mmee",
-            "group_num": 102
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 340,
-        "fields": {
-            "symbol": "\u30e2\u30fc",
-            "romaji": "moo",
-            "group_num": 69
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 341,
-        "fields": {
-            "symbol": "\u30c3\u30e2\u30fc",
-            "romaji": "mmoo",
-            "group_num": 102
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 342,
-        "fields": {
-            "symbol": "\u30e9\u30fc",
-            "romaji": "raa",
-            "group_num": 70
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 343,
-        "fields": {
-            "symbol": "\u30c3\u30e9\u30fc",
-            "romaji": "rraa",
-            "group_num": 103
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 344,
-        "fields": {
-            "symbol": "\u30ea\u30fc",
-            "romaji": "rii",
-            "group_num": 70
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 345,
-        "fields": {
-            "symbol": "\u30c3\u30ea\u30fc",
-            "romaji": "rrii",
-            "group_num": 103
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 346,
-        "fields": {
-            "symbol": "\u30eb\u30fc",
-            "romaji": "ruu",
-            "group_num": 70
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 347,
-        "fields": {
-            "symbol": "\u30c3\u30eb\u30fc",
-            "romaji": "rruu",
-            "group_num": 103
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 348,
-        "fields": {
-            "symbol": "\u30ec\u30fc",
-            "romaji": "ree",
-            "group_num": 70
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 349,
-        "fields": {
-            "symbol": "\u30c3\u30ec\u30fc",
-            "romaji": "rree",
-            "group_num": 103
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 350,
-        "fields": {
-            "symbol": "\u30ed\u30fc",
-            "romaji": "roo",
-            "group_num": 70
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 351,
-        "fields": {
-            "symbol": "\u30c3\u30ed\u30fc",
-            "romaji": "rroo",
-            "group_num": 103
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 352,
-        "fields": {
-            "symbol": "\u30e4\u30fc",
-            "romaji": "yaa",
-            "group_num": 71
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 353,
-        "fields": {
-            "symbol": "\u30c3\u30e4\u30fc",
-            "romaji": "yyaa",
-            "group_num": 104
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 354,
-        "fields": {
-            "symbol": "\u30e6\u30fc",
-            "romaji": "yuu",
-            "group_num": 71
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 355,
-        "fields": {
-            "symbol": "\u30c3\u30e6\u30fc",
-            "romaji": "yyuu",
-            "group_num": 104
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 356,
-        "fields": {
-            "symbol": "\u30e8\u30fc",
-            "romaji": "yoo",
-            "group_num": 71
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 357,
-        "fields": {
-            "symbol": "\u30c3\u30e8\u30fc",
-            "romaji": "yyoo",
-            "group_num": 104
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 358,
-        "fields": {
-            "symbol": "\u30ef\u30fc",
-            "romaji": "waa",
-            "group_num": 72
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 359,
-        "fields": {
-            "symbol": "\u30c3\u30ef\u30fc",
-            "romaji": "wwaa",
-            "group_num": 105
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 360,
-        "fields": {
-            "symbol": "\u30f2\u30fc",
-            "romaji": "woo",
-            "group_num": 72
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 361,
-        "fields": {
-            "symbol": "\u30f3\u30fc",
-            "romaji": "nn",
-            "group_num": 73
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 362,
-        "fields": {
-            "symbol": "\u30ad\u30e3\u30fc",
-            "romaji": "kyaa",
-            "group_num": 85
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 363,
-        "fields": {
-            "symbol": "\u30c3\u30ad\u30e3\u30fc",
-            "romaji": "kkyaa",
-            "group_num": 111
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 364,
-        "fields": {
-            "symbol": "\u30ad\u30e5\u30fc",
-            "romaji": "kyuu",
-            "group_num": 85
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 365,
-        "fields": {
-            "symbol": "\u30c3\u30ad\u30e5\u30fc",
-            "romaji": "kkyuu",
-            "group_num": 111
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 366,
-        "fields": {
-            "symbol": "\u30ad\u30e7\u30fc",
-            "romaji": "kyoo",
-            "group_num": 85
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 367,
-        "fields": {
-            "symbol": "\u30c3\u30ad\u30e7\u30fc",
-            "romaji": "kkyoo",
-            "group_num": 111
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 368,
-        "fields": {
-            "symbol": "\u30ae\u30e3\u30fc",
-            "romaji": "gyaa",
-            "group_num": 92
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 369,
-        "fields": {
-            "symbol": "\u30c3\u30ae\u30e3\u30fc",
-            "romaji": "ggyaa",
-            "group_num": 118
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 370,
-        "fields": {
-            "symbol": "\u30ae\u30e5\u30fc",
-            "romaji": "gyuu",
-            "group_num": 92
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 371,
-        "fields": {
-            "symbol": "\u30c3\u30ae\u30e5\u30fc",
-            "romaji": "ggyuu",
-            "group_num": 118
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 372,
-        "fields": {
-            "symbol": "\u30ae\u30e7\u30fc",
-            "romaji": "gyoo",
-            "group_num": 92
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 373,
-        "fields": {
-            "symbol": "\u30c3\u30ae\u30e7\u30fc",
-            "romaji": "ggyoo",
-            "group_num": 118
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 374,
-        "fields": {
-            "symbol": "\u30b7\u30e3\u30fc",
-            "romaji": "shaa",
-            "group_num": 86
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 375,
-        "fields": {
-            "symbol": "\u30c3\u30b7\u30e3\u30fc",
-            "romaji": "sshaa",
-            "group_num": 112
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 376,
-        "fields": {
-            "symbol": "\u30b7\u30e5\u30fc",
-            "romaji": "shuu",
-            "group_num": 86
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 377,
-        "fields": {
-            "symbol": "\u30c3\u30b7\u30e5\u30fc",
-            "romaji": "sshuu",
-            "group_num": 112
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 378,
-        "fields": {
-            "symbol": "\u30b7\u30e7\u30fc",
-            "romaji": "shoo",
-            "group_num": 86
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 379,
-        "fields": {
-            "symbol": "\u30c3\u30b7\u30e7\u30fc",
-            "romaji": "sshoo",
-            "group_num": 112
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 380,
-        "fields": {
-            "symbol": "\u30b8\u30e3\u30fc",
-            "romaji": "jaa",
-            "group_num": 93
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 381,
-        "fields": {
-            "symbol": "\u30c3\u30b8\u30e3\u30fc",
-            "romaji": "jjaa",
-            "group_num": 119
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 382,
-        "fields": {
-            "symbol": "\u30b8\u30e5\u30fc",
-            "romaji": "juu",
-            "group_num": 93
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 383,
-        "fields": {
-            "symbol": "\u30c3\u30b8\u30e5\u30fc",
-            "romaji": "jjuu",
-            "group_num": 119
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 384,
-        "fields": {
-            "symbol": "\u30b8\u30e7\u30fc",
-            "romaji": "joo",
-            "group_num": 93
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 385,
-        "fields": {
-            "symbol": "\u30c3\u30b8\u30e7\u30fc",
-            "romaji": "jjoo",
-            "group_num": 119
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 386,
-        "fields": {
-            "symbol": "\u30c1\u30e3\u30fc",
-            "romaji": "chaa",
-            "group_num": 87
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 387,
-        "fields": {
-            "symbol": "\u30c3\u30c1\u30e3\u30fc",
-            "romaji": "cchaa",
-            "group_num": 113
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 388,
-        "fields": {
-            "symbol": "\u30c1\u30e5\u30fc",
-            "romaji": "chuu",
-            "group_num": 87
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 389,
-        "fields": {
-            "symbol": "\u30c3\u30c1\u30e5\u30fc",
-            "romaji": "cchuu",
-            "group_num": 113
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 390,
-        "fields": {
-            "symbol": "\u30c1\u30e7\u30fc",
-            "romaji": "choo",
-            "group_num": 87
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 391,
-        "fields": {
-            "symbol": "\u30c3\u30c1\u30e7\u30fc",
-            "romaji": "cchoo",
-            "group_num": 113
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 392,
-        "fields": {
-            "symbol": "\u30c7\u30e3\u30fc",
-            "romaji": "dyaa",
-            "group_num": 94
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 393,
-        "fields": {
-            "symbol": "\u30c3\u30c7\u30e3\u30fc",
-            "romaji": "ddyaa",
-            "group_num": 120
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 394,
-        "fields": {
-            "symbol": "\u30c7\u30e5\u30fc",
-            "romaji": "dyuu",
-            "group_num": 94
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 395,
-        "fields": {
-            "symbol": "\u30c3\u30c7\u30e5\u30fc",
-            "romaji": "ddyuu",
-            "group_num": 120
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 396,
-        "fields": {
-            "symbol": "\u30c7\u30e7\u30fc",
-            "romaji": "dyoo",
-            "group_num": 94
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 397,
-        "fields": {
-            "symbol": "\u30c3\u30c7\u30e7\u30fc",
-            "romaji": "ddyoo",
-            "group_num": 120
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 398,
-        "fields": {
-            "symbol": "\u30cb\u30e3\u30fc",
-            "romaji": "nyaa",
-            "group_num": 88
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 399,
-        "fields": {
-            "symbol": "\u30c3\u30cb\u30e3\u30fc",
-            "romaji": "nnyaa",
-            "group_num": 114
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 400,
-        "fields": {
-            "symbol": "\u30cb\u30e5\u30fc",
-            "romaji": "nyuu",
-            "group_num": 88
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 401,
-        "fields": {
-            "symbol": "\u30c3\u30cb\u30e5\u30fc",
-            "romaji": "nnyuu",
-            "group_num": 114
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 402,
-        "fields": {
-            "symbol": "\u30cb\u30e7\u30fc",
-            "romaji": "nyoo",
-            "group_num": 88
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 403,
-        "fields": {
-            "symbol": "\u30c3\u30cb\u30e7\u30fc",
-            "romaji": "nnyoo",
-            "group_num": 114
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 404,
-        "fields": {
-            "symbol": "\u30d2\u30e3\u30fc",
-            "romaji": "hyaa",
-            "group_num": 89
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 405,
-        "fields": {
-            "symbol": "\u30c3\u30d2\u30e3\u30fc",
-            "romaji": "hhyaa",
-            "group_num": 115
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 406,
-        "fields": {
-            "symbol": "\u30d2\u30e5\u30fc",
-            "romaji": "hyuu",
-            "group_num": 89
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 407,
-        "fields": {
-            "symbol": "\u30c3\u30d2\u30e5\u30fc",
-            "romaji": "hhyuu",
-            "group_num": 115
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 408,
-        "fields": {
-            "symbol": "\u30d2\u30e7\u30fc",
-            "romaji": "hyoo",
-            "group_num": 89
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 409,
-        "fields": {
-            "symbol": "\u30c3\u30d2\u30e7\u30fc",
-            "romaji": "hhyoo",
-            "group_num": 115
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 410,
-        "fields": {
-            "symbol": "\u30d3\u30e3\u30fc",
-            "romaji": "byaa",
-            "group_num": 95
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 411,
-        "fields": {
-            "symbol": "\u30c3\u30d3\u30e3\u30fc",
-            "romaji": "bbyaa",
-            "group_num": 121
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 412,
-        "fields": {
-            "symbol": "\u30d3\u30e5\u30fc",
-            "romaji": "byuu",
-            "group_num": 95
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 413,
-        "fields": {
-            "symbol": "\u30c3\u30d3\u30e5\u30fc",
-            "romaji": "bbyuu",
-            "group_num": 121
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 414,
-        "fields": {
-            "symbol": "\u30d3\u30e7\u30fc",
-            "romaji": "byoo",
-            "group_num": 95
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 415,
-        "fields": {
-            "symbol": "\u30c3\u30d3\u30e7\u30fc",
-            "romaji": "bbyoo",
-            "group_num": 121
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 416,
-        "fields": {
-            "symbol": "\u30d4\u30e3\u30fc",
-            "romaji": "pyaa",
-            "group_num": 96
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 417,
-        "fields": {
-            "symbol": "\u30c3\u30d4\u30e3\u30fc",
-            "romaji": "ppyaa",
-            "group_num": 122
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 418,
-        "fields": {
-            "symbol": "\u30d4\u30e5\u30fc",
-            "romaji": "pyuu",
-            "group_num": 96
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 419,
-        "fields": {
-            "symbol": "\u30c3\u30d4\u30e5\u30fc",
-            "romaji": "ppyuu",
-            "group_num": 122
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 420,
-        "fields": {
-            "symbol": "\u30d4\u30e7\u30fc",
-            "romaji": "pyoo",
-            "group_num": 96
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 421,
-        "fields": {
-            "symbol": "\u30c3\u30d4\u30e7\u30fc",
-            "romaji": "ppyoo",
-            "group_num": 122
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 422,
-        "fields": {
-            "symbol": "\u30df\u30e3\u30fc",
-            "romaji": "myaa",
-            "group_num": 90
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 423,
-        "fields": {
-            "symbol": "\u30c3\u30df\u30e3\u30fc",
-            "romaji": "mmyaa",
-            "group_num": 116
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 424,
-        "fields": {
-            "symbol": "\u30df\u30e5\u30fc",
-            "romaji": "myuu",
-            "group_num": 90
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 425,
-        "fields": {
-            "symbol": "\u30c3\u30df\u30e5\u30fc",
-            "romaji": "mmyuu",
-            "group_num": 116
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 426,
-        "fields": {
-            "symbol": "\u30df\u30e7\u30fc",
-            "romaji": "myoo",
-            "group_num": 90
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 427,
-        "fields": {
-            "symbol": "\u30c3\u30df\u30e7\u30fc",
-            "romaji": "mmyoo",
-            "group_num": 116
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 428,
-        "fields": {
-            "symbol": "\u30ea\u30e3\u30fc",
-            "romaji": "ryaa",
-            "group_num": 91
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 429,
-        "fields": {
-            "symbol": "\u30c3\u30ea\u30e3\u30fc",
-            "romaji": "rryaa",
-            "group_num": 117
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 430,
-        "fields": {
-            "symbol": "\u30ea\u30e5\u30fc",
-            "romaji": "ryuu",
-            "group_num": 91
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 431,
-        "fields": {
-            "symbol": "\u30c3\u30ea\u30e5\u30fc",
-            "romaji": "rryuu",
-            "group_num": 117
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 432,
-        "fields": {
-            "symbol": "\u30ea\u30e7\u30fc",
-            "romaji": "ryoo",
-            "group_num": 91
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 433,
-        "fields": {
-            "symbol": "\u30c3\u30ea\u30e7\u30fc",
-            "romaji": "rryoo",
-            "group_num": 117
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 434,
-        "fields": {
-            "symbol": "\u30a6\u30a3\u30fc",
-            "romaji": "wii",
-            "group_num": 81
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 435,
-        "fields": {
-            "symbol": "\u30a6\u30a7\u30fc",
-            "romaji": "wee",
-            "group_num": 81
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 436,
-        "fields": {
-            "symbol": "\u30a6\u30a9\u30fc",
-            "romaji": "woo",
-            "group_num": 81
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 437,
-        "fields": {
-            "symbol": "\u30f4\u30a1\u30fc",
-            "romaji": "vaa",
-            "group_num": 123
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 438,
-        "fields": {
-            "symbol": "\u30f4\u30a3\u30fc",
-            "romaji": "vii",
-            "group_num": 123
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 439,
-        "fields": {
-            "symbol": "\u30f4\u30a7\u30fc",
-            "romaji": "vee",
-            "group_num": 123
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 440,
-        "fields": {
-            "symbol": "\u30f4\u30a9\u30fc",
-            "romaji": "voo",
-            "group_num": 123
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 441,
-        "fields": {
-            "symbol": "\u30d5\u30a1\u30fc",
-            "romaji": "faa",
-            "group_num": 124
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 442,
-        "fields": {
-            "symbol": "\u30d5\u30a3\u30fc",
-            "romaji": "fii",
-            "group_num": 124
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 443,
-        "fields": {
-            "symbol": "\u30d5\u30a7\u30fc",
-            "romaji": "fee",
-            "group_num": 124
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 444,
-        "fields": {
-            "symbol": "\u30d5\u30a9\u30fc",
-            "romaji": "foo",
-            "group_num": 124
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 445,
-        "fields": {
-            "symbol": "\u30c4\u30a1\u30fc",
-            "romaji": "tsaa",
-            "group_num": 125
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 446,
-        "fields": {
-            "symbol": "\u30c4\u30a3\u30fc",
-            "romaji": "tsii",
-            "group_num": 125
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 447,
-        "fields": {
-            "symbol": "\u30c4\u30a7\u30fc",
-            "romaji": "tsee",
-            "group_num": 125
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 448,
-        "fields": {
-            "symbol": "\u30c4\u30a9\u30fc",
-            "romaji": "tsoo",
-            "group_num": 125
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 449,
-        "fields": {
-            "symbol": "\u30b7\u30a7\u30fc",
-            "romaji": "shee",
-            "group_num": 82
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 450,
-        "fields": {
-            "symbol": "\u30b8\u30a7\u30fc",
-            "romaji": "jee",
-            "group_num": 84
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 451,
-        "fields": {
-            "symbol": "\u30c1\u30a7\u30fc",
-            "romaji": "chee",
-            "group_num": 83
-        }
-    },
-    {
-        "model": "base_chars.hiragana",
-        "pk": 452,
-        "fields": {
-            "symbol": "\u30c6\u30a3\u30fc",
-            "romaji": "tii",
             "group_num": 79
         }
     },
     {
-        "model": "base_chars.hiragana",
+        "model": "base_chars.katakana",
+        "pk": 323,
+        "fields": {
+            "symbol": "\u30c3\u30d1\u30fc",
+            "romaji": "ppaa",
+            "group_num": 111
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 324,
+        "fields": {
+            "symbol": "\u30d4\u30fc",
+            "romaji": "pii",
+            "group_num": 79
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 325,
+        "fields": {
+            "symbol": "\u30c3\u30d4\u30fc",
+            "romaji": "ppii",
+            "group_num": 111
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 326,
+        "fields": {
+            "symbol": "\u30d7\u30fc",
+            "romaji": "puu",
+            "group_num": 79
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 327,
+        "fields": {
+            "symbol": "\u30c3\u30d7\u30fc",
+            "romaji": "ppuu",
+            "group_num": 111
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 328,
+        "fields": {
+            "symbol": "\u30da\u30fc",
+            "romaji": "pee",
+            "group_num": 79
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 329,
+        "fields": {
+            "symbol": "\u30c3\u30da\u30fc",
+            "romaji": "ppee",
+            "group_num": 111
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 330,
+        "fields": {
+            "symbol": "\u30dd\u30fc",
+            "romaji": "poo",
+            "group_num": 79
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 331,
+        "fields": {
+            "symbol": "\u30c3\u30dd\u30fc",
+            "romaji": "ppoo",
+            "group_num": 111
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 332,
+        "fields": {
+            "symbol": "\u30de\u30fc",
+            "romaji": "maa",
+            "group_num": 70
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 333,
+        "fields": {
+            "symbol": "\u30c3\u30de\u30fc",
+            "romaji": "mmaa",
+            "group_num": 103
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 334,
+        "fields": {
+            "symbol": "\u30df\u30fc",
+            "romaji": "mii",
+            "group_num": 70
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 335,
+        "fields": {
+            "symbol": "\u30c3\u30df\u30fc",
+            "romaji": "mmii",
+            "group_num": 103
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 336,
+        "fields": {
+            "symbol": "\u30e0\u30fc",
+            "romaji": "muu",
+            "group_num": 70
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 337,
+        "fields": {
+            "symbol": "\u30c3\u30e0\u30fc",
+            "romaji": "mmuu",
+            "group_num": 103
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 338,
+        "fields": {
+            "symbol": "\u30e1\u30fc",
+            "romaji": "mee",
+            "group_num": 70
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 339,
+        "fields": {
+            "symbol": "\u30c3\u30e1\u30fc",
+            "romaji": "mmee",
+            "group_num": 103
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 340,
+        "fields": {
+            "symbol": "\u30e2\u30fc",
+            "romaji": "moo",
+            "group_num": 70
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 341,
+        "fields": {
+            "symbol": "\u30c3\u30e2\u30fc",
+            "romaji": "mmoo",
+            "group_num": 103
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 342,
+        "fields": {
+            "symbol": "\u30e9\u30fc",
+            "romaji": "raa",
+            "group_num": 71
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 343,
+        "fields": {
+            "symbol": "\u30c3\u30e9\u30fc",
+            "romaji": "rraa",
+            "group_num": 104
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 344,
+        "fields": {
+            "symbol": "\u30ea\u30fc",
+            "romaji": "rii",
+            "group_num": 71
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 345,
+        "fields": {
+            "symbol": "\u30c3\u30ea\u30fc",
+            "romaji": "rrii",
+            "group_num": 104
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 346,
+        "fields": {
+            "symbol": "\u30eb\u30fc",
+            "romaji": "ruu",
+            "group_num": 71
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 347,
+        "fields": {
+            "symbol": "\u30c3\u30eb\u30fc",
+            "romaji": "rruu",
+            "group_num": 104
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 348,
+        "fields": {
+            "symbol": "\u30ec\u30fc",
+            "romaji": "ree",
+            "group_num": 71
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 349,
+        "fields": {
+            "symbol": "\u30c3\u30ec\u30fc",
+            "romaji": "rree",
+            "group_num": 104
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 350,
+        "fields": {
+            "symbol": "\u30ed\u30fc",
+            "romaji": "roo",
+            "group_num": 71
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 351,
+        "fields": {
+            "symbol": "\u30c3\u30ed\u30fc",
+            "romaji": "rroo",
+            "group_num": 104
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 352,
+        "fields": {
+            "symbol": "\u30e4\u30fc",
+            "romaji": "yaa",
+            "group_num": 72
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 353,
+        "fields": {
+            "symbol": "\u30c3\u30e4\u30fc",
+            "romaji": "yyaa",
+            "group_num": 105
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 354,
+        "fields": {
+            "symbol": "\u30e6\u30fc",
+            "romaji": "yuu",
+            "group_num": 72
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 355,
+        "fields": {
+            "symbol": "\u30c3\u30e6\u30fc",
+            "romaji": "yyuu",
+            "group_num": 105
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 356,
+        "fields": {
+            "symbol": "\u30e8\u30fc",
+            "romaji": "yoo",
+            "group_num": 72
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 357,
+        "fields": {
+            "symbol": "\u30c3\u30e8\u30fc",
+            "romaji": "yyoo",
+            "group_num": 105
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 358,
+        "fields": {
+            "symbol": "\u30ef\u30fc",
+            "romaji": "waa",
+            "group_num": 73
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 359,
+        "fields": {
+            "symbol": "\u30c3\u30ef\u30fc",
+            "romaji": "wwaa",
+            "group_num": 106
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 360,
+        "fields": {
+            "symbol": "\u30f2\u30fc",
+            "romaji": "woo",
+            "group_num": 73
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 361,
+        "fields": {
+            "symbol": "\u30f3\u30fc",
+            "romaji": "nn",
+            "group_num": 74
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 362,
+        "fields": {
+            "symbol": "\u30ad\u30e3\u30fc",
+            "romaji": "kyaa",
+            "group_num": 86
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 363,
+        "fields": {
+            "symbol": "\u30c3\u30ad\u30e3\u30fc",
+            "romaji": "kkyaa",
+            "group_num": 112
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 364,
+        "fields": {
+            "symbol": "\u30ad\u30e5\u30fc",
+            "romaji": "kyuu",
+            "group_num": 86
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 365,
+        "fields": {
+            "symbol": "\u30c3\u30ad\u30e5\u30fc",
+            "romaji": "kkyuu",
+            "group_num": 112
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 366,
+        "fields": {
+            "symbol": "\u30ad\u30e7\u30fc",
+            "romaji": "kyoo",
+            "group_num": 86
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 367,
+        "fields": {
+            "symbol": "\u30c3\u30ad\u30e7\u30fc",
+            "romaji": "kkyoo",
+            "group_num": 112
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 368,
+        "fields": {
+            "symbol": "\u30ae\u30e3\u30fc",
+            "romaji": "gyaa",
+            "group_num": 93
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 369,
+        "fields": {
+            "symbol": "\u30c3\u30ae\u30e3\u30fc",
+            "romaji": "ggyaa",
+            "group_num": 119
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 370,
+        "fields": {
+            "symbol": "\u30ae\u30e5\u30fc",
+            "romaji": "gyuu",
+            "group_num": 93
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 371,
+        "fields": {
+            "symbol": "\u30c3\u30ae\u30e5\u30fc",
+            "romaji": "ggyuu",
+            "group_num": 119
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 372,
+        "fields": {
+            "symbol": "\u30ae\u30e7\u30fc",
+            "romaji": "gyoo",
+            "group_num": 93
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 373,
+        "fields": {
+            "symbol": "\u30c3\u30ae\u30e7\u30fc",
+            "romaji": "ggyoo",
+            "group_num": 119
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 374,
+        "fields": {
+            "symbol": "\u30b7\u30e3\u30fc",
+            "romaji": "shaa",
+            "group_num": 87
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 375,
+        "fields": {
+            "symbol": "\u30c3\u30b7\u30e3\u30fc",
+            "romaji": "sshaa",
+            "group_num": 113
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 376,
+        "fields": {
+            "symbol": "\u30b7\u30e5\u30fc",
+            "romaji": "shuu",
+            "group_num": 87
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 377,
+        "fields": {
+            "symbol": "\u30c3\u30b7\u30e5\u30fc",
+            "romaji": "sshuu",
+            "group_num": 113
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 378,
+        "fields": {
+            "symbol": "\u30b7\u30e7\u30fc",
+            "romaji": "shoo",
+            "group_num": 87
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 379,
+        "fields": {
+            "symbol": "\u30c3\u30b7\u30e7\u30fc",
+            "romaji": "sshoo",
+            "group_num": 113
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 380,
+        "fields": {
+            "symbol": "\u30b8\u30e3\u30fc",
+            "romaji": "jaa",
+            "group_num": 94
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 381,
+        "fields": {
+            "symbol": "\u30c3\u30b8\u30e3\u30fc",
+            "romaji": "jjaa",
+            "group_num": 120
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 382,
+        "fields": {
+            "symbol": "\u30b8\u30e5\u30fc",
+            "romaji": "juu",
+            "group_num": 94
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 383,
+        "fields": {
+            "symbol": "\u30c3\u30b8\u30e5\u30fc",
+            "romaji": "jjuu",
+            "group_num": 120
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 384,
+        "fields": {
+            "symbol": "\u30b8\u30e7\u30fc",
+            "romaji": "joo",
+            "group_num": 94
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 385,
+        "fields": {
+            "symbol": "\u30c3\u30b8\u30e7\u30fc",
+            "romaji": "jjoo",
+            "group_num": 120
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 386,
+        "fields": {
+            "symbol": "\u30c1\u30e3\u30fc",
+            "romaji": "chaa",
+            "group_num": 88
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 387,
+        "fields": {
+            "symbol": "\u30c3\u30c1\u30e3\u30fc",
+            "romaji": "cchaa",
+            "group_num": 114
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 388,
+        "fields": {
+            "symbol": "\u30c1\u30e5\u30fc",
+            "romaji": "chuu",
+            "group_num": 88
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 389,
+        "fields": {
+            "symbol": "\u30c3\u30c1\u30e5\u30fc",
+            "romaji": "cchuu",
+            "group_num": 114
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 390,
+        "fields": {
+            "symbol": "\u30c1\u30e7\u30fc",
+            "romaji": "choo",
+            "group_num": 88
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 391,
+        "fields": {
+            "symbol": "\u30c3\u30c1\u30e7\u30fc",
+            "romaji": "cchoo",
+            "group_num": 114
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 392,
+        "fields": {
+            "symbol": "\u30c7\u30e3\u30fc",
+            "romaji": "dyaa",
+            "group_num": 95
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 393,
+        "fields": {
+            "symbol": "\u30c3\u30c7\u30e3\u30fc",
+            "romaji": "ddyaa",
+            "group_num": 121
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 394,
+        "fields": {
+            "symbol": "\u30c7\u30e5\u30fc",
+            "romaji": "dyuu",
+            "group_num": 95
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 395,
+        "fields": {
+            "symbol": "\u30c3\u30c7\u30e5\u30fc",
+            "romaji": "ddyuu",
+            "group_num": 121
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 396,
+        "fields": {
+            "symbol": "\u30c7\u30e7\u30fc",
+            "romaji": "dyoo",
+            "group_num": 95
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 397,
+        "fields": {
+            "symbol": "\u30c3\u30c7\u30e7\u30fc",
+            "romaji": "ddyoo",
+            "group_num": 121
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 398,
+        "fields": {
+            "symbol": "\u30cb\u30e3\u30fc",
+            "romaji": "nyaa",
+            "group_num": 89
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 399,
+        "fields": {
+            "symbol": "\u30c3\u30cb\u30e3\u30fc",
+            "romaji": "nnyaa",
+            "group_num": 115
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 400,
+        "fields": {
+            "symbol": "\u30cb\u30e5\u30fc",
+            "romaji": "nyuu",
+            "group_num": 89
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 401,
+        "fields": {
+            "symbol": "\u30c3\u30cb\u30e5\u30fc",
+            "romaji": "nnyuu",
+            "group_num": 115
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 402,
+        "fields": {
+            "symbol": "\u30cb\u30e7\u30fc",
+            "romaji": "nyoo",
+            "group_num": 89
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 403,
+        "fields": {
+            "symbol": "\u30c3\u30cb\u30e7\u30fc",
+            "romaji": "nnyoo",
+            "group_num": 115
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 404,
+        "fields": {
+            "symbol": "\u30d2\u30e3\u30fc",
+            "romaji": "hyaa",
+            "group_num": 90
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 405,
+        "fields": {
+            "symbol": "\u30c3\u30d2\u30e3\u30fc",
+            "romaji": "hhyaa",
+            "group_num": 116
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 406,
+        "fields": {
+            "symbol": "\u30d2\u30e5\u30fc",
+            "romaji": "hyuu",
+            "group_num": 90
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 407,
+        "fields": {
+            "symbol": "\u30c3\u30d2\u30e5\u30fc",
+            "romaji": "hhyuu",
+            "group_num": 116
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 408,
+        "fields": {
+            "symbol": "\u30d2\u30e7\u30fc",
+            "romaji": "hyoo",
+            "group_num": 90
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 409,
+        "fields": {
+            "symbol": "\u30c3\u30d2\u30e7\u30fc",
+            "romaji": "hhyoo",
+            "group_num": 116
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 410,
+        "fields": {
+            "symbol": "\u30d3\u30e3\u30fc",
+            "romaji": "byaa",
+            "group_num": 96
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 411,
+        "fields": {
+            "symbol": "\u30c3\u30d3\u30e3\u30fc",
+            "romaji": "bbyaa",
+            "group_num": 122
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 412,
+        "fields": {
+            "symbol": "\u30d3\u30e5\u30fc",
+            "romaji": "byuu",
+            "group_num": 96
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 413,
+        "fields": {
+            "symbol": "\u30c3\u30d3\u30e5\u30fc",
+            "romaji": "bbyuu",
+            "group_num": 122
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 414,
+        "fields": {
+            "symbol": "\u30d3\u30e7\u30fc",
+            "romaji": "byoo",
+            "group_num": 96
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 415,
+        "fields": {
+            "symbol": "\u30c3\u30d3\u30e7\u30fc",
+            "romaji": "bbyoo",
+            "group_num": 122
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 416,
+        "fields": {
+            "symbol": "\u30d4\u30e3\u30fc",
+            "romaji": "pyaa",
+            "group_num": 97
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 417,
+        "fields": {
+            "symbol": "\u30c3\u30d4\u30e3\u30fc",
+            "romaji": "ppyaa",
+            "group_num": 123
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 418,
+        "fields": {
+            "symbol": "\u30d4\u30e5\u30fc",
+            "romaji": "pyuu",
+            "group_num": 97
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 419,
+        "fields": {
+            "symbol": "\u30c3\u30d4\u30e5\u30fc",
+            "romaji": "ppyuu",
+            "group_num": 123
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 420,
+        "fields": {
+            "symbol": "\u30d4\u30e7\u30fc",
+            "romaji": "pyoo",
+            "group_num": 97
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 421,
+        "fields": {
+            "symbol": "\u30c3\u30d4\u30e7\u30fc",
+            "romaji": "ppyoo",
+            "group_num": 123
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 422,
+        "fields": {
+            "symbol": "\u30df\u30e3\u30fc",
+            "romaji": "myaa",
+            "group_num": 91
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 423,
+        "fields": {
+            "symbol": "\u30c3\u30df\u30e3\u30fc",
+            "romaji": "mmyaa",
+            "group_num": 117
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 424,
+        "fields": {
+            "symbol": "\u30df\u30e5\u30fc",
+            "romaji": "myuu",
+            "group_num": 91
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 425,
+        "fields": {
+            "symbol": "\u30c3\u30df\u30e5\u30fc",
+            "romaji": "mmyuu",
+            "group_num": 117
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 426,
+        "fields": {
+            "symbol": "\u30df\u30e7\u30fc",
+            "romaji": "myoo",
+            "group_num": 91
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 427,
+        "fields": {
+            "symbol": "\u30c3\u30df\u30e7\u30fc",
+            "romaji": "mmyoo",
+            "group_num": 117
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 428,
+        "fields": {
+            "symbol": "\u30ea\u30e3\u30fc",
+            "romaji": "ryaa",
+            "group_num": 92
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 429,
+        "fields": {
+            "symbol": "\u30c3\u30ea\u30e3\u30fc",
+            "romaji": "rryaa",
+            "group_num": 118
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 430,
+        "fields": {
+            "symbol": "\u30ea\u30e5\u30fc",
+            "romaji": "ryuu",
+            "group_num": 92
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 431,
+        "fields": {
+            "symbol": "\u30c3\u30ea\u30e5\u30fc",
+            "romaji": "rryuu",
+            "group_num": 118
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 432,
+        "fields": {
+            "symbol": "\u30ea\u30e7\u30fc",
+            "romaji": "ryoo",
+            "group_num": 92
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 433,
+        "fields": {
+            "symbol": "\u30c3\u30ea\u30e7\u30fc",
+            "romaji": "rryoo",
+            "group_num": 118
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 434,
+        "fields": {
+            "symbol": "\u30a6\u30a3\u30fc",
+            "romaji": "wii",
+            "group_num": 82
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 435,
+        "fields": {
+            "symbol": "\u30a6\u30a7\u30fc",
+            "romaji": "wee",
+            "group_num": 82
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 436,
+        "fields": {
+            "symbol": "\u30a6\u30a9\u30fc",
+            "romaji": "woo",
+            "group_num": 82
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 437,
+        "fields": {
+            "symbol": "\u30f4\u30a1\u30fc",
+            "romaji": "vaa",
+            "group_num": 124
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 438,
+        "fields": {
+            "symbol": "\u30f4\u30a3\u30fc",
+            "romaji": "vii",
+            "group_num": 124
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 439,
+        "fields": {
+            "symbol": "\u30f4\u30a7\u30fc",
+            "romaji": "vee",
+            "group_num": 124
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 440,
+        "fields": {
+            "symbol": "\u30f4\u30a9\u30fc",
+            "romaji": "voo",
+            "group_num": 124
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 441,
+        "fields": {
+            "symbol": "\u30d5\u30a1\u30fc",
+            "romaji": "faa",
+            "group_num": 125
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 442,
+        "fields": {
+            "symbol": "\u30d5\u30a3\u30fc",
+            "romaji": "fii",
+            "group_num": 125
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 443,
+        "fields": {
+            "symbol": "\u30d5\u30a7\u30fc",
+            "romaji": "fee",
+            "group_num": 125
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 444,
+        "fields": {
+            "symbol": "\u30d5\u30a9\u30fc",
+            "romaji": "foo",
+            "group_num": 125
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 445,
+        "fields": {
+            "symbol": "\u30c4\u30a1\u30fc",
+            "romaji": "tsaa",
+            "group_num": 126
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 446,
+        "fields": {
+            "symbol": "\u30c4\u30a3\u30fc",
+            "romaji": "tsii",
+            "group_num": 126
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 447,
+        "fields": {
+            "symbol": "\u30c4\u30a7\u30fc",
+            "romaji": "tsee",
+            "group_num": 126
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 448,
+        "fields": {
+            "symbol": "\u30c4\u30a9\u30fc",
+            "romaji": "tsoo",
+            "group_num": 126
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 449,
+        "fields": {
+            "symbol": "\u30b7\u30a7\u30fc",
+            "romaji": "shee",
+            "group_num": 83
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 450,
+        "fields": {
+            "symbol": "\u30b8\u30a7\u30fc",
+            "romaji": "jee",
+            "group_num": 85
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 451,
+        "fields": {
+            "symbol": "\u30c1\u30a7\u30fc",
+            "romaji": "chee",
+            "group_num": 84
+        }
+    },
+    {
+        "model": "base_chars.katakana",
+        "pk": 452,
+        "fields": {
+            "symbol": "\u30c6\u30a3\u30fc",
+            "romaji": "tii",
+            "group_num": 80
+        }
+    },
+    {
+        "model": "base_chars.katakana",
         "pk": 453,
         "fields": {
             "symbol": "\u30c7\u30a3\u30fc",
             "romaji": "dii",
-            "group_num": 80
+            "group_num": 81
         }
     }
 ]
