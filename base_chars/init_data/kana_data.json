@@ -1497,7 +1497,7 @@
         "model": "base_chars.hiragana",
         "pk": 166,
         "fields": {
-            "symbol": "\u3063\u30c7\u30e3",
+            "symbol": "\u30c3\u30c7\u30e3",
             "romaji": "ddya",
             "group_num": 57
         }
@@ -1515,7 +1515,7 @@
         "model": "base_chars.hiragana",
         "pk": 168,
         "fields": {
-            "symbol": "\u3063\u30c7\u30e5",
+            "symbol": "\u30c3\u30c7\u30e5",
             "romaji": "ddyu",
             "group_num": 57
         }
@@ -1533,7 +1533,7 @@
         "model": "base_chars.hiragana",
         "pk": 170,
         "fields": {
-            "symbol": "\u3063\u30c7\u30e7",
+            "symbol": "\u30c3\u30c7\u30e7",
             "romaji": "ddyo",
             "group_num": 57
         }
@@ -3540,7 +3540,7 @@
         "model": "base_chars.hiragana",
         "pk": 393,
         "fields": {
-            "symbol": "\u3063\u30c7\u30e3\u30fc",
+            "symbol": "\u30c3\u30c7\u30e3\u30fc",
             "romaji": "ddyaa",
             "group_num": 120
         }
@@ -3558,7 +3558,7 @@
         "model": "base_chars.hiragana",
         "pk": 395,
         "fields": {
-            "symbol": "\u3063\u30c7\u30e5\u30fc",
+            "symbol": "\u30c3\u30c7\u30e5\u30fc",
             "romaji": "ddyuu",
             "group_num": 120
         }
@@ -3576,7 +3576,7 @@
         "model": "base_chars.hiragana",
         "pk": 397,
         "fields": {
-            "symbol": "\u3063\u30c7\u30e7\u30fc",
+            "symbol": "\u30c3\u30c7\u30e7\u30fc",
             "romaji": "ddyoo",
             "group_num": 120
         }
