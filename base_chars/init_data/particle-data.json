@@ -3,7 +3,7 @@
         "model": "base_chars.particles",
         "pk": 0,
         "fields": {
-            "gana_ref": "h{75}",
+            "gana_ref": "{h75}",
             "romaji": "wa",
             "use": "Subject (general)",
             "description": "は (wa) follows the topic the speaker wants to talk about. Therefore, wa (は) is often called topic marking particle. The “topic” is often the grammatical subject, but can be anything (including the grammatical object, and sometimes the verb), and it may also follow some other particles."
@@ -13,7 +13,7 @@
         "model": "base_chars.particles",
         "pk": 1,
         "fields": {
-            "gana_ref": "h{133}",
+            "gana_ref": "{h133}",
             "romaji": "o",
             "use": "Direct object",
             "description": "を (o) marks the grammatical object of a sentence. It follows nouns and noun phrases."
@@ -23,7 +23,7 @@
         "model": "base_chars.particles",
         "pk": 2,
         "fields": {
-            "gana_ref": "h{113}",
+            "gana_ref": "{h113}",
             "romaji": "mo",
             "use": "As well",
             "description": "を (o) marks the grammatical object of a sentence. It follows nouns and noun phrases."
@@ -33,7 +33,7 @@
         "model": "base_chars.particles",
         "pk": 3,
         "fields": {
-            "gana_ref": "h{67}",
+            "gana_ref": "{h67}",
             "romaji": "ni",
             "use": "Movement and Time",
             "description": "に (ni) indicates a place towards which someone or something moves. It is preceded by the name of the place and followed by a verb that indicates a moving action such as iku (行く) “to go.” It is also used with giving/receiving verbs and can then mean “from”. In the case of passive verbs, it marks the grammatical agent, making it the same as “by” in English. (i.e. “my wallet was stolen by my brother.” ). に is also used to indicate the location of existence when combined with the verbs いる or ある, making it the Japanese version of “at” (in some instances)."
@@ -43,7 +43,7 @@
         "model": "base_chars.particles",
         "pk": 4,
         "fields": {
-            "gana_ref": "h{81}",
+            "gana_ref": "{h81}",
             "romaji": "e",
             "use": "Emphasizing the Destination",
             "description": "へ (e) is basically the same as に, except it emphasizes direction over arrival. The main difference is usage. へ is never used as “from”, “by”, “at”. In addition, the particle の can follow the へ particle directly, whereas it cannot follow に."
@@ -53,7 +53,7 @@
         "model": "base_chars.particles",
         "pk": 5,
         "fields": {
-            "gana_ref": "h{61}",
+            "gana_ref": "{h61}",
             "romaji": "de",
             "use": "Shows Context",
             "description": "で (de) is used to indicate the location of an action. The performer of the action (the subject) is followed by either of the particles wa or ga, and the place is followed by de. However, it can’t be used with with the verbs いる or ある."
@@ -63,7 +63,7 @@
         "model": "base_chars.particles",
         "pk": 6,
         "fields": {
-            "gana_ref": "h{15}",
+            "gana_ref": "{h15}",
             "romaji": "ga",
             "use": "Subject (emphasis, questions)",
             "description": "が (ga) marks the grammatical subject of a sentence when it is first introduced to a conversation. It can also be used to join sentences, like the word “but,” though that が is technically a different word. The particle が can also be used to emphasize the subject or distinguish it from others. While は is used when a question word (who, where, etc.) comes after the topic in the sentence (レストランはどこですか。), we use the particle が when the question word is the subject or part of it."
@@ -73,7 +73,7 @@
         "model": "base_chars.particles",
         "pk": 7,
         "fields": {
-            "gana_ref": "h{5}h{115}",
+            "gana_ref": "{h5}{h115}",
             "romaji": "kara",
             "use": "From",
             "description": "から (kara) indicates the source of an object or action. This starting position may be either a point in space (in which case it is translated as “from”), or a point in time (in which case it is translated as “since” or “after”)."
@@ -83,7 +83,7 @@
         "model": "base_chars.particles",
         "pk": 8,
         "fields": {
-            "gana_ref": "h{105}h{61}",
+            "gana_ref": "{h105}{h61}",
             "romaji": "made",
             "use": "To, until",
             "description": "まで (made) indicates that an action/effect extends or reaches a specified limit or a point in time or space. It is therefore equivalent to the English expression “until.”"
@@ -93,7 +93,7 @@
         "model": "base_chars.particles",
         "pk": 9,
         "fields": {
-            "gana_ref": "h{53}",
+            "gana_ref": "{h53}",
             "romaji": "to",
             "use": "And (specific list)",
             "description": "と (to) is used to join nouns together into an exhaustive list that functions as a single noun: ”with,” “and.” It’s also the particle used to indicate a direct quote (from someone’s mind or speech), functioning like quotation marks in English."
@@ -103,7 +103,7 @@
         "model": "base_chars.particles",
         "pk": 10,
         "fields": {
-            "gana_ref": "h{125}",
+            "gana_ref": "{h125}",
             "romaji": "ya",
             "use": "And (general list)",
             "description": "や (ya) is used in the same way as the first sense of と, but the list is not exhaustive. It means “such things as A, B, and C.”"
@@ -113,7 +113,7 @@
         "model": "base_chars.particles",
         "pk": 11,
         "fields": {
-            "gana_ref": "h{73}",
+            "gana_ref": "{h73}",
             "romaji": "no",
             "use": "Possessing / Attributive",
             "description": "の (no) indicates possession (functioning like the English “apostrophe-S”). In the structure A no B, B belongs to A, however, many nouns act like adjectives when followed by no. It directly follows nouns and noun phrases."
@@ -123,7 +123,7 @@
         "model": "base_chars.particles",
         "pk": 12,
         "fields": {
-            "gana_ref": "h{71}",
+            "gana_ref": "{h71}",
             "romaji": "ne",
             "use": "Right?",
             "description": "ね (ne) is used at the end of sentences, basically in the same way as an English tag question. If said with rising intonation, it indicates a request for confirmation from the listener (i.e., “It’s a beautiful day, isn’t it?” ), whereas if said with falling intonation, it’s used as a rhetorical device (i.e., “It’s a beautiful day, isn’t it.” )"
@@ -133,7 +133,7 @@
         "model": "base_chars.particles",
         "pk": 13,
         "fields": {
-            "gana_ref": "h{129}",
+            "gana_ref": "{h129}",
             "romaji": "yo",
             "use": "You know?",
             "description": "よ (yo) is used by the speaker to express a strong conviction about something or to emphatically declare something."
@@ -143,7 +143,7 @@
         "model": "base_chars.particles",
         "pk": 14,
         "fields": {
-            "gana_ref": "h{5}",
+            "gana_ref": "{h5}",
             "romaji": "ka",
             "use": "Question",
             "description": "か (ka) is used at the end of sentences as a way of making the sentence a question."
