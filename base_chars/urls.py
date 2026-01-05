@@ -6,8 +6,8 @@ gana_url = "hiragana/"
 kana_url = "katakana/"
 
 urlpatterns = [
-    path(gana_url, base_views.ganaBaseList),
-    path(kana_url, base_views.kanaBaseList),
-    path(gana_url + "post", base_views.postHiragana),
-    path(kana_url + "post", base_views.postKatakana)
+    path(gana_url, base_views.ganaList, name="List of Hiragana"),
+    path(kana_url, base_views.kanaList, name="List of Katakana"),
+    path(gana_url + "<int:id>", base_views.ganaInfo, name="Info on Gana character"),
+    path(gana_url + "<int:id>", base_views.kanaInfo, name="Info on Kana character")
 ]

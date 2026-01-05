@@ -2,15 +2,15 @@ from django.shortcuts import render, HttpResponse
 from base_chars.models import Hiragana, Katakana
 from base_chars import scripts
 
-def ganaBaseList(request):
+def ganaList(request):
     return HttpResponse("List Hiragana")
 
-def kanaBaseList(request):
+def kanaList(request):
     return HttpResponse("List Kanagana")
 
-def postHiragana(request):
-    return HttpResponse(request)
+def ganaInfo(request):
+    return HttpResponse("Single Gana")
 
-def postKatakana(request):
-    return HttpResponse(request)
+def kanaInfo(request):
+    return HttpResponse("Single Kana")
 

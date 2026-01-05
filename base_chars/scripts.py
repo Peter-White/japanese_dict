@@ -9,20 +9,8 @@ def getGanaId(id):
 def getGanaSymbol(sym):
     return Hiragana.objects.get(symbol=sym)
 
-def createGana(sym, rom):
-    Hiragana.objects.create(sym, rom)
-
-def updateGanaSymbol(id, sym):
-    gana = Hiragana.objects.get(id=id)
-    gana.symbol = sym
-
-def updateGanaRom(id, rom):
-    gana = Hiragana.objects.get(id=id)
-    gana.romaji = rom
-
-def deleteGana(id):
-    gana = Hiragana.objects.get(id=id)
-    gana.delete()
+def getGanaGroup(group):
+    return Hiragana.objects.all().filter(group_num=group)
 
 def getAllKana():
     return Katakana.objects.all()
@@ -33,17 +21,5 @@ def getKanaId():
 def getKanaSymbol(sym):
     return Katakana.objects.get(symbol=sym)
 
-def createKana(sym, rom):
-    Katakana.objects.create(sym, rom)
-
-def updateKanaSymbol(id, sym):
-    kana = Katakana.objects.get(id=id)
-    kana.symbol = sym
-
-def updateGanaRom(id, rom):
-    kana = Katakana.objects.get(id=id)
-    kana.romaji = rom
-
-def deleteGana(id):
-    kana = Katakana.objects.get(id=id)
-    kana.delete()
+def getKanaGroup(group):
+    return Katakana.objects.all().filter(group_num=group)
