@@ -8,9 +8,9 @@ def ganaList(request):
 def kanaList(request):
     return HttpResponse("List Kanagana")
 
-def ganaInfo(request):
+def ganaInfo(request, id):
     return HttpResponse("Single Gana")
 
-def kanaInfo(request):
+def kanaInfo(request, id):
     return HttpResponse("Single Kana")
 
