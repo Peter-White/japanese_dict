@@ -12,7 +12,7 @@ def ganaList(request):
 
 def kanaList(request):
     kanaList = Katakana.objects.all()
-    json_data = serializers.serialize("json", ganaList)
+    json_data = serializers.serialize("json", kanaList)
     return HttpResponse(json_data, content_type="text/json-comment-filtered")
 
 def ganaInfo(request, id):
