@@ -1,6 +1,6 @@
 [
     {
-        "model": "base_chars.particles",
+        "model": "particles.particle",
         "pk": 0,
         "fields": {
             "gana_ref": "{h75}",
@@ -10,7 +10,7 @@
         }
     },
     {
-        "model": "base_chars.particles",
+        "model": "particles.particle",
         "pk": 1,
         "fields": {
             "gana_ref": "{h133}",
@@ -20,7 +20,7 @@
         }
     },
     {
-        "model": "base_chars.particles",
+        "model": "particles.particle",
         "pk": 2,
         "fields": {
             "gana_ref": "{h113}",
@@ -30,7 +30,7 @@
         }
     },
     {
-        "model": "base_chars.particles",
+        "model": "particles.particle",
         "pk": 3,
         "fields": {
             "gana_ref": "{h67}",
@@ -40,7 +40,7 @@
         }
     },
     {
-        "model": "base_chars.particles",
+        "model": "particles.particle",
         "pk": 4,
         "fields": {
             "gana_ref": "{h81}",
@@ -50,7 +50,7 @@
         }
     },
     {
-        "model": "base_chars.particles",
+        "model": "particles.particle",
         "pk": 5,
         "fields": {
             "gana_ref": "{h61}",
@@ -60,7 +60,7 @@
         }
     },
     {
-        "model": "base_chars.particles",
+        "model": "particles.particle",
         "pk": 6,
         "fields": {
             "gana_ref": "{h15}",
@@ -70,7 +70,7 @@
         }
     },
     {
-        "model": "base_chars.particles",
+        "model": "particles.particle",
         "pk": 7,
         "fields": {
             "gana_ref": "{h5}{h115}",
@@ -80,7 +80,7 @@
         }
     },
     {
-        "model": "base_chars.particles",
+        "model": "particles.particle",
         "pk": 8,
         "fields": {
             "gana_ref": "{h105}{h61}",
@@ -90,7 +90,7 @@
         }
     },
     {
-        "model": "base_chars.particles",
+        "model": "particles.particle",
         "pk": 9,
         "fields": {
             "gana_ref": "{h53}",
@@ -100,7 +100,7 @@
         }
     },
     {
-        "model": "base_chars.particles",
+        "model": "particles.particle",
         "pk": 10,
         "fields": {
             "gana_ref": "{h125}",
@@ -110,7 +110,7 @@
         }
     },
     {
-        "model": "base_chars.particles",
+        "model": "particles.particle",
         "pk": 11,
         "fields": {
             "gana_ref": "{h73}",
@@ -120,7 +120,7 @@
         }
     },
     {
-        "model": "base_chars.particles",
+        "model": "particles.particle",
         "pk": 12,
         "fields": {
             "gana_ref": "{h71}",
@@ -130,7 +130,7 @@
         }
     },
     {
-        "model": "base_chars.particles",
+        "model": "particles.particle",
         "pk": 13,
         "fields": {
             "gana_ref": "{h129}",
@@ -140,7 +140,7 @@
         }
     },
     {
-        "model": "base_chars.particles",
+        "model": "particles.particle",
         "pk": 14,
         "fields": {
             "gana_ref": "{h5}",
