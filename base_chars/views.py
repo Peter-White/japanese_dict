@@ -15,7 +15,11 @@ def ganaList(request):
     return HttpResponse(json_data, content_type="text/json-comment-filtered")
 
 def kanaList(request):
-    kanaList = Katakana.objects.all()
+    if('group_num' in request.GET):
+        kanaList = Katakana.objects.all().filter(group_num=request.GET['group_num'])
+    else:
+        kanaList = Katakana.objects.all()
+    
     json_data = serializers.serialize("json", kanaList)
     return HttpResponse(json_data, content_type="text/json-comment-filtered")
 
@@ -28,8 +32,3 @@ def kanaInfo(request, id):
     kana = Katakana.objects.get(id=id)
     json_data = model_to_dict(kana)
     return JsonResponse(json_data)
-
-# def ganaByGroup(request, group_num):
-#     ganaList = Hiragana.objects.all().filter(group_num=group_num)
-#     json_data = serializers.serialize("json", ganaList)
-#     return HttpResponse(json_data, content_type="text/json-comment-filtered")
