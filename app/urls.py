@@ -8,5 +8,5 @@ urlpatterns = [
     path("", views.index),
     path("about/", views.about),
     path("base/", include("base_chars.urls")),
-    path("particles", include("particles.urls"))
+    path("particles/", include("particles.urls"))
 ]

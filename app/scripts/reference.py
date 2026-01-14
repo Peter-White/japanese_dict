@@ -15,11 +15,11 @@ def ref_fetch(ref):
 
         match(cat):
             case "h":
-                return Hiragana.objects.get(id)
+                return Hiragana.objects.get(id=id)
             case "k":
-                return Katakana.objects.get(id)
+                return Katakana.objects.get(id=id)
             case "p":
-                fetch_part = Particle.objects.get(id)
+                fetch_part = Particle.objects.get(id=id)
                 fetch_gana = ref_fetch(fetch_part.gana_ref)
 
                 fetch_part.gana_ref = fetch_gana.symbol
@@ -38,9 +38,11 @@ def ref_fetch(ref):
 
 def jref(strg):
     regSpl = re.split("({[a-z]\\w+})", strg)
+    jref_obj = {}
 
     for ind in range(len(regSpl)):
         if ref_fetch_reg(regSpl[ind]) != None:
-            regSpl[ind] = ref_fetch(regSpl[ind])
+            jref_obj["body"] = ref_fetch(regSpl[ind])
+            break
 
-    return regSpl
+    return jref_obj
