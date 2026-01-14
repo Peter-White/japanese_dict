@@ -7,5 +7,6 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", views.index),
     path("about/", views.about),
-    path("base/", include("base_chars.urls"))
+    path("base/", include("base_chars.urls")),
+    path("particles", include("particles.urls"))
 ]

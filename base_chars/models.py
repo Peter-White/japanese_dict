@@ -1,7 +1,7 @@
 from django.db import models
 
 class Hiragana(models.Model):
-    symbol = models.CharField(max_length=3, unique=True)
+    body = models.CharField(max_length=3, unique=True)
     romaji = models.CharField(max_length=3)
     group_num = models.IntegerField()
 
@@ -12,7 +12,7 @@ class Hiragana(models.Model):
         return self.symbol + " (" + self.romaji + ")"
     
 class Katakana(models.Model):
-    symbol = models.CharField(max_length=3, unique=True)
+    body = models.CharField(max_length=3, unique=True)
     romaji = models.CharField(max_length=3)
     group_num = models.IntegerField()
 
