@@ -24,15 +24,12 @@ def ref_fetch(ref):
             fetch_part.boby = fetch_gana.body
 
             return fetch_part
-#             case "j":
-#                 return ref_fetch_kanji(id)
+        # case "j":
+        #     return ref_fetch_kanji(id)
         # case "w":
         #     return ref_fetch_word(id)
         case _:
             return "Error: Invalid category"
-
-#     except TypeError:
-#         return "Error: Record not found"
 
 def jref(strg):
     regSpl = re.split("({[a-z]\\w+})", strg)
@@ -41,10 +38,8 @@ def jref(strg):
     for ind in range(len(regSpl)):
         test = regSpl[ind]
         if ref_fetch_reg(regSpl[ind]) != None:
-            try:
-                jref_obj[ind] = ref_fetch(regSpl[ind])
-            except AttributeError:
-                continue
-
+             jref_obj[ind] = ref_fetch(regSpl[ind])
+        else:
+            jref_obj[ind] = regSpl[ind]
 
     return jref_obj
