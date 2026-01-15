@@ -42,7 +42,6 @@ def jref(strg):
 
     for ind in range(len(regSpl)):
         if ref_fetch_reg(regSpl[ind]) != None:
-            jref_obj["body"] = ref_fetch(regSpl[ind])
-            break
+            jref_obj[ind] = ref_fetch(regSpl[ind])
 
     return jref_obj
