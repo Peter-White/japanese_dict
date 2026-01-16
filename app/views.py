@@ -1,7 +1,7 @@
 from django.shortcuts import render, HttpResponse
 from django.core import serializers
 from django.http import JsonResponse
-from django.forms.models import model_to_dict
+import json
 from django.views.decorators.csrf import csrf_exempt
 from app.scripts.reference import jref
 
@@ -16,5 +16,7 @@ def about(request):
 def ref_test(request):
     pattern = request.headers.get('pattern')
     test = jref(pattern)
+
+    json_data = json.dumps(test)
     
-    return HttpResponse(test, content_type="text/json-comment-filtered")
+    return HttpResponse(json_data)
