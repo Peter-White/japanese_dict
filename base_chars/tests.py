@@ -31,3 +31,7 @@ class HiraganaKatakanaTestCase(TestCase):
     def test_kana_populated(self):
         kanaList = Katakana.objects.all()
         self.assertEqual(len(kanaList), 454)
+
+    def test_grab_gana(self):
+        gana = Hiragana.objects.get(id=1)
+        self.assertEqual(gana.body, "あ")
