@@ -10,6 +10,8 @@ def ganaList(request):
     else:
         ganaList = Hiragana.objects.all()
 
+    length = len(ganaList)
+
     json_data = serializers.serialize("json", ganaList)
     return HttpResponse(json_data, content_type="text/json-comment-filtered")
 
