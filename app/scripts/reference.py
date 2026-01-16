@@ -58,7 +58,8 @@ def ref_fetch(ref):
 
             for ind in range(len(regSpl)):
                 if ref_fetch_reg(regSpl[ind]) != None:
-                    jref_arr += ref_fetch(regSpl[ind])
+                    gana = ref_fetch(regSpl[ind])
+                    jref_arr.append(gana)
             
             part_obj["body"] = jref_arr
 
@@ -75,9 +76,11 @@ def jref(strg):
     jref_arr = []
 
     for ind in range(len(regSpl)):
-        if ref_fetch_reg(regSpl[ind]) != None:
-             jref_arr += ref_fetch(regSpl[ind])
+        if regSpl[ind] == '':
+            continue
+        elif ref_fetch_reg(regSpl[ind]) != None:
+            jref_arr.append(ref_fetch(regSpl[ind]))
         else:
-            jref_obj += regSpl[ind]
+            jref_arr.append(regSpl[ind])
 
     return jref_arr

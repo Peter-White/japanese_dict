@@ -17,4 +17,4 @@ def ref_test(request):
     pattern = request.headers.get('pattern')
     test = jref(pattern)
     
-    return HttpResponse("Test")
+    return HttpResponse(test, content_type="text/json-comment-filtered")
