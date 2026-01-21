@@ -34,4 +34,16 @@ class HiraganaKatakanaTestCase(TestCase):
 
     def test_grab_gana(self):
         gana = Hiragana.objects.get(id=1)
-        self.assertEqual(gana.body, "あ")
+        self.assertEqual(gana.get_body, "あ")
+
+    def test_spell_mario_kana(self):
+        ma = Katakana.objects.get(body="マ")
+        ri = Katakana.objects.get(body="リ")
+        o = Katakana.objects.get(body="オ")
+
+        name = ""
+        name += ma.get_romaji
+        name += ri.get_romaji
+        name += o.get_romaji
+
+        self.assertEqual(name, "mario")

@@ -12,19 +12,19 @@ def ref_fetch_reg(ref):
 def gana_obj(id):
     gana = Hiragana.objects.get(id=id)
     obj = {}
-    obj["id"] = gana.pk
+    obj["id"] = gana.get_id
     obj["cat"] = "gana"
-    obj["body"] = gana.body
-    obj["rom"] = gana.romaji
+    obj["body"] = gana.get_body
+    obj["rom"] = gana.get_romaji
     return obj
 
 def kana_obj(id):
     kana = Katakana.objects.get(id=id)
     obj = {}
-    obj["id"] = kana.pk
+    obj["id"] = kana.get_id
     obj["cat"] = "kana"
-    obj["body"] = kana.body
-    obj["rom"] = kana.romaji
+    obj["body"] = kana.get_body
+    obj["rom"] = kana.get_romaji
     return obj
 
 def particle_obj(id):

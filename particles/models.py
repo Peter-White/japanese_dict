@@ -11,3 +11,23 @@ class Particle(models.Model):
 
     def __str__(self):
         return self.gana_ref + " (" + self.romaji + ")"
+
+    @property
+    def get_id(self):
+        return self.pk
+    
+    @property
+    def get_body(self):
+        return self.body
+    
+    @property
+    def get_romaji(self):
+        return self.romaji
+    
+    @property
+    def get_use(self):
+        return self.use
+    
+    @property
+    def get_description(self):
+        return self.description
