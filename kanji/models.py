@@ -16,7 +16,7 @@ DEFINITION_TYPES = [
 ]
 
 DEFINITION_LANGS = [
-    "EN", "English"
+    ("EN", "English")
 ]
 
 class KanjiBody(models.Model):
@@ -43,9 +43,9 @@ class KanjiPronunciation(models.Model):
     class Meta:
         db_table = 'kanji_pronounciations'
 
-class KanjiComprised(models.Model):
-    body_id = models.ForeignKey(KanjiBody, verbose_name=("Comprised"), on_delete=models.CASCADE, null=True)
-    comprised_id = models.ForeignKey(KanjiBody, verbose_name=("Sub"), on_delete=models.CASCADE, null=True)
+# class KanjiComprised(models.Model):
+#     body_id = models.ForeignKey(KanjiBody, verbose_name=("Comprised"), on_delete=models.CASCADE, null=True)
+#     comprised_id = models.ForeignKey(KanjiBody, verbose_name=("Sub"), on_delete=models.CASCADE, null=True)
 
-    class Meta:
-        db_table = 'kanji_comprised'
+#     class Meta:
+#         db_table = 'kanji_comprised'
