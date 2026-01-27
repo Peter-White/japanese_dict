@@ -20,7 +20,7 @@ DEFINITION_LANGS = [
 ]
 
 class KanjiBody(models.Model):
-    boby = models.CharField(max_length=1, unique=True)
+    body = models.CharField(max_length=1, unique=True)
     strokes = models.IntegerField()
 
     class Meta:
