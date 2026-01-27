@@ -10,6 +10,7 @@ media
 
 # Database
 *.sqlite3
+*.sqlite3-journal
 
 # If you are using PyCharm # 
 # User-specific stuff

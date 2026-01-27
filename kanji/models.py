@@ -38,7 +38,7 @@ class KanjiDefinition(models.Model):
 class KanjiPronunciation(models.Model):
     body = models.ForeignKey(KanjiBody, verbose_name=("Pronunciation"), on_delete=models.CASCADE, null=True)
     type = models.CharField(max_length=1, choices=PRONUNCIATION_TYPES)
-    body = models.TextField()
+    pronunciation = models.TextField()
 
     class Meta:
         db_table = 'kanji_pronounciations'
