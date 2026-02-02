@@ -3,5 +3,6 @@ from django.urls import path
 from particles import views as part_views
 
 urlpatterns = [
+    path("", part_views.partList, name="Particle List"),
     path("<int:id>", part_views.partInfo, name="Particle Info")
 ]
