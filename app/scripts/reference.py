@@ -1,5 +1,6 @@
 from base_chars.models import Hiragana, Katakana
 from particles.models import Particle
+from kanji.models import KanjiBody, KanjiComprised, KanjiDefinition, KanjiPronunciation
 import re
 
 def ref_fetch_split(strg):
@@ -38,6 +39,9 @@ def particle_obj(id):
     obj["use"] = part.use
     return obj
 
+def kanji_obj(id):
+    return ""
+
 def ref_fetch(ref):
     reg_groups = ref_fetch_reg(ref).groups()
     ref_obj = {}
@@ -64,8 +68,8 @@ def ref_fetch(ref):
             part_obj["body"] = jref_arr
 
             return part_obj
-        # case "j":
-        #     return ref_fetch_kanji(id)
+        case "j":
+            return ref_fetch_kanji(id)
         # case "w":
         #     return ref_fetch_word(id)
         case _:
