@@ -68,8 +68,8 @@ def ref_fetch(ref):
             part_obj["body"] = jref_arr
 
             return part_obj
-        case "j":
-            return ref_fetch_kanji(id)
+        # case "j":
+        #     return ref_fetch_kanji(id)
         # case "w":
         #     return ref_fetch_word(id)
         case _:

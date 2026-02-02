@@ -8,8 +8,7 @@ from django.forms.models import model_to_dict
 def partInfo(request, id):
     part = Particle.objects.get(id=id)
 
-    # test = jref(part.body)
-    # part.body = test["body"]
-
     json_data = model_to_dict(part)
+    json_data["body"] = jref(part.body)
+    
     return JsonResponse(json_data)
