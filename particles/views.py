@@ -19,7 +19,6 @@ def partList(request):
 
     return JsonResponse(json_data, safe=False)
 
-# Create your views here.
 def partInfo(request, id):
     part = Particle.objects.get(id=id)
 
