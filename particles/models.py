@@ -31,3 +31,14 @@ class Particle(models.Model):
     @property
     def get_description(self):
         return self.description
+    
+    @property
+    def to_dict(self):
+        obj = {}
+        obj["id"] = self.pk
+        obj["cat"] = "particle"
+        obj["body"] = self.body
+        obj["rom"] = self.romaji
+        obj["desc"] = self.description
+        obj["use"] = self.use
+        return obj

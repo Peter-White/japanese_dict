@@ -1,5 +1,4 @@
-import json
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render
 from particles.models import Particle
 from app.scripts.reference import jref
 from django.http import JsonResponse

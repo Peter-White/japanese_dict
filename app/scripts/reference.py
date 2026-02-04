@@ -39,8 +39,33 @@ def particle_obj(id):
     obj["use"] = part.use
     return obj
 
-def kanji_obj(id):
-    return ""
+def kanji_body_obj(id):
+    kan_bod = KanjiBody.objects.get(id=id)
+    obj = {}
+    obj["id"] = kan_bod.get_id
+    obj["cat"] = "kanji"
+    obj["body"] = kan_bod.get_body
+    obj["strokes"] = kan_bod.get_strokes
+    return obj
+
+# def kanji_body_obj(id):
+#     KanjiDefinition.objects.get(body=id)
+#     KanjiPronunciation.objects.get(body=bod_id)
+#     KanjiComprised.objects.get(body=bod_id)
+
+# def kanji_body_obj(id):
+#     kan_bod = KanjiBody.objects.get(id=id)
+#     bod_id = kan_bod.get_id()
+#     KanjiDefinition.objects.get(body=bod_id)
+#     KanjiPronunciation.objects.get(body=bod_id)
+#     KanjiComprised.objects.get(body=bod_id)
+
+# def kanji_body_obj(id):
+#     kan_bod = KanjiBody.objects.get(id=id)
+#     bod_id = kan_bod.get_id()
+#     KanjiDefinition.objects.get(body=bod_id)
+#     KanjiPronunciation.objects.get(body=bod_id)
+#     KanjiComprised.objects.get(body=bod_id)
 
 def ref_fetch(ref):
     reg_groups = ref_fetch_reg(ref).groups()
@@ -51,9 +76,9 @@ def ref_fetch(ref):
 
     match(cat):
         case "h":
-            return gana_obj(id)
+            return Hiragana.objects.get(id=id).to_dict
         case "k":
-            return kana_obj(id)
+            return Katakana.objects.get(id=id).to_dict
         case "p":
             part_obj = particle_obj(id)
 
@@ -68,8 +93,8 @@ def ref_fetch(ref):
             part_obj["body"] = jref_arr
 
             return part_obj
-        # case "j":
-        #     return ref_fetch_kanji(id)
+        case "j":
+            return kanji_body_obj(id)
         # case "w":
         #     return ref_fetch_word(id)
         case _:

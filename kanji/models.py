@@ -37,6 +37,18 @@ class KanjiBody(models.Model):
     @property
     def get_strokes(self):
         return self.strokes
+    
+    @property
+    def to_dict(self):
+        obj = {}
+        obj["id"] = self.pk
+        obj["cat"] = "kanji"
+        obj["body"] = self.body
+        obj["strokes"] = self.strokes
+        obj["defs"] = []
+        obj["prons"] = []
+        obj["com"] = []
+        return obj
 
 class KanjiDefinition(models.Model):
     body = models.ForeignKey(KanjiBody, verbose_name=("Definition"), on_delete=models.CASCADE, null=True)
@@ -62,6 +74,15 @@ class KanjiDefinition(models.Model):
     @property
     def get_description(self):
         return self.definition
+    
+    @property
+    def to_dict(self):
+        obj = {}
+        obj["id"] = self.pk
+        obj["body"] = self.body
+        obj["lang"] = self.lang
+        obj["desc"] = self.definition
+        return obj
 
 class KanjiPronunciation(models.Model):
     body = models.ForeignKey(KanjiBody, verbose_name=("Pronunciation"), on_delete=models.CASCADE, null=True)
@@ -86,6 +107,15 @@ class KanjiPronunciation(models.Model):
     @property
     def get_pronunciation(self):
         return self.pronunciation
+    
+    @property
+    def to_dict(self):
+        obj = {}
+        obj["id"] = self.pk
+        obj["body"] = self.body
+        obj["type"] = self.type
+        obj["pron"] = self.pronunciation
+        return obj
 
 class KanjiComprised(models.Model):
     body = models.ForeignKey(KanjiBody, related_name="Child", on_delete=models.CASCADE, null=True)
@@ -107,3 +137,10 @@ class KanjiComprised(models.Model):
     def get_comprised(self):
         return self.comprised
 
+    @property
+    def to_dict(self):
+        obj = {}
+        obj["id"] = self.pk
+        obj["body"] = self.body
+        obj["com"] = self.comprised
+        return obj
