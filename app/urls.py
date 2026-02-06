@@ -9,5 +9,6 @@ urlpatterns = [
     path("about/", views.about),
     path("base/", include("base_chars.urls")),
     path("particles/", include("particles.urls")),
+    path("kanji", include("kanji.urls")),
     path("ref/", views.ref_test)
 ]
