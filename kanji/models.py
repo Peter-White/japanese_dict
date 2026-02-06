@@ -51,10 +51,10 @@ class KanjiBody(models.Model):
         return obj
 
 class KanjiDefinition(models.Model):
-    body = models.ForeignKey(KanjiBody, verbose_name=("Definition"), on_delete=models.CASCADE, null=True)
+    kanji = models.ForeignKey(KanjiBody, verbose_name=("Definition"), on_delete=models.CASCADE, null=True)
     type = models.CharField(max_length=1, choices=DEFINITION_TYPES)
     lang = models.CharField(max_length=2, choices=DEFINITION_LANGS)
-    definition = models.TextField()
+    body = models.TextField()
 
     class Meta:
         db_table = 'kanji_definitions'
@@ -85,9 +85,9 @@ class KanjiDefinition(models.Model):
         return obj
 
 class KanjiPronunciation(models.Model):
-    body = models.ForeignKey(KanjiBody, verbose_name=("Pronunciation"), on_delete=models.CASCADE, null=True)
+    kanji = models.ForeignKey(KanjiBody, verbose_name=("Pronunciation"), on_delete=models.CASCADE, null=True)
     type = models.CharField(max_length=1, choices=PRONUNCIATION_TYPES)
-    pronunciation = models.TextField()
+    body = models.TextField()
 
     class Meta:
         db_table = 'kanji_pronounciations'
@@ -118,8 +118,8 @@ class KanjiPronunciation(models.Model):
         return obj
 
 class KanjiComprised(models.Model):
-    body = models.ForeignKey(KanjiBody, related_name="Child", on_delete=models.CASCADE, null=True)
-    comprised = models.ForeignKey(KanjiBody, related_name="Parent", on_delete=models.CASCADE, null=True)
+    kanji = models.ForeignKey(KanjiBody, related_name="Child", on_delete=models.CASCADE, null=True)
+    body = models.ForeignKey(KanjiBody, related_name="Parent", on_delete=models.CASCADE, null=True)
 
     class Meta:
         db_table = 'kanji_comprised'

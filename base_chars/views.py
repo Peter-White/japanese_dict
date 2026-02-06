@@ -2,7 +2,6 @@ from django.shortcuts import render, HttpResponse
 from base_chars.models import Hiragana, Katakana
 from django.core import serializers
 from django.http import JsonResponse
-from django.forms.models import model_to_dict
 
 def ganaList(request):
     if('group_num' in request.GET):
@@ -24,10 +23,10 @@ def kanaList(request):
 
 def ganaInfo(request, id):
     gana = Hiragana.objects.get(id=id)
-    json_data = model_to_dict(gana)
+    json_data = gana.to_dict
     return JsonResponse(json_data)
 
 def kanaInfo(request, id):
     kana = Katakana.objects.get(id=id)
-    json_data = model_to_dict(kana)
+    json_data = kana.to_dict
     return JsonResponse(json_data)

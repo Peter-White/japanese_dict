@@ -10,63 +10,6 @@ def ref_fetch_split(strg):
 def ref_fetch_reg(ref):
     return re.search("^({)([a-z])(\\w+)(})$", ref)
 
-def gana_obj(id):
-    gana = Hiragana.objects.get(id=id)
-    obj = {}
-    obj["id"] = gana.get_id
-    obj["cat"] = "gana"
-    obj["body"] = gana.get_body
-    obj["rom"] = gana.get_romaji
-    return obj
-
-def kana_obj(id):
-    kana = Katakana.objects.get(id=id)
-    obj = {}
-    obj["id"] = kana.get_id
-    obj["cat"] = "kana"
-    obj["body"] = kana.get_body
-    obj["rom"] = kana.get_romaji
-    return obj
-
-def particle_obj(id):
-    part = Particle.objects.get(id=id)
-    obj = {}
-    obj["id"] = part.pk
-    obj["cat"] = "particle"
-    obj["body"] = part.body
-    obj["rom"] = part.romaji
-    obj["desc"] = part.description
-    obj["use"] = part.use
-    return obj
-
-def kanji_body_obj(id):
-    kan_bod = KanjiBody.objects.get(id=id)
-    obj = {}
-    obj["id"] = kan_bod.get_id
-    obj["cat"] = "kanji"
-    obj["body"] = kan_bod.get_body
-    obj["strokes"] = kan_bod.get_strokes
-    return obj
-
-# def kanji_body_obj(id):
-#     KanjiDefinition.objects.get(body=id)
-#     KanjiPronunciation.objects.get(body=bod_id)
-#     KanjiComprised.objects.get(body=bod_id)
-
-# def kanji_body_obj(id):
-#     kan_bod = KanjiBody.objects.get(id=id)
-#     bod_id = kan_bod.get_id()
-#     KanjiDefinition.objects.get(body=bod_id)
-#     KanjiPronunciation.objects.get(body=bod_id)
-#     KanjiComprised.objects.get(body=bod_id)
-
-# def kanji_body_obj(id):
-#     kan_bod = KanjiBody.objects.get(id=id)
-#     bod_id = kan_bod.get_id()
-#     KanjiDefinition.objects.get(body=bod_id)
-#     KanjiPronunciation.objects.get(body=bod_id)
-#     KanjiComprised.objects.get(body=bod_id)
-
 def ref_fetch(ref):
     reg_groups = ref_fetch_reg(ref).groups()
     ref_obj = {}
@@ -80,7 +23,7 @@ def ref_fetch(ref):
         case "k":
             return Katakana.objects.get(id=id).to_dict
         case "p":
-            part_obj = particle_obj(id)
+            part_obj = Particle.objects.get(id=id).to_dict
 
             regSpl = ref_fetch_split(part_obj["body"])
             jref_arr = []
@@ -93,8 +36,8 @@ def ref_fetch(ref):
             part_obj["body"] = jref_arr
 
             return part_obj
-        case "j":
-            return kanji_body_obj(id)
+        # case "j":
+            
         # case "w":
         #     return ref_fetch_word(id)
         case _:
