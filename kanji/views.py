@@ -16,7 +16,7 @@ def prop_populate(coll):
 
     return json_list
 
-def kanji_info(request, id):
+def kanji_info(id):
     kan_bod = KanjiBody.objects.get(id=id)
     json_data = kan_bod.to_dict
     
@@ -29,13 +29,20 @@ def kanji_info(request, id):
     kan_com = KanjiComprised.objects.all().filter(kanji=kan_bod.get_id)
     json_data["com"] = prop_populate(kan_com)
 
-    return JsonResponse(json_data)
+    return json_data
 
 def kanji_list(request):
-    return JsonResponse({})
+    kanji_bod_list = KanjiBody.objects.all()
+    json_list = []
+
+    for bod in kanji_bod_list:
+        json_data = kanji_info(bod.get_id)
+        json_list.append(json_data)
+
+    return JsonResponse(json_list, safe=False)
 
 @csrf_exempt
-def kanji_post_update(request):
+def kanji_post(request):
     if (request.method == 'POST'):
         body = request.POST["body"]
         strokes = request.POST["strokes"]
@@ -44,7 +51,22 @@ def kanji_post_update(request):
         new_kan.save()
 
         return HttpResponse(new_kan.get_body + " posted")
-    # elif (request.method = "UPDATE"):
-    #     return JsonResponse([])
     else:
         return HttpResponse("Not Valid")
+
+@csrf_exempt
+def kanji_handler_id(request, id):
+    if (request.method == 'GET'):
+        return JsonResponse(kanji_info(id))
+    elif (request.method == 'UPDATE'):
+        kan_bod = KanjiBody.objects.get(id=-id)
+        return HttpResponse("Updated")
+    elif (request.method == 'DELETE'):
+        kan_bod = KanjiBody.objects.get(id=id)
+        kan_bod.delete()
+    else:
+        return HttpResponse("Not Valid")
+    
+# @csrf_exempt
+# def pron_post_update(request):
+#     if (request.method == 'POST'):
