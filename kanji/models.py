@@ -26,17 +26,24 @@ class KanjiBody(models.Model):
     class Meta:
         db_table = 'kanji_bodies'
 
-    @property
     def get_id(self):
         return self.pk
-    
+
     @property
     def get_body(self):
         return self.body
     
+    @body.setter
+    def set_body(self, body):
+        self.body = body
+
     @property
     def get_strokes(self):
         return self.strokes
+    
+    @strokes.setter
+    def set_strokes(self, strokes):
+        self.strokes = strokes
     
     @property
     def to_dict(self):
@@ -64,24 +71,32 @@ class KanjiDefinition(models.Model):
         return self.pk
     
     @property
-    def get_body(self):
-        return self.body
+    def get_kanji(self):
+        return self.kanji
     
     @property
     def get_lang(self):
         return self.lang
     
+    @lang.setter
+    def set_lang(self, lang):
+        self.lang = lang
+    
     @property
-    def get_description(self):
-        return self.definition
+    def get_body(self):
+        return self.body
+    
+    @body.setter
+    def set_body(self, body):
+        self.body = body
     
     @property
     def to_dict(self):
         obj = {}
         obj["id"] = self.pk
-        obj["body"] = self.body
+        obj["kanji"] = self.kanji
         obj["lang"] = self.lang
-        obj["desc"] = self.definition
+        obj["body"] = self.body
         return obj
 
 class KanjiPronunciation(models.Model):
@@ -97,24 +112,32 @@ class KanjiPronunciation(models.Model):
         return self.pk
     
     @property
-    def get_body(self):
-        return self.body
+    def get_kanji(self):
+        return self.kanji
     
     @property
     def get_type(self):
         return self.type
+
+    @type.setter
+    def set_type(self, type):
+        self.type = type
     
     @property
-    def get_pronunciation(self):
-        return self.pronunciation
+    def get_body(self):
+        return self.body
+    
+    @body.setter
+    def set_body(self, body):
+        self.body = body
     
     @property
     def to_dict(self):
         obj = {}
         obj["id"] = self.pk
-        obj["body"] = self.body
+        obj["kanji"] = self.kanji
         obj["type"] = self.type
-        obj["pron"] = self.pronunciation
+        obj["body"] = self.body
         return obj
 
 class KanjiComprised(models.Model):
@@ -130,17 +153,17 @@ class KanjiComprised(models.Model):
         return self.pk
     
     @property
-    def get_body(self):
-        return self.body
+    def get_kanji(self):
+        return self.kanji
     
     @property
-    def get_comprised(self):
-        return self.comprised
+    def get_body(self):
+        return self.body
 
     @property
     def to_dict(self):
         obj = {}
         obj["id"] = self.pk
+        obj["kanji"] = self.kanji
         obj["body"] = self.body
-        obj["com"] = self.comprised
         return obj

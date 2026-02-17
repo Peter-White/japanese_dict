@@ -58,8 +58,16 @@ def kanji_post(request):
 def kanji_handler_id(request, id):
     if (request.method == 'GET'):
         return JsonResponse(kanji_info(id))
-    elif (request.method == 'UPDATE'):
-        kan_bod = KanjiBody.objects.get(id=-id)
+    elif (request.method == 'POST'):
+        kan_bod = KanjiBody.objects.get(id=id)
+
+        if request.POST["body"]:
+            kan_bod.set_body(request.POST["body"])
+        
+        if request.POST["strokes"]:
+            kan_bod.set_strokes(request.POST["strokes"])
+
+        kan_bod.save()
         return HttpResponse("Updated")
     elif (request.method == 'DELETE'):
         kan_bod = KanjiBody.objects.get(id=id)
