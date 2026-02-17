@@ -27,13 +27,13 @@ class KanjiBody(models.Model):
         db_table = 'kanji_bodies'
 
     def get_id(self):
-        return self.pk
+        return self.id
 
     @property
     def get_body(self):
         return self.body
     
-    @body.setter
+    @property
     def set_body(self, body):
         self.body = body
 
@@ -41,7 +41,7 @@ class KanjiBody(models.Model):
     def get_strokes(self):
         return self.strokes
     
-    @strokes.setter
+    @property
     def set_strokes(self, strokes):
         self.strokes = strokes
     
@@ -68,7 +68,7 @@ class KanjiDefinition(models.Model):
 
     @property
     def get_id(self):
-        return self.pk
+        return self.id
     
     @property
     def get_kanji(self):
@@ -78,7 +78,7 @@ class KanjiDefinition(models.Model):
     def get_lang(self):
         return self.lang
     
-    @lang.setter
+    @property
     def set_lang(self, lang):
         self.lang = lang
     
@@ -86,7 +86,7 @@ class KanjiDefinition(models.Model):
     def get_body(self):
         return self.body
     
-    @body.setter
+    @property
     def set_body(self, body):
         self.body = body
     
@@ -109,7 +109,7 @@ class KanjiPronunciation(models.Model):
 
     @property
     def get_id(self):
-        return self.pk
+        return self.id
     
     @property
     def get_kanji(self):
@@ -119,7 +119,7 @@ class KanjiPronunciation(models.Model):
     def get_type(self):
         return self.type
 
-    @type.setter
+    @property
     def set_type(self, type):
         self.type = type
     
@@ -127,7 +127,7 @@ class KanjiPronunciation(models.Model):
     def get_body(self):
         return self.body
     
-    @body.setter
+    @property
     def set_body(self, body):
         self.body = body
     
@@ -150,7 +150,7 @@ class KanjiComprised(models.Model):
 
     @property
     def get_id(self):
-        return self.pk
+        return self.id
     
     @property
     def get_kanji(self):

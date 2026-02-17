@@ -19,14 +19,16 @@ def prop_populate(coll):
 def kanji_info(id):
     kan_bod = KanjiBody.objects.get(id=id)
     json_data = kan_bod.to_dict
+
+    kan_bod_id = kan_bod.get_id()
     
-    kan_pron = KanjiPronunciation.objects.all().filter(kanji=kan_bod.get_id)
+    kan_pron = KanjiPronunciation.objects.all().filter(kanji=kan_bod_id)
     json_data["prons"] = prop_populate(kan_pron)
     
-    kan_def = KanjiDefinition.objects.all().filter(kanji=kan_bod.get_id)
+    kan_def = KanjiDefinition.objects.all().filter(kanji=kan_bod_id)
     json_data["defs"] = prop_populate(kan_def)
 
-    kan_com = KanjiComprised.objects.all().filter(kanji=kan_bod.get_id)
+    kan_com = KanjiComprised.objects.all().filter(kanji=kan_bod_id)
     json_data["com"] = prop_populate(kan_com)
 
     return json_data
@@ -36,7 +38,7 @@ def kanji_list(request):
     json_list = []
 
     for bod in kanji_bod_list:
-        json_data = kanji_info(bod.get_id)
+        json_data = kanji_info(bod.get_id())
         json_list.append(json_data)
 
     return JsonResponse(json_list, safe=False)
