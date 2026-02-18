@@ -63,10 +63,10 @@ def kanji_handler_id(request, id):
     elif (request.method == 'POST'):
         kan_bod = KanjiBody.objects.get(id=id)
 
-        if request.POST["body"]:
+        if "body" in request.POST:
             kan_bod.set_body(request.POST["body"])
         
-        if request.POST["strokes"]:
+        if "strokes" in request.POST:
             kan_bod.set_strokes(request.POST["strokes"])
 
         kan_bod.save()

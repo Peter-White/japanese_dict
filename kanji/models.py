@@ -26,23 +26,24 @@ class KanjiBody(models.Model):
     class Meta:
         db_table = 'kanji_bodies'
 
-    def get_id(self):
+    @property
+    def id(self):
         return self.id
 
     @property
-    def get_body(self):
+    def body(self):
         return self.body
     
-    @property
-    def set_body(self, body):
+    @body.setter
+    def body(self, body):
         self.body = body
 
     @property
-    def get_strokes(self):
+    def strokes(self):
         return self.strokes
     
-    @property
-    def set_strokes(self, strokes):
+    @strokes.setter
+    def strokes(self, strokes):
         self.strokes = strokes
     
     @property
@@ -67,27 +68,27 @@ class KanjiDefinition(models.Model):
         db_table = 'kanji_definitions'
 
     @property
-    def get_id(self):
+    def id(self):
         return self.id
     
     @property
-    def get_kanji(self):
+    def kanji(self):
         return self.kanji
     
     @property
-    def get_lang(self):
+    def lang(self):
         return self.lang
     
-    @property
-    def set_lang(self, lang):
+    @lang.setter
+    def lang(self, lang):
         self.lang = lang
     
     @property
-    def get_body(self):
+    def body(self):
         return self.body
     
-    @property
-    def set_body(self, body):
+    @body.setter
+    def body(self, body):
         self.body = body
     
     @property
@@ -108,27 +109,27 @@ class KanjiPronunciation(models.Model):
         db_table = 'kanji_pronounciations'
 
     @property
-    def get_id(self):
+    def id(self):
         return self.id
     
     @property
-    def get_kanji(self):
+    def kanji(self):
         return self.kanji
     
     @property
-    def get_type(self):
+    def type(self):
         return self.type
 
-    @property
-    def set_type(self, type):
+    @type.setter
+    def type(self, type):
         self.type = type
     
     @property
-    def get_body(self):
+    def body(self):
         return self.body
     
-    @property
-    def set_body(self, body):
+    @body.setter
+    def body(self, body):
         self.body = body
     
     @property
@@ -149,15 +150,15 @@ class KanjiComprised(models.Model):
 
 
     @property
-    def get_id(self):
+    def id(self):
         return self.id
     
     @property
-    def get_kanji(self):
+    def kanji(self):
         return self.kanji
     
     @property
-    def get_body(self):
+    def body(self):
         return self.body
 
     @property

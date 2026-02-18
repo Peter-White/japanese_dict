@@ -12,19 +12,19 @@ class Hiragana(models.Model):
         return self.symbol + " (" + self.romaji + ")"
     
     @property
-    def get_id(self):
+    def id(self):
         return self.pk
     
     @property
-    def get_body(self):
+    def body(self):
         return self.body
     
     @property
-    def get_romaji(self):
+    def romaji(self):
         return self.romaji
 
     @property
-    def get_group_num(self):
+    def group_num(self):
         return self.group_num
     
     @property
@@ -48,19 +48,19 @@ class Katakana(models.Model):
         return self.symbol + " (" + self.romaji + ")"
     
     @property
-    def get_id(self):
+    def id(self):
         return self.pk
 
     @property
-    def get_body(self):
+    def body(self):
         return self.body
     
     @property
-    def get_romaji(self):
+    def romaji(self):
         return self.romaji
 
     @property
-    def get_group_num(self):
+    def group_num(self):
         return self.group_num
     
     @property
