@@ -1,3 +1,4 @@
+import json
 from django.shortcuts import render
 from particles.models import Particle
 from app.scripts.reference import jref
@@ -23,4 +24,4 @@ def partInfo(request, id):
     json_data = part.to_dict
     json_data["body"] = jref(part.body)
 
-    return JsonResponse(json_data)
+    return JsonResponse(json_data, safe=False)

@@ -27,7 +27,7 @@ class KanjiBody(models.Model):
         db_table = 'kanji_bodies'
 
     def get_id(self):
-        return self.id
+        return self.pk
 
     def get_body(self):
         return self.body
@@ -63,7 +63,7 @@ class KanjiDefinition(models.Model):
         db_table = 'kanji_definitions'
 
     def get_id(self):
-        return self.id
+        return self.pk
     
     def get_kanji(self):
         return self.kanji
@@ -98,7 +98,7 @@ class KanjiPronunciation(models.Model):
         db_table = 'kanji_pronounciations'
 
     def get_id(self):
-        return self.id
+        return self.pk
     
     def get_kanji(self):
         return self.kanji
@@ -132,7 +132,7 @@ class KanjiComprised(models.Model):
         db_table = 'kanji_comprised'
 
     def get_id(self):
-        return self.id
+        return self.pk
     
     def get_kanji(self):
         return self.kanji

@@ -12,7 +12,7 @@ class Hiragana(models.Model):
         return self.symbol + " (" + self.romaji + ")"
     
     def get_id(self):
-        return self.id
+        return self.pk
     
     def get_romaji(self):
         return self.romaji
@@ -29,7 +29,7 @@ class Hiragana(models.Model):
     @property
     def to_dict(self):
         obj = {}
-        obj["id"] = self.get_id
+        obj["id"] = self.pk
         obj["cat"] = "gana"
         obj["body"] = self.body
         obj["rom"] = self.romaji
@@ -47,7 +47,7 @@ class Katakana(models.Model):
         return self.symbol + " (" + self.romaji + ")"
     
     def get_id(self):
-        return self.id
+        return self.pk
     
     def get_romaji(self):
         return self.romaji
@@ -64,7 +64,7 @@ class Katakana(models.Model):
     @property
     def to_dict(self):
         obj = {}
-        obj["id"] = self.get_id
+        obj["id"] = self.pk
         obj["cat"] = "kana"
         obj["body"] = self.body
         obj["rom"] = self.romaji
