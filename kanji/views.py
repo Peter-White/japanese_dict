@@ -52,7 +52,7 @@ def kanji_post(request):
         new_kan = KanjiBody(body=body, strokes=strokes)
         new_kan.save()
 
-        return HttpResponse(new_kan.get_body + " posted")
+        return HttpResponse(new_kan.get_body() + " posted")
     else:
         return HttpResponse("Not Valid")
 
