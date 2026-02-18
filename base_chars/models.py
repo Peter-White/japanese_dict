@@ -11,21 +11,20 @@ class Hiragana(models.Model):
     def __str__(self):
         return self.symbol + " (" + self.romaji + ")"
     
-    @property
-    def id(self):
-        return self.pk
+    def get_id(self):
+        return self.id
     
-    @property
-    def body(self):
-        return self.body
-    
-    @property
-    def romaji(self):
+    def get_romaji(self):
         return self.romaji
 
-    @property
-    def group_num(self):
+    def get_group_num(self):
         return self.group_num
+    
+    def get_body(self):
+        return self.body
+ 
+    def set_body(self, body):
+        self.body = body
     
     @property
     def to_dict(self):
@@ -47,21 +46,20 @@ class Katakana(models.Model):
     def __str__(self):
         return self.symbol + " (" + self.romaji + ")"
     
-    @property
-    def id(self):
-        return self.pk
-
-    @property
-    def body(self):
-        return self.body
+    def get_id(self):
+        return self.id
     
-    @property
-    def romaji(self):
+    def get_romaji(self):
         return self.romaji
 
-    @property
-    def group_num(self):
+    def get_group_num(self):
         return self.group_num
+    
+    def get_body(self):
+        return self.body
+ 
+    def set_body(self, body):
+        self.body = body
     
     @property
     def to_dict(self):

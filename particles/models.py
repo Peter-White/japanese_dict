@@ -12,41 +12,32 @@ class Particle(models.Model):
     def __str__(self):
         return self.gana_ref + " (" + self.romaji + ")"
 
-    @property
-    def id(self):
-        return self.pk
-    
-    @property
-    def body(self):
-        return self.body
-    
-    @body.setter
-    def body(self, body):
-        self.body = body
-    
-    @property
-    def romaji(self):
+    def get_id(self):
+        return self.id
+
+    def get_romaji(self):
         return self.romaji
-    
-    @romaji.setter
-    def romaji(self, romaji):
+
+    def set_romaji(self, romaji):
         self.romaji = romaji
-    
-    @property
-    def use(self):
+
+    def get_use(self):
         return self.use
-    
-    @use.setter
-    def use(self, use):
+
+    def set_use(self, use):
         self.use = use
-    
-    @property
-    def description(self):
+
+    def get_description(self):
         return self.description
-    
-    @property
-    def description(self, description):
+
+    def set_description(self, description):
         self.description = description
+
+    def get_body(self):
+        return self.body
+ 
+    def set_body(self, body):
+        self.body = body
     
     @property
     def to_dict(self):
