@@ -55,26 +55,42 @@ def kanji_post(request):
         return HttpResponse(new_kan.get_body() + " posted")
     else:
         return HttpResponse("Not Valid")
+    
+def kanji_delete(id):
+    kan_bod = KanjiBody.objects.get(id=id)
+
+    kan_bod_id = kan_bod.get_id()
+    kan_pron = KanjiPronunciation.objects.all().filter(kanji=kan_bod_id)
+    kan_def = KanjiDefinition.objects.all().filter(kanji=kan_bod_id)
+    kan_com = KanjiComprised.objects.all().filter(kanji=kan_bod_id)
+
+    kan_pron.delete()
+    kan_def.delete()
+    kan_com.delete()
+
+    kan_bod.delete()
 
 @csrf_exempt
 def kanji_handler_id(request, id):
-    if (request.method == 'GET'):
-        return JsonResponse(kanji_info(id))
-    elif (request.method == 'POST'):
-        kan_bod = KanjiBody.objects.get(id=id)
+    try:
+        if (request.method == 'GET'):
+            return JsonResponse(kanji_info(id))
+        elif (request.method == 'POST'):
+            kan_bod = KanjiBody.objects.get(id=id)
 
-        if "body" in request.POST:
-            kan_bod.set_body(request.POST["body"])
-        
-        if "strokes" in request.POST:
-            kan_bod.set_strokes(request.POST["strokes"])
+            if "body" in request.POST:
+                kan_bod.set_body(request.POST["body"])
+            
+            if "strokes" in request.POST:
+                kan_bod.set_strokes(request.POST["strokes"])
 
-        kan_bod.save()
-        return HttpResponse("Updated")
-    elif (request.method == 'DELETE'):
-        kan_bod = KanjiBody.objects.get(id=id)
-        kan_bod.delete()
-    else:
+            kan_bod.save()
+            return HttpResponse("Updated")
+        elif (request.method == 'DELETE'):
+            kanji_delete(id)
+        else:
+            return HttpResponse("Not Valid")
+    except:
         return HttpResponse("Not Valid")
     
 # @csrf_exempt

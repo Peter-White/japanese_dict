@@ -84,7 +84,6 @@ class KanjiDefinition(models.Model):
     def to_dict(self):
         obj = {}
         obj["id"] = self.pk
-        obj["kanji"] = self.kanji
         obj["lang"] = self.lang
         obj["body"] = self.body
         return obj
@@ -119,7 +118,6 @@ class KanjiPronunciation(models.Model):
     def to_dict(self):
         obj = {}
         obj["id"] = self.pk
-        obj["kanji"] = self.kanji
         obj["type"] = self.type
         obj["body"] = self.body
         return obj
@@ -144,6 +142,6 @@ class KanjiComprised(models.Model):
     def to_dict(self):
         obj = {}
         obj["id"] = self.pk
-        obj["kanji"] = self.kanji
+        obj["kanji"] = self.kanji.get_id()
         obj["body"] = self.body
         return obj
