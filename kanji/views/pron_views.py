@@ -31,15 +31,13 @@ def pron_post(request, id):
         new_pron = KanjiPronunciation(body=body, kanji=kanji, type=type)
         new_pron.save()
 
-        return HttpResponse(new_pron.get_kanji() + " pron posted")
+        return HttpResponse(new_pron.get_kanji().get_body() + " pron posted")
     except:
         return HttpResponse("Error")
 
 
 def pron_delete(id):
         pron = KanjiPronunciation.objects.get(id=id)
-        kan = pron.get_kanji()
-        
         pron.delete()
     
 @csrf_exempt

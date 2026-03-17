@@ -48,7 +48,7 @@ class KanjiBody(models.Model):
         obj["cat"] = "kanji"
         obj["body"] = self.body
         obj["strokes"] = self.strokes
-        obj["defs"] = []
+        obj["defts"] = []
         obj["prons"] = []
         obj["com"] = []
         return obj
@@ -137,11 +137,3 @@ class KanjiComprised(models.Model):
     
     def get_body(self):
         return self.body
-
-    @property
-    def to_dict(self):
-        obj = {}
-        obj["id"] = self.pk
-        obj["kanji"] = self.kanji.get_id()
-        obj["body"] = self.body
-        return obj

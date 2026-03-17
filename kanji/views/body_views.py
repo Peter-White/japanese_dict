@@ -26,7 +26,7 @@ def kanji_info(id):
     json_data["prons"] = prop_populate(kan_pron)
     
     kan_def = KanjiDefinition.objects.all().filter(kanji=kan_bod_id)
-    json_data["defs"] = prop_populate(kan_def)
+    json_data["defts"] = prop_populate(kan_def)
 
     kan_com = KanjiComprised.objects.all().filter(kanji=kan_bod_id)
     json_data["com"] = prop_populate(kan_com)
