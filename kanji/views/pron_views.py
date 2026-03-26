@@ -8,6 +8,7 @@ from django.core import serializers
 def pron_info(id):
     pron = KanjiPronunciation.objects.get(id=id)
     json_data = pron.to_dict
+    json_data["body"] = jref(json_data["body"])
 
     return json_data
 
@@ -17,7 +18,10 @@ def pron_list(request, id):
     json_list = []
 
     for pron in pron_list:
-        json_list.append(pron.to_dict)
+        json_data = pron.to_dict
+        json_data["body"] = jref(json_data["body"])
+        
+        json_list.append(json_data)
 
     return JsonResponse(json_list, safe=False)
 
@@ -41,12 +45,13 @@ def pron_delete(id):
         pron.delete()
     
 @csrf_exempt
-def pron_handler(request, id):
+def pron_handler(request, id, pron_id):
     try:
+        kan_bod = KanjiBody.objects.get(id=id)
         if (request.method == 'GET'):
-            return JsonResponse(pron_info(id))
+            return JsonResponse(pron_info(pron_id))
         elif (request.method == 'POST'):
-            kan_pron = KanjiPronunciation.objects.get(id=id)
+            kan_pron = KanjiPronunciation.objects.get(id=pron_id)
 
             if "kanji" in request.POST:
                 kan_pron.set_body(request.POST["kanji"])
@@ -57,8 +62,8 @@ def pron_handler(request, id):
             kan_pron.save()
             return HttpResponse("Updated")
         elif (request.method == 'DELETE'):
-            pron_delete(id)
-            return HttpResponse(id + " pron delete")
+            pron_delete(pron_id)
+            return HttpResponse(kan_bod.get_body() + " pron delete")
         else:
             return HttpResponse("Not Valid")
     except:

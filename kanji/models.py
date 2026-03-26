@@ -55,8 +55,8 @@ class KanjiBody(models.Model):
 
 class KanjiDefinition(models.Model):
     kanji = models.ForeignKey(KanjiBody, verbose_name=("Definition"), on_delete=models.CASCADE, null=True)
-    type = models.CharField(max_length=1, choices=DEFINITION_TYPES)
-    lang = models.CharField(max_length=2, choices=DEFINITION_LANGS)
+    type = models.CharField(max_length=1, choices=DEFINITION_TYPES, default="N")
+    lang = models.CharField(max_length=2, choices=DEFINITION_LANGS, default="EN")
     body = models.TextField()
 
     class Meta:
@@ -67,6 +67,12 @@ class KanjiDefinition(models.Model):
     
     def get_kanji(self):
         return self.kanji
+    
+    def get_type(self):
+        return self.type
+
+    def set_type(self, type):
+        self.type = type
     
     def get_lang(self):
         return self.lang
@@ -85,12 +91,13 @@ class KanjiDefinition(models.Model):
         obj = {}
         obj["id"] = self.pk
         obj["lang"] = self.lang
+        obj["type"] = self.type
         obj["body"] = self.body
         return obj
 
 class KanjiPronunciation(models.Model):
     kanji = models.ForeignKey(KanjiBody, verbose_name=("Pronunciation"), on_delete=models.CASCADE, null=True)
-    type = models.CharField(max_length=1, choices=PRONUNCIATION_TYPES)
+    type = models.CharField(max_length=1, choices=PRONUNCIATION_TYPES, default="O")
     body = models.TextField()
 
     class Meta:
@@ -137,3 +144,11 @@ class KanjiComprised(models.Model):
     
     def get_body(self):
         return self.body
+    
+    @property
+    def to_dict(self):
+        obj = {}
+        obj["id"] = self.pk
+        obj["com_id"] = self.body.get_id()
+        obj["body"] = self.body.get_body()
+        return obj

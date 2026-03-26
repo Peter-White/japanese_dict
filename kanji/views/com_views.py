@@ -25,12 +25,12 @@ def com_list(request, id):
 def com_post(request, id):
     try:
         kanji = KanjiBody.objects.get(id=id)
-        body = request.POST["body"]
+        body = KanjiBody.objects.get(id=request.POST["body"])
 
         new_com = KanjiComprised(body=body, kanji=kanji)
         new_com.save()
 
-        return HttpResponse(new_com.get_kanji() + " com posted")
+        return HttpResponse(kanji.get_body() + " com posted")
     except:
         return HttpResponse("Error")
 
@@ -40,13 +40,13 @@ def deft_delete(id):
         com.delete()
 
 @csrf_exempt
-def com_handler(request, id):
+def com_handler(request, id, com_id):
     try:
         if (request.method == 'GET'):
-            return JsonResponse(com_info(id))
+            return JsonResponse(com_info(com_id))
         elif (request.method == 'DELETE'):
-            deft_delete(id)
-            return HttpResponse(id + " com delete")
+            deft_delete(com_id)
+            return HttpResponse(com_id + " com delete")
         else:
             return HttpResponse("Not Valid")
     except:

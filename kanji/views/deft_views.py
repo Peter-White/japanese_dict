@@ -32,7 +32,7 @@ def deft_post(request, id):
         new_deft = KanjiDefinition(body=body, kanji=kanji, lang=lang, type=type)
         new_deft.save()
 
-        return HttpResponse(new_deft.get_kanji() + " deft posted")
+        return HttpResponse(new_deft.get_kanji().get_body() + " definition posted")
     except:
         return HttpResponse("Error")
 
@@ -42,12 +42,13 @@ def deft_delete(id):
         deft.delete()
     
 @csrf_exempt
-def deft_handler(request, id):
+def deft_handler(request, id, deft_id):
+    kan_bod = KanjiBody.objects.get(id=id)
     try:
         if (request.method == 'GET'):
-            return JsonResponse(deft_info(id))
+            return JsonResponse(deft_info(deft_id))
         elif (request.method == 'POST'):
-            kan_deft = KanjiDefinition.objects.get(id=id)
+            kan_deft = KanjiDefinition.objects.get(id=deft_id)
 
             if "kanji" in request.POST:
                 kan_deft.set_body(request.POST["kanji"])
@@ -58,8 +59,8 @@ def deft_handler(request, id):
             kan_deft.save()
             return HttpResponse("Updated")
         elif (request.method == 'DELETE'):
-            deft_delete(id)
-            return HttpResponse(id + " deft delete")
+            deft_delete(deft_id)
+            return HttpResponse(deft_id + " deft delete")
         else:
             return HttpResponse("Not Valid")
     except:
