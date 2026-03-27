@@ -14,6 +14,9 @@ def prop_populate(coll):
         obj["body"] = jref(obj["body"])
         json_list.append(obj)
 
+        if len(obj["body"]) == 1:
+            obj["body"] = obj["body"][0]
+
     return json_list
 
 def kanji_info(id):

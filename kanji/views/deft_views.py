@@ -60,7 +60,7 @@ def deft_handler(request, id, deft_id):
             return HttpResponse("Updated")
         elif (request.method == 'DELETE'):
             deft_delete(deft_id)
-            return HttpResponse(deft_id + " deft delete")
+            return HttpResponse(kan_bod.get_body() + " deft delete")
         else:
             return HttpResponse("Not Valid")
     except:

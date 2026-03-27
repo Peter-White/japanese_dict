@@ -42,11 +42,12 @@ def deft_delete(id):
 @csrf_exempt
 def com_handler(request, id, com_id):
     try:
+        kan_bod = KanjiBody.objects.get(id=id)
         if (request.method == 'GET'):
             return JsonResponse(com_info(com_id))
         elif (request.method == 'DELETE'):
             deft_delete(com_id)
-            return HttpResponse(com_id + " com delete")
+            return HttpResponse(kan_bod.get_body() + " com delete")
         else:
             return HttpResponse("Not Valid")
     except:
