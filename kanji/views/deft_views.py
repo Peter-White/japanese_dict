@@ -4,6 +4,7 @@ from app.scripts.reference import jref
 from django.views.decorators.csrf import csrf_exempt
 from django.http import JsonResponse
 from django.core import serializers
+from kanji.scripts.prop_scripts import order_manage
 
 def deft_info(id):
     deft = KanjiDefinition.objects.get(id=id)
