@@ -12,6 +12,21 @@ def pron_info(id):
 
     return json_data
 
+def order_manage():
+    prons = KanjiPronunciation.objects.all().filter(kanji=3).order_by("order")
+    ords = set(prons.values_list("order", flat=True))
+
+    set_match = len(ords) == len(prons)
+    numbered_corr = prons[0].get_order() == 1 and prons[len(prons)-1].get_order() == len(prons)
+
+    if not set_match or not numbered_corr:
+        for ind, val in enumerate(prons):
+            index = ind + 1
+
+            if(val.get_order() != index):
+                val.set_order(index)
+                val.save()
+
 @csrf_exempt
 def pron_list(request, id):
     pron_list = KanjiPronunciation.objects.all().filter(kanji=id)
@@ -27,6 +42,7 @@ def pron_list(request, id):
 
 @csrf_exempt
 def pron_post(request, id):
+    order_manage()
     try:
         kanji = KanjiBody.objects.get(id=id)
         type = request.POST["type"]
@@ -68,3 +84,21 @@ def pron_handler(request, id, pron_id):
             return HttpResponse("Not Valid")
     except:
         return HttpResponse("Error")
+
+@csrf_exempt
+def test(request):
+    prons = KanjiPronunciation.objects.all().filter(kanji=3).order_by("order")
+    riont = set(prons.values_list("order", flat=True))
+
+    set_match = len(riont) == len(prons)
+    numbered_corr = prons[0].get_order() == 1 and prons[len(prons)-1].get_order() == len(prons)
+
+    if not set_match or not numbered_corr:
+        for ind, val in enumerate(prons):
+            index = ind + 1
+
+            if(val.get_order() != index):
+                val.set_order(index)
+                val.save()
+
+    return HttpResponse("Test")

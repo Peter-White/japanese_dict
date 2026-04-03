@@ -17,5 +17,6 @@ urlpatterns = [
     path("/<int:id>/deft/<int:deft_id>", deft_views.deft_handler, name="Kanji Definitions Info / Delete / Update"),
     path("/<int:id>/com", com_views.com_post, name="Post Kanji Comprised"),
     path("/<int:id>/com/", com_views.com_list, name="List Kanji Comprised"),
-    path("/<int:id>/com/<int:com_id>", com_views.com_handler, name="Kanji Comprised Info / Delete / Update")
+    path("/<int:id>/com/<int:com_id>", com_views.com_handler, name="Kanji Comprised Info / Delete / Update"),
+    path("/test", pron_views.test, name="Delete Soon")
 ]

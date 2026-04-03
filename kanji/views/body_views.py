@@ -95,7 +95,3 @@ def kanji_handler_id(request, id):
             return HttpResponse("Not Valid")
     except:
         return HttpResponse("Not Valid")
-    
-# @csrf_exempt
-# def pron_post_update(request):
-#     if (request.method == 'POST'):
