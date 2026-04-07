@@ -30,6 +30,8 @@ def deft_post(request, id):
         body = request.POST["body"]
         lang = request.POST["lang"]
 
+        order_manage(KanjiDefinition, id)
+
         new_deft = KanjiDefinition(body=body, kanji=kanji, lang=lang, type=type)
         new_deft.save()
 

@@ -1,6 +1,7 @@
 from django.test import TestCase
 from kanji.models import KanjiBody, KanjiComprised, KanjiDefinition, KanjiPronunciation
 from app.scripts.reference import jref
+from kanji.scripts.prop_scripts import order_manage
 
 # Create your tests here.
 class KanjiBodyTest(TestCase):

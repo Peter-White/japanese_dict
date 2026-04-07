@@ -4,6 +4,7 @@ from app.scripts.reference import jref
 from django.views.decorators.csrf import csrf_exempt
 from django.http import JsonResponse
 from django.core import serializers
+from kanji.scripts.prop_scripts import order_manage
 
 def pron_info(id):
     pron = KanjiPronunciation.objects.get(id=id)
@@ -11,21 +12,6 @@ def pron_info(id):
     json_data["body"] = jref(json_data["body"])
 
     return json_data
-
-def order_manage():
-    prons = KanjiPronunciation.objects.all().filter(kanji=3).order_by("order")
-    ords = set(prons.values_list("order", flat=True))
-
-    set_match = len(ords) == len(prons)
-    numbered_corr = prons[0].get_order() == 1 and prons[len(prons)-1].get_order() == len(prons)
-
-    if not set_match or not numbered_corr:
-        for ind, val in enumerate(prons):
-            index = ind + 1
-
-            if(val.get_order() != index):
-                val.set_order(index)
-                val.save()
 
 @csrf_exempt
 def pron_list(request, id):
@@ -42,13 +28,16 @@ def pron_list(request, id):
 
 @csrf_exempt
 def pron_post(request, id):
-    order_manage()
     try:
         kanji = KanjiBody.objects.get(id=id)
         type = request.POST["type"]
         body = request.POST["body"]
 
-        new_pron = KanjiPronunciation(body=body, kanji=kanji, type=type)
+        prons = KanjiPronunciation.objects.all().filter(kanji=kanji).order_by("order")
+
+        order_manage(prons, id)
+
+        new_pron = KanjiPronunciation(body=body, order=len(prons)+1, kanji=kanji, type=type)
         new_pron.save()
 
         return HttpResponse(new_pron.get_kanji().get_body() + " pron posted")

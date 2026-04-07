@@ -4,6 +4,7 @@ from app.scripts.reference import jref
 from django.views.decorators.csrf import csrf_exempt
 from django.http import JsonResponse
 from django.core import serializers
+from kanji.scripts.prop_scripts import order_manage
 
 def com_info(id):
     com_id = KanjiComprised.objects.get(id=id).get_body()
@@ -26,6 +27,8 @@ def com_post(request, id):
     try:
         kanji = KanjiBody.objects.get(id=id)
         body = KanjiBody.objects.get(id=request.POST["body"])
+
+        order_manage(KanjiComprised, id);
 
         new_com = KanjiComprised(body=body, kanji=kanji)
         new_com.save()
