@@ -44,15 +44,18 @@ def ref_fetch(ref):
             return "Error: Invalid category"
 
 def jref(strg):
-    regSpl = ref_fetch_split(strg)
-    jref_arr = []
+    try:
+        regSpl = ref_fetch_split(strg)
+        jref_arr = []
 
-    for ind in range(len(regSpl)):
-        if regSpl[ind] == '':
-            continue
-        elif ref_fetch_reg(regSpl[ind]) != None:
-            jref_arr.append(ref_fetch(regSpl[ind]))
-        else:
-            jref_arr.append(regSpl[ind])
+        for ind in range(len(regSpl)):
+            if regSpl[ind] == '':
+                continue
+            elif ref_fetch_reg(regSpl[ind]) != None:
+                jref_arr.append(ref_fetch(regSpl[ind]))
+            else:
+                jref_arr.append(regSpl[ind])
 
-    return jref_arr
+        return jref_arr
+    except:
+        return None

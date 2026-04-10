@@ -1,13 +1,13 @@
 from django.test import TestCase
-from scripts.reference import jref
-
-# Create your tests here.
-class AppTest(TestCase):
-    def test(self):
-        self.assertTrue(True)
+from app.scripts.reference import jref
 
 class JrefTest(TestCase):
-    def ref_string_to_jp_test(self):
+    def test_string_to_jp_test(self):
         aRef = jref("{h1}")
 
         self.assertEqual(aRef[0]["body"], "あ")
+
+    def test_ref_failure_to_convert(self):
+        aRef = jref("h1")
+
+        self.assertEqual(aRef, None)
