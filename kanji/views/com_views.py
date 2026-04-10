@@ -28,9 +28,11 @@ def com_post(request, id):
         kanji = KanjiBody.objects.get(id=id)
         body = KanjiBody.objects.get(id=request.POST["body"])
 
-        order_manage(KanjiComprised, id);
+        coms = KanjiComprised.objects.all().filter(kanji=kanji).order_by("order")
 
-        new_com = KanjiComprised(body=body, kanji=kanji)
+        order_manage(coms, id);
+
+        new_com = KanjiComprised(body=body, kanji=kanji, order=len(coms)+1)
         new_com.save()
 
         return HttpResponse(kanji.get_body() + " com posted")

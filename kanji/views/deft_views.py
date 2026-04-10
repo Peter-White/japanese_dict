@@ -30,9 +30,11 @@ def deft_post(request, id):
         body = request.POST["body"]
         lang = request.POST["lang"]
 
-        order_manage(KanjiDefinition, id)
+        defts = KanjiDefinition.objects.all().filter(kanji=kanji).order_by("order")
 
-        new_deft = KanjiDefinition(body=body, kanji=kanji, lang=lang, type=type)
+        order_manage(defts, id)
+
+        new_deft = KanjiDefinition(body=body, kanji=kanji, lang=lang, type=type, order=len(defts)+1)
         new_deft.save()
 
         return HttpResponse(new_deft.get_kanji().get_body() + " definition posted")
