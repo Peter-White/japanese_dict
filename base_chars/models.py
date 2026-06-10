@@ -30,7 +30,7 @@ class Hiragana(models.Model):
     def to_dict(self):
         obj = {}
         obj["id"] = self.pk
-        obj["cat"] = "gana"
+        obj["cat"] = "hiragana"
         obj["body"] = self.body
         obj["rom"] = self.romaji
         return obj
@@ -65,7 +65,7 @@ class Katakana(models.Model):
     def to_dict(self):
         obj = {}
         obj["id"] = self.pk
-        obj["cat"] = "kana"
+        obj["cat"] = "katakana"
         obj["body"] = self.body
         obj["rom"] = self.romaji
         return obj
