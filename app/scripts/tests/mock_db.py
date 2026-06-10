@@ -1,8 +1,8 @@
 import json
 from base_chars.models import Hiragana, Katakana
 
-g_path = "../../base_chars/init_data/gana_data.json"
-k_path = "../../base_chars/init_data/kana_data.json"
+g_path = "base_chars/init_data/gana_data.json"
+k_path = "base_chars/init_data/kana_data.json"
 
 def populate_gana():
     with open(g_path, 'r+') as json_file:
