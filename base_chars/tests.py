@@ -19,7 +19,9 @@ class HiraganaKatakanaTestCase(TestCase):
 
     def test_grab_gana(self):
         gana = Hiragana.objects.get(id=1)
-        self.assertEqual(gana.get_body, "あ")
+        sym = gana.get_body()
+
+        self.assertEqual(sym, "あ")
     
     def test_group_num(self):
         kanaList = Hiragana.objects.all().filter(group_num=1)
@@ -31,8 +33,8 @@ class HiraganaKatakanaTestCase(TestCase):
         o = Katakana.objects.get(body="オ")
 
         name = ""
-        name += ma.get_romaji
-        name += ri.get_romaji
-        name += o.get_romaji
+        name += ma.get_romaji()
+        name += ri.get_romaji()
+        name += o.get_romaji()
 
         self.assertEqual(name, "mario")
