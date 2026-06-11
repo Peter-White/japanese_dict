@@ -12,10 +12,16 @@ class JrefTest(TestCase):
 
         self.assertEqual(test, "あ")
 
-    # def test_jp_num_seperation(self):
-    #     word = jref("21{CAT:hiragana|ID:12}{CAT:hiragana|ID:70}")
+    def test_jp_num_seperation(self):
+        struct = jref("21{CAT:hiragana|ID:12}{CAT:hiragana|ID:70}")
 
-    #     self.assertEqual(True)
+        num = struct[0]
+        h1 = struct[1]['body']
+        h2 = struct[2]['body']
+
+        self.assertEqual(num, "21")
+        self.assertEqual(h1, 'け')
+        self.assertEqual(h2, 'ぬ')
 
     # def test_ref_failure_to_convert(self):
     #     aRef = jref("h1")
