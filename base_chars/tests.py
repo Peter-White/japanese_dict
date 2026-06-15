@@ -1,9 +1,7 @@
 from django.test import TestCase
-import json
 from app.scripts.tests import mock_db
 from base_chars.models import Katakana, Hiragana
 
-# Create your tests here.
 class HiraganaKatakanaTestCase(TestCase):
     def setUp(self):
         mock_db.populate_gana()

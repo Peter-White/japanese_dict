@@ -12,6 +12,12 @@ class JrefTest(TestCase):
 
         self.assertEqual(test, "あ")
 
+    def test_string_to_jp_test2(self):
+        aRef = jref("{CAT:hiragana|ID:76}")
+        test = aRef[0]["body"]
+
+        self.assertEqual(test, 'は')
+
     def test_jp_num_seperation(self):
         struct = jref("21{CAT:hiragana|ID:12}{CAT:hiragana|ID:70}")
 

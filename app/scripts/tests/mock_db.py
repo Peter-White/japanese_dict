@@ -1,8 +1,10 @@
 import json
 from base_chars.models import Hiragana, Katakana
+from particles.models import Particle
 
 g_path = "base_chars/init_data/gana_data.json"
 k_path = "base_chars/init_data/kana_data.json"
+p_path = "particles/init_data/particle_data.json"
 
 def populate_gana():
     with open(g_path, 'r+') as json_file:
@@ -26,4 +28,14 @@ def populate_kana():
         
             Katakana.objects.create(group_num=group_num, romaji=romaji, body=body)
 
-            
+def populate_particles():
+    with open(p_path, 'r+') as json_file:
+        dict_formatted_data = json.load(json_file)
+
+        for part in dict_formatted_data:
+            romaji=part["fields"]["romaji"]
+            use=part["fields"]["use"]
+            body=part["fields"]["body"]
+            description=part["fields"]["description"]
+
+            Particle.objects.create(romaji=romaji, use=use, body=body, description=description)
