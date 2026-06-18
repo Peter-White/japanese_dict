@@ -2,6 +2,7 @@ from django.test import TestCase
 from kanji.models import KanjiBody, KanjiComprised, KanjiDefinition, KanjiPronunciation
 from app.scripts.reference import jref
 from kanji.scripts.prop_scripts import order_manage
+from app.scripts.tests import mock_db
 
 # Create your tests here.
 class KanjiBodyTest(TestCase):
@@ -24,3 +25,13 @@ class KanjiBodyTest(TestCase):
         ni = KanjiBody.objects.get(body = "日")
 
         self.assertEqual(ni.get_body(), "日")
+
+    def test_kanji_comprised(self):
+        hon_test = KanjiComprised.objects.all().filter(kanji=2)
+
+        body = hon_test[0].get_body()
+        kanji = hon_test[0].get_kanji()
+
+        test = body.get_body() == "一" and kanji.get_body() == "本"
+
+        self.assertTrue(test)
