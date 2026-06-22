@@ -51,4 +51,4 @@ class KanjiBodyTest(TestCase):
 
         ref = jref(pron.get_body())
 
-        self.assertTrue(True)
+        self.assertTrue(ref[0]["body"] + ref[1]["body"], "ichi")
