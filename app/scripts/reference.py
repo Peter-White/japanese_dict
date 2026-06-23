@@ -42,8 +42,7 @@ def ref_fetch(ref):
 
     match(ref_cat):
         case "hiragana":
-            gana = Hiragana.objects.get(id=ref_id)
-            return gana.to_dict
+            return Hiragana.objects.get(id=ref_id).to_dict
         case "katakana":
             return Katakana.objects.get(id=ref_id).to_dict
         case "particle":
@@ -60,8 +59,23 @@ def ref_fetch(ref):
             part_obj["body"] = jref_arr
 
             return part_obj
-        # case "kanji":
-            
+        case "kanji":
+            kanj_obj = KanjiBody.objects.get(id=ref_id).to_dict
+
+            if(len(ref_props) > 0):
+                for key, val in ref_props.items():
+
+                    match(key):
+                        case "PRON":
+                            kanj_obj["prons"] += val
+                        case "DEFT":
+                            kanj_obj["defts"] += val
+                        case "COM":
+                            kanj_obj["com"] += val
+                        case _:
+                            continue
+
+            return kanj_obj
         # case "word":
         #     return ref_fetch_word(id)
         case _:
@@ -83,5 +97,8 @@ def jref(strg):
             jref_arr.append(ref_fetch(refProps))
         else:
             jref_arr.append(body)
+
+    if(len(jref_arr) == 1):
+        return jref_arr[0]
 
     return jref_arr

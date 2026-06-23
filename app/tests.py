@@ -8,13 +8,13 @@ class JrefTest(TestCase):
 
     def test_string_to_jp_test(self):
         aRef = jref("{CAT:hiragana|ID:1}")
-        test = aRef[0]["body"]
+        test = aRef["body"]
 
         self.assertEqual(test, "あ")
 
     def test_string_to_jp_test2(self):
         aRef = jref("{CAT:hiragana|ID:76}")
-        test = aRef[0]["body"]
+        test = aRef["body"]
 
         self.assertEqual(test, 'は')
 

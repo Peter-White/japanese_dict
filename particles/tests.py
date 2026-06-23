@@ -22,7 +22,7 @@ class ParticleTestCase(TestCase):
     def test_grab_part_ref(self):
         part = Particle.objects.get(id=1)
         ref = jref(part.get_body())
-        part.set_body(ref[0])
+        part.set_body(ref)
         part = part.to_dict
 
         self.assertEqual(part["body"]["body"], "は")

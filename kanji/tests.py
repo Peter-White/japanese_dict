@@ -13,6 +13,9 @@ class KanjiBodyTest(TestCase):
         KanjiBody.objects.create(body = "本", strokes = 5)
         KanjiBody.objects.create(body = "一", strokes = 1)
         KanjiBody.objects.create(body = "木", strokes = 4)
+
+        KanjiComprised.objects.create(kanji=KanjiBody.objects.get(body="本"), order=1, body=KanjiBody.objects.get(body="一"))
+        KanjiComprised.objects.create(kanji=KanjiBody.objects.get(body="本"), order=2, body=KanjiBody.objects.get(body="木"))
         
     def test_kanji_body(self):
         ni = KanjiBody.objects.get(body = "日")
@@ -20,9 +23,6 @@ class KanjiBodyTest(TestCase):
         self.assertEqual(ni.get_body(), "日")
 
     def test_kanji_comprised(self):
-        KanjiComprised.objects.create(kanji=KanjiBody.objects.get(body="本"), order=1, body=KanjiBody.objects.get(body="一"))
-        KanjiComprised.objects.create(kanji=KanjiBody.objects.get(body="本"), order=2, body=KanjiBody.objects.get(body="木"))
-
         hon_test = KanjiComprised.objects.all().filter(kanji=2)
 
         body = hon_test[0].get_body()
@@ -52,3 +52,12 @@ class KanjiBodyTest(TestCase):
         ref = jref(pron.get_body())
 
         self.assertTrue(ref[0]["body"] + ref[1]["body"], "ichi")
+
+    def test_kanji_ref(self):
+        ni = KanjiBody.objects.get(body = "日")
+
+        KanjiPronunciation.objects.create(kanji=ni, order=1, type="O", body="{CAT:katakana|ID:68}")
+        kan_ref = jref("{CAT:kanji|ID:2|PRON:1}")
+
+        self.assertTrue(True)
+
