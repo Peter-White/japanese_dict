@@ -57,7 +57,8 @@ class KanjiBodyTest(TestCase):
         ni = KanjiBody.objects.get(body = "日")
 
         KanjiPronunciation.objects.create(kanji=ni, order=1, type="O", body="{CAT:katakana|ID:68}")
-        kan_ref = jref("{CAT:kanji|ID:2|PRON:1}")
+        kan_ref = jref("{CAT:kanji|ID:1|PRON:1}")
 
-        self.assertTrue(True)
+        self.assertEqual(kan_ref["body"], "日")
+        self.assertEqual(kan_ref["prons"][0]["body"], "ニ")
 

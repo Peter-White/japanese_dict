@@ -9,12 +9,16 @@ def ref_fetch_split(strg):
 
 def ref_fetch_reg(ref):
     reg = re.findall(r'\{([^{}]*)\}', ref)
-    return reg
+
+    if len(reg) != 0:
+        return reg[0]
+    else:
+        return None
 
 def ref_fetch(ref):
     regex_pattern_prop = r'([^:|]+):([^|]+)'
 
-    prop_tuples = re.findall(regex_pattern_prop, ref[0])
+    prop_tuples = re.findall(regex_pattern_prop, ref)
     
     ref_cat = ""
     ref_id = -1
@@ -53,8 +57,8 @@ def ref_fetch(ref):
 
             for ind in range(len(regSpl)):
                 if ref_fetch_reg(regSpl[ind]) != None:
-                    gana = ref_fetch(regSpl[ind])
-                    jref_arr.append(gana)
+                    base_obj = ref_fetch(regSpl[ind])
+                    jref_arr.append(base_obj)
             
             part_obj["body"] = jref_arr
 
@@ -63,17 +67,29 @@ def ref_fetch(ref):
             kanj_obj = KanjiBody.objects.get(id=ref_id).to_dict
 
             if(len(ref_props) > 0):
-                for key, val in ref_props.items():
+                for key, arr in ref_props.items():
 
                     match(key):
                         case "PRON":
-                            kanj_obj["prons"] += val
-                        case "DEFT":
-                            kanj_obj["defts"] += val
-                        case "COM":
-                            kanj_obj["com"] += val
+                            for i, id in enumerate(arr):
+                                pron_obj = KanjiPronunciation.objects.get(id=id).to_dict
+
+                                regSpl = ref_fetch_split(pron_obj["body"])
+                                jref_arr = []
+
+                                for ind in range(len(regSpl)):
+                                    refProps = ref_fetch_reg(regSpl[ind])
+                                    if refProps != None:
+                                        base_obj = ref_fetch(refProps)
+                                        jref_arr.append(base_obj)
+
+                                kanj_obj["prons"] += jref_arr
+                        # case "DEFT":
+                        #     kanj_obj["defts"] = kanji_prop_get(KanjiDefinition, val)
+                        # case "COM":
+                        #     kanj_obj["coms"] = kanji_prop_get(KanjiComprised, val)
                         case _:
-                            continue
+                            return None
 
             return kanj_obj
         # case "word":
@@ -92,7 +108,7 @@ def jref(strg):
 
         refProps = ref_fetch_reg(body)
 
-        if len(refProps) != 0:
+        if refProps != None:
             prop = ref_fetch(refProps)
             jref_arr.append(ref_fetch(refProps))
         else:
