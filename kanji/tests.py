@@ -53,10 +53,11 @@ class KanjiBodyTest(TestCase):
 
         self.assertTrue(ref[0]["body"] + ref[1]["body"], "ichi")
 
-    def test_kanji_ref(self):
-        ni = KanjiBody.objects.get(body = "日")
+    def test_kanji_prop_ref(self):
+        hon = KanjiBody.objects.get(body = "本")
 
-        KanjiPronunciation.objects.create(kanji=ni, order=1, type="O", body="{CAT:katakana|ID:68}")
+        KanjiPronunciation.objects.create(kanji=hon, order=1, type="O", body="{CAT:katakana|ID:84}{CAT:katakana|ID:135}")
+        KanjiDefinition.objects.create(kanji=hon, order=1, body="book")
         kan_ref = jref("{CAT:kanji|ID:1|PRON:1}")
 
         self.assertEqual(kan_ref["body"], "日")

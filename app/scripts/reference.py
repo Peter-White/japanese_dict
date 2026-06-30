@@ -16,9 +16,11 @@ def ref_fetch_reg(ref):
         return None
 
 def ref_fetch(ref):
+    refProps = ref_fetch_reg(ref)
+
     regex_pattern_prop = r'([^:|]+):([^|]+)'
 
-    prop_tuples = re.findall(regex_pattern_prop, ref)
+    prop_tuples = re.findall(regex_pattern_prop, refProps)
     
     ref_cat = ""
     ref_id = -1
@@ -78,9 +80,8 @@ def ref_fetch(ref):
                                 jref_arr = []
 
                                 for ind in range(len(regSpl)):
-                                    refProps = ref_fetch_reg(regSpl[ind])
-                                    if refProps != None:
-                                        base_obj = ref_fetch(refProps)
+                                    if ref_fetch_reg(regSpl[ind]) != None:
+                                        base_obj = ref_fetch(regSpl[ind])
                                         jref_arr.append(base_obj)
 
                                 kanj_obj["prons"] += jref_arr
@@ -106,11 +107,9 @@ def jref(strg):
         if body == '':
             continue
 
-        refProps = ref_fetch_reg(body)
-
-        if refProps != None:
-            prop = ref_fetch(refProps)
-            jref_arr.append(ref_fetch(refProps))
+        if ref_fetch_reg(body) != None:
+            prop = ref_fetch(body)
+            jref_arr.append(prop)
         else:
             jref_arr.append(body)
 
