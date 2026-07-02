@@ -82,13 +82,12 @@ def ref_fetch(ref):
                                 for ind in range(len(regSpl)):
                                     if ref_fetch_reg(regSpl[ind]) != None:
                                         base_obj = ref_fetch(regSpl[ind])
-                                        jref_arr.append(base_obj)
-
-                                kanj_obj["prons"] += jref_arr
-                        # case "DEFT":
-                        #     kanj_obj["defts"] = kanji_prop_get(KanjiDefinition, val)
-                        # case "COM":
-                        #     kanj_obj["coms"] = kanji_prop_get(KanjiComprised, val)
+                                        kanj_obj["prons"].append(base_obj)
+                        case "DEFT":
+                            for i, id in enumerate(arr):
+                                kanj_obj["defts"].append(KanjiDefinition.objects.get(id=id).to_dict)
+                        case "COM":
+                            kanj_obj["com"].append(KanjiComprised.objects.get(id=id).to_dict)
                         case _:
                             return None
 

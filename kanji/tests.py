@@ -58,8 +58,13 @@ class KanjiBodyTest(TestCase):
 
         KanjiPronunciation.objects.create(kanji=hon, order=1, type="O", body="{CAT:katakana|ID:84}{CAT:katakana|ID:135}")
         KanjiDefinition.objects.create(kanji=hon, order=1, body="book")
-        kan_ref = jref("{CAT:kanji|ID:1|PRON:1}")
+        kan_ref = jref("{CAT:kanji|ID:2|PRON:1|COM:1}")
 
-        self.assertEqual(kan_ref["body"], "日")
-        self.assertEqual(kan_ref["prons"][0]["body"], "ニ")
+        bod = kan_ref["body"]
+        self.assertEqual(bod, "本")
 
+        pron = kan_ref["prons"][0]["body"] + kan_ref["prons"][1]["body"]
+        self.assertEqual(pron, "ホン")
+
+        com = kan_ref["com"][0]
+        self.assertEqual(com["body"], "一")
