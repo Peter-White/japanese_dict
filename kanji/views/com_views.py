@@ -7,7 +7,7 @@ from django.core import serializers
 from kanji.scripts.prop_scripts import order_manage
 
 def com_info(id):
-    com_id = KanjiComprised.objects.get(id=id).get_body()
+    com_id = KanjiComprised.objects.get(id=id).get_child()
     json_data = KanjiBody.objects.get(id=com_id).to_dict
 
     return json_data

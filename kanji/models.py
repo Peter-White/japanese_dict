@@ -146,9 +146,9 @@ class KanjiPronunciation(models.Model):
         return obj
 
 class KanjiComprised(models.Model):
-    kanji = models.ForeignKey(KanjiBody, related_name="Child", on_delete=models.CASCADE, null=True)
+    child = models.ForeignKey(KanjiBody, related_name="Child", on_delete=models.CASCADE, null=True)
     order = models.IntegerField()
-    body = models.ForeignKey(KanjiBody, related_name="Parent", on_delete=models.CASCADE, null=True)
+    parent = models.ForeignKey(KanjiBody, related_name="Parent", on_delete=models.CASCADE, null=True)
 
     class Meta:
         db_table = 'kanji_comprised'
@@ -162,17 +162,17 @@ class KanjiComprised(models.Model):
     def set_order(self, order):
         self.order = order
     
-    def get_kanji(self):
-        return self.kanji
+    def get_child(self):
+        return self.child
     
-    def get_body(self):
-        return self.body
+    def get_parent(self):
+        return self.parent
     
     @property
     def to_dict(self):
         obj = {}
         obj["id"] = self.pk
         obj["order"] = self.order
-        obj["com_id"] = self.body.get_id()
-        obj["body"] = self.body.get_body()
+        obj["child_id"] = self.child.get_id()
+        obj["parent"] = self.parent.get_body()
         return obj

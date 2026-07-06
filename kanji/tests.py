@@ -14,8 +14,8 @@ class KanjiBodyTest(TestCase):
         KanjiBody.objects.create(body = "一", strokes = 1)
         KanjiBody.objects.create(body = "木", strokes = 4)
 
-        KanjiComprised.objects.create(kanji=KanjiBody.objects.get(body="本"), order=1, body=KanjiBody.objects.get(body="一"))
-        KanjiComprised.objects.create(kanji=KanjiBody.objects.get(body="本"), order=2, body=KanjiBody.objects.get(body="木"))
+        KanjiComprised.objects.create(child=KanjiBody.objects.get(body="本"), order=1, parent=KanjiBody.objects.get(body="一"))
+        KanjiComprised.objects.create(child=KanjiBody.objects.get(body="本"), order=2, parent=KanjiBody.objects.get(body="木"))
         
     def test_kanji_body(self):
         ni = KanjiBody.objects.get(body = "日")
@@ -67,4 +67,4 @@ class KanjiBodyTest(TestCase):
         self.assertEqual(pron, "ホン")
 
         com = kan_ref["com"][0]
-        self.assertEqual(com["body"], "一")
+        self.assertEqual(com["parent"], "一")
