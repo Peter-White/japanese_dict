@@ -1,6 +1,7 @@
 from base_chars.models import Hiragana, Katakana
 from particles.models import Particle
 from kanji.models import KanjiBody, KanjiComprised, KanjiDefinition, KanjiPronunciation
+from words.models import WordBody, WordSynonym, WordAltSpelling, WordAntonym, WordDefinition
 import re
 
 def ref_fetch_split(strg):
@@ -92,8 +93,10 @@ def ref_fetch(ref):
                             return None
 
             return kanj_obj
-        # case "word":
-        #     return ref_fetch_word(id)
+        case "word":
+            word_obj = WordBody.objects.get(id=ref_id).to_dict
+
+            return word_obj
         case _:
             return "Error: Invalid category"
         
