@@ -1,7 +1,7 @@
 from base_chars.models import Hiragana, Katakana
 from particles.models import Particle
 from kanji.models import KanjiBody, KanjiComprised, KanjiDefinition, KanjiPronunciation
-from words.models import WordBody, WordSynonym, WordAltSpelling, WordAntonym, WordDefinition
+from words.models import WordBody
 import re
 
 def ref_fetch_split(strg):
