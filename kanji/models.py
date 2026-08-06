@@ -3,7 +3,8 @@ from django.db import models
 PRONUNCIATION_TYPES = [
     ('O', 'On\'yomi'),
     ('K', 'kun\'yomi'),
-    ('N', 'Nanori')
+    ('N', 'Nanori'),
+    ('W', 'Word Only')
 ]
 
 DEFINITION_TYPES = [
