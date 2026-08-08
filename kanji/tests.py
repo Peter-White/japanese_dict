@@ -62,7 +62,10 @@ class KanjiBodyTest(TestCase):
         bod = kan_ref["body"]
         self.assertEqual(bod, "本")
 
-        pron = kan_ref["prons"][0]["body"] + kan_ref["prons"][1]["body"]
+        pron = "" 
+        for pn in kan_ref["prons"][0]["body"]:
+            pron += pn["body"]
+
         self.assertEqual(pron, "ホン")
 
         com = kan_ref["com"][0]
