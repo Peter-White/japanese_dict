@@ -14,7 +14,7 @@ DEFINITION_LANGS = [
 ]
 
 class WordBody(models.Model):
-    body = models.CharField(max_length=1, unique=True)
+    body = models.CharField(unique=True)
 
     class Meta:
         db_table = 'word_bodies'
