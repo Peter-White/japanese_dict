@@ -177,3 +177,51 @@ class KanjiComprised(models.Model):
         obj["child_id"] = self.child.get_id()
         obj["parent"] = self.parent.get_body()
         return obj
+
+class KanjiSynonym(models.Model):
+    body = models.ForeignKey(KanjiBody, related_name=("original_sym"), on_delete=models.CASCADE, null=True)
+    alt = models.ForeignKey(KanjiBody, related_name=("alternative_sym"), on_delete=models.CASCADE, null=True)
+
+    class Meta:
+        db_table = 'kanji_synonyms'
+
+    def get_id(self):
+        return self.pk
+    
+    def get_body(self):
+        return self.word
+    
+    def get_alt(self):
+        return self.alt
+    
+    @property
+    def to_dict(self):
+        obj = {}
+        obj["id"] = self.pk
+        obj["body_id"] = self.word.get_id()
+        obj["alt_id"] = self.alt.get_id()
+        return obj
+
+class KanjiAntonym(models.Model):
+    body = models.ForeignKey(KanjiBody, related_name=("original_ant"), on_delete=models.CASCADE, null=True)
+    alt = models.ForeignKey(KanjiBody, related_name=("alternative_ant"), on_delete=models.CASCADE, null=True)
+
+    class Meta:
+        db_table = 'kanji_antonyms'
+
+    def get_id(self):
+        return self.pk
+      
+    def get_body(self):
+        return self.word
+      
+    def get_alt(self):
+        return self.alt
+    
+    @property
+    def to_dict(self):
+        obj = {}
+        obj["id"] = self.pk
+        obj["body_id"] = self.word.get_id()
+        obj["alt_id"] = self.alt.get_id()
+        return obj
