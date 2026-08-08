@@ -93,30 +93,6 @@ class WordDefinition(models.Model):
         obj["body"] = self.body
         return obj
 
-class WordAltSpelling(models.Model):
-    word = models.ForeignKey(WordBody, related_name=("original_spell"), on_delete=models.CASCADE, null=True)
-    alt = models.ForeignKey(WordBody, related_name=("alternative_spell"), on_delete=models.CASCADE, null=True)
-
-    class Meta:
-        db_table = 'word_alt_spelling'
-
-    def get_id(self):
-        return self.pk
-    
-    def get_word(self):
-        return self.word
-    
-    def get_alt(self):
-        return self.alt
-
-    @property
-    def to_dict(self):
-        obj = {}
-        obj["id"] = self.pk
-        obj["com_id"] = self.body.get_id()
-        obj["body"] = self.body.get_body()
-        return obj
-
 class WordSynonym(models.Model):
     word = models.ForeignKey(WordBody, related_name=("original_sym"), on_delete=models.CASCADE, null=True)
     alt = models.ForeignKey(WordBody, related_name=("alternative_sym"), on_delete=models.CASCADE, null=True)
