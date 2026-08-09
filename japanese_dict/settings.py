@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     "base_chars",
     "particles",
     "kanji",
-    "words"
+    "words",
+    "large"
 ]
 
 MIDDLEWARE = [
