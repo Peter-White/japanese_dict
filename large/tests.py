@@ -13,11 +13,12 @@ class LargeBodyTest(TestCase):
         mock_db.populate_particles()
 
         KanjiBody.objects.create(body = "私", strokes = 7)
+        KanjiPronunciation.objects.create(kanji = KanjiBody.objects.get(id = 1), order=1, type="K", body="{CAT:hiragana|ID:132}{CAT:hiragana|ID:46}{CAT:hiragana|ID:28}")
         WordBody.objects.create(body="{CAT:katakana|ID:325}{CAT:katakana|ID:273}")
         WordBody.objects.create(body="{CAT:hiragana|ID:62}{CAT:hiragana|ID:30}")
 
     def test_large_body(self):
-        LargeBody.objects.create(body = "{CAT:kanji|ID:1}{CAT:particle|ID:1}{CAT:word|ID:1}{CAT:word|ID:2}。")
+        LargeBody.objects.create(body = "{CAT:kanji|ID:1|PRON:1}{CAT:particle|ID:1}{CAT:word|ID:1}{CAT:word|ID:2}。")
 
         large = LargeBody.objects.get(id=1)
 
