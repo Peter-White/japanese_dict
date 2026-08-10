@@ -116,7 +116,8 @@ def jref(strg):
             prop = ref_fetch(body)
             jref_arr.append(prop)
         else:
-            jref_arr.append(body)
+            strg_obj = { "cat" : "other", "body" : body }
+            jref_arr.append(strg_obj)
 
     if(len(jref_arr) == 1):
         return jref_arr[0]

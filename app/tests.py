@@ -21,7 +21,7 @@ class JrefTest(TestCase):
     def test_jp_num_seperation(self):
         struct = jref("21{CAT:hiragana|ID:12}{CAT:hiragana|ID:70}")
 
-        num = struct[0]
+        num = struct[0]["body"]
         h1 = struct[1]['body']
         h2 = struct[2]['body']
 
