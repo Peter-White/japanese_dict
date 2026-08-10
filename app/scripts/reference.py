@@ -98,6 +98,7 @@ def ref_fetch(ref):
             return kanj_obj
         case "word":
             word_obj = WordBody.objects.get(id=ref_id).to_dict
+            word_obj["body"] = ref_fetch(word_obj["body"])
 
             return word_obj
         case _:
