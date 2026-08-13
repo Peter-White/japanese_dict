@@ -1,5 +1,25 @@
-# def start_break(js):
-#     if isinstance(js, dict):
-#         return js
+def ref_break(ref, prop):
+    
+    if isinstance(ref, dict):
+        if prop in ref:
+            return ref[prop]
+        else:
+            return None
+        
 
-#     for obj in js:
+    body = []
+    for obj in ref:
+        if prop in obj:
+            body.append(obj[prop])
+        else:
+            body.append(None)
+            continue
+
+
+    return body
+
+def get_ids(ref):
+    return ref_break(ref, "id")
+
+def get_cats(ref):
+    return ref_break(ref, "cat")

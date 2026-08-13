@@ -3,7 +3,7 @@ from large.models import LargeBody, LargeTranslation
 from kanji.models import KanjiBody, KanjiPronunciation
 from words.models import WordBody
 from app.scripts.reference import jref
-from app.scripts.tests import mock_db
+from app.scripts.tests import mock_db, ref_break
 
 class LargeBodyTest(TestCase):
 
