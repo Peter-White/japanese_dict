@@ -24,4 +24,6 @@ class LargeBodyTest(TestCase):
 
         large_ref = jref(large.get_body())
 
-        self.assertTrue(True)
+        bodies = ref_break.get_bodies(large_ref)
+
+        self.assertEqual(bodies, '私はピーターです。')

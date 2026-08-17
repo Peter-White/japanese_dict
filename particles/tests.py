@@ -21,7 +21,7 @@ class ParticleTestCase(TestCase):
 
     def test_grab_part_ref(self):
         part = Particle.objects.get(id=1)
-        ref = jref(part.get_body())
+        ref = jref(part.get_body())[0]
         part.set_body(ref)
         part = part.to_dict
 

@@ -7,13 +7,13 @@ class JrefTest(TestCase):
         mock_db.populate_gana()
 
     def test_string_to_jp_test(self):
-        aRef = jref("{CAT:hiragana|ID:1}")
+        aRef = jref("{CAT:hiragana|ID:1}")[0]
         test = aRef["body"]
 
         self.assertEqual(test, "あ")
 
     def test_string_to_jp_test2(self):
-        aRef = jref("{CAT:hiragana|ID:76}")
+        aRef = jref("{CAT:hiragana|ID:76}")[0]
         test = aRef["body"]
 
         self.assertEqual(test, 'は')

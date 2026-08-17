@@ -98,7 +98,16 @@ def ref_fetch(ref):
             return kanj_obj
         case "word":
             word_obj = WordBody.objects.get(id=ref_id).to_dict
-            word_obj["body"] = ref_fetch(word_obj["body"])
+
+            regSpl = ref_fetch_split(word_obj["body"])
+            jref_arr = []
+
+            for ind in range(len(regSpl)):
+                if ref_fetch_reg(regSpl[ind]) != None:
+                    base_obj = ref_fetch(regSpl[ind])
+                    jref_arr.append(base_obj)
+
+            word_obj["body"] = jref_arr
 
             return word_obj
         case _:
@@ -119,8 +128,5 @@ def jref(strg):
         else:
             strg_obj = { "cat" : "other", "body" : body }
             jref_arr.append(strg_obj)
-
-    if(len(jref_arr) == 1):
-        return jref_arr[0]
 
     return jref_arr

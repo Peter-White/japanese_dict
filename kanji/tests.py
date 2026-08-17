@@ -57,7 +57,7 @@ class KanjiBodyTest(TestCase):
 
         KanjiPronunciation.objects.create(kanji=hon, order=1, type="O", body="{CAT:katakana|ID:84}{CAT:katakana|ID:135}")
         KanjiDefinition.objects.create(kanji=hon, order=1, body="book")
-        kan_ref = jref("{CAT:kanji|ID:2|PRON:1|COM:1}")
+        kan_ref = jref("{CAT:kanji|ID:2|PRON:1|COM:1}")[0]
 
         bod = kan_ref["body"]
         self.assertEqual(bod, "本")
