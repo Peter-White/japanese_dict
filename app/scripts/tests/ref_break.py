@@ -46,3 +46,17 @@ def get_bodies(ref):
                 body += ""
 
     return body
+
+def get_romaji(ref):
+    rom = ""
+
+    for obj in ref:
+        match(obj['cat']):
+            case "hiragana" | "katakana" | "kanji" | "other":
+                rom += obj["rom"]
+            case "particle" | "word":
+                rom += get_bodies(obj["rom"])
+            case _:
+                rom += ""
+
+    return rom

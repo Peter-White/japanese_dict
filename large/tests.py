@@ -17,7 +17,7 @@ class LargeBodyTest(TestCase):
         WordBody.objects.create(body="{CAT:katakana|ID:325}{CAT:katakana|ID:273}")
         WordBody.objects.create(body="{CAT:hiragana|ID:62}{CAT:hiragana|ID:30}")
 
-    def test_large_body(self):
+    def test_large_body_rom(self):
         LargeBody.objects.create(body = "{CAT:kanji|ID:1|PRON:1}{CAT:particle|ID:1}{CAT:word|ID:1}{CAT:word|ID:2}。")
 
         large = LargeBody.objects.get(id=1)
@@ -25,5 +25,7 @@ class LargeBodyTest(TestCase):
         large_ref = jref(large.get_body())
 
         bodies = ref_break.get_bodies(large_ref)
+        # romaji = ref_break.get_romaji(large_ref)
 
         self.assertEqual(bodies, '私はピーターです。')
+        # self.assertEqual(romaji, "")
