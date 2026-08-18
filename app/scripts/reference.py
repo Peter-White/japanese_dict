@@ -16,6 +16,23 @@ def ref_fetch_reg(ref):
     else:
         return None
 
+def ref_build(strg, ref_func):
+    regSpl = ref_fetch_split(strg)
+    jref_arr = []
+
+    for body in regSpl:
+        if body == '':
+            continue
+
+        if ref_fetch_reg(body) != None:
+            prop = ref_fetch(body)
+            jref_arr.append(prop)
+        else:
+            strg_obj = { "cat" : "other", "body" : body }
+            jref_arr.append(strg_obj)
+
+    return jref_arr
+
 def ref_fetch(ref):
     refProps = ref_fetch_reg(ref)
 
@@ -54,16 +71,7 @@ def ref_fetch(ref):
             return Katakana.objects.get(id=ref_id).to_dict
         case "particle":
             part_obj = Particle.objects.get(id=ref_id).to_dict
-
-            regSpl = ref_fetch_split(part_obj["body"])
-            jref_arr = []
-
-            for ind in range(len(regSpl)):
-                if ref_fetch_reg(regSpl[ind]) != None:
-                    base_obj = ref_fetch(regSpl[ind])
-                    jref_arr.append(base_obj)
-            
-            part_obj["body"] = jref_arr
+            part_obj["body"] = ref_build(part_obj["body"], ref_fetch)
 
             return part_obj
         case "kanji":
@@ -76,16 +84,7 @@ def ref_fetch(ref):
                         case "PRON":
                             for i, id in enumerate(arr):
                                 pron_obj = KanjiPronunciation.objects.get(id=id).to_dict
-
-                                regSpl = ref_fetch_split(pron_obj["body"])
-                                jref_arr = []
-
-                                for ind in range(len(regSpl)):
-                                    if ref_fetch_reg(regSpl[ind]) != None:
-                                        base_obj = ref_fetch(regSpl[ind])
-                                        jref_arr.append(base_obj)
-                                
-                                pron_obj["body"] = jref_arr
+                                pron_obj["body"] = ref_build(pron_obj["body"], ref_fetch)
                                 kanj_obj["prons"].append(pron_obj)
                         case "DEFT":
                             for i, id in enumerate(arr):
@@ -98,16 +97,7 @@ def ref_fetch(ref):
             return kanj_obj
         case "word":
             word_obj = WordBody.objects.get(id=ref_id).to_dict
-
-            regSpl = ref_fetch_split(word_obj["body"])
-            jref_arr = []
-
-            for ind in range(len(regSpl)):
-                if ref_fetch_reg(regSpl[ind]) != None:
-                    base_obj = ref_fetch(regSpl[ind])
-                    jref_arr.append(base_obj)
-
-            word_obj["body"] = jref_arr
+            word_obj["body"] = ref_build(word_obj["body"], ref_fetch)
 
             return word_obj
         case _:
@@ -115,18 +105,4 @@ def ref_fetch(ref):
         
 
 def jref(strg):
-    regSpl = ref_fetch_split(strg)
-    jref_arr = []
-
-    for body in regSpl:
-        if body == '':
-            continue
-
-        if ref_fetch_reg(body) != None:
-            prop = ref_fetch(body)
-            jref_arr.append(prop)
-        else:
-            strg_obj = { "cat" : "other", "body" : body }
-            jref_arr.append(strg_obj)
-
-    return jref_arr
+    return ref_build(strg, ref_fetch)
