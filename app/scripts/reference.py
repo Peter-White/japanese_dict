@@ -25,7 +25,7 @@ def ref_build(strg, ref_func):
             continue
 
         if ref_fetch_reg(body) != None:
-            prop = ref_fetch(body)
+            prop = ref_func(body)
             jref_arr.append(prop)
         else:
             strg_obj = { "cat" : "other", "body" : body }
@@ -33,12 +33,21 @@ def ref_build(strg, ref_func):
 
     return jref_arr
 
+def ref_obj_fetch(jmodel, ref_id):
+    try:
+        return jmodel.objects.get(id=ref_id).to_dict
+    except :
+        return None
+
 def ref_fetch(ref):
     refProps = ref_fetch_reg(ref)
 
     regex_pattern_prop = r'([^:|]+):([^|]+)'
 
     prop_tuples = re.findall(regex_pattern_prop, refProps)
+
+    if len(prop_tuples) < 1:
+        return None
     
     ref_cat = ""
     ref_id = -1
@@ -66,37 +75,38 @@ def ref_fetch(ref):
 
     match(ref_cat):
         case "hiragana":
-            return Hiragana.objects.get(id=ref_id).to_dict
+            return ref_obj_fetch(Hiragana, ref_id)
         case "katakana":
-            return Katakana.objects.get(id=ref_id).to_dict
+            return ref_obj_fetch(Katakana, ref_id)
         case "particle":
-            part_obj = Particle.objects.get(id=ref_id).to_dict
+            part_obj = ref_obj_fetch(Particle, ref_id)
             part_obj["body"] = ref_build(part_obj["body"], ref_fetch)
 
             return part_obj
         case "kanji":
-            kanj_obj = KanjiBody.objects.get(id=ref_id).to_dict
+            kanj_obj = ref_obj_fetch(KanjiBody, ref_id)
 
             if(len(ref_props) > 0):
                 for key, arr in ref_props.items():
 
                     match(key):
                         case "PRON":
-                            for i, id in enumerate(arr):
-                                pron_obj = KanjiPronunciation.objects.get(id=id).to_dict
+                            for id in arr:
+                                pron_obj = ref_obj_fetch(KanjiPronunciation, id)
                                 pron_obj["body"] = ref_build(pron_obj["body"], ref_fetch)
                                 kanj_obj["prons"].append(pron_obj)
                         case "DEFT":
-                            for i, id in enumerate(arr):
-                                kanj_obj["defts"].append(KanjiDefinition.objects.get(id=id).to_dict)
+                            for id in arr:
+                                kanj_obj["defts"].append(ref_obj_fetch(KanjiDefinition, id))
                         case "COM":
-                            kanj_obj["com"].append(KanjiComprised.objects.get(id=id).to_dict)
+                            for id in arr:
+                                kanj_obj["com"].append(ref_obj_fetch(KanjiComprised, id))
                         case _:
                             return None
 
             return kanj_obj
         case "word":
-            word_obj = WordBody.objects.get(id=ref_id).to_dict
+            word_obj = ref_obj_fetch(WordBody, ref_id)
             word_obj["body"] = ref_build(word_obj["body"], ref_fetch)
 
             return word_obj

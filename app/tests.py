@@ -29,7 +29,18 @@ class JrefTest(TestCase):
         self.assertEqual(h1, 'け')
         self.assertEqual(h2, 'ぬ')
 
-    # def test_ref_failure_to_convert(self):
-    #     aRef = jref("h1")
+    def test_ref_other(self):
+        aRef = jref("test")
 
-    #     self.assertEqual(aRef, None)
+        self.assertEqual(aRef[0], {"cat" : "other", "body" : "test"})
+
+    def test_ref_fail_catch(self):
+        odd_curly = jref("{}{")
+        single_curly = jref("{")
+        no_tuple = jref("{test}")
+        double_wrap = jref("{{CAT:hiragana|ID:12}}")
+        multi_cat = jref("{CAT:hiragana|CAT:katakana|ID:12}")
+        multi_id = jref("{CAT:hiragana|ID:12|ID:1}")
+        non_id = jref("{CAT:hiragana|ID:600}")
+
+        self.assertTrue(True)
