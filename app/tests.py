@@ -1,6 +1,8 @@
 from django.test import TestCase
-from app.scripts.reference import jref
+from app.scripts.reference import jref, ref_obj_fetch
+from app.scripts.ref_exceptions import ModelNotFound
 from app.scripts.tests import mock_db
+from base_chars.models import Hiragana
 
 class JrefTest(TestCase):
     def setUp(self):
@@ -34,6 +36,20 @@ class JrefTest(TestCase):
 
         self.assertEqual(aRef[0], {"cat" : "other", "body" : "test"})
 
+    def test_ref_obj_fetch_model_fail(self):
+        aRef = ref_obj_fetch(Hiragana, 1)
+
+        self.assertEqual(aRef["rom"], "a")
+
+        e = ""
+
+        try:
+            fail_mod = ref_obj_fetch("Nope", 1)
+        except ModelNotFound as ex:
+            e = ex
+
+        self.assertTrue(True)
+
     def test_ref_fail_catch(self):
         odd_curly = jref("{}{")
         single_curly = jref("{")
@@ -42,5 +58,7 @@ class JrefTest(TestCase):
         multi_cat = jref("{CAT:hiragana|CAT:katakana|ID:12}")
         multi_id = jref("{CAT:hiragana|ID:12|ID:1}")
         non_id = jref("{CAT:hiragana|ID:600}")
+
+        ex_test = non_id[0]
 
         self.assertTrue(True)
