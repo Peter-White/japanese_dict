@@ -1,9 +1,10 @@
 from django.test import TestCase
+from app.tests import mock_db
 from large.models import LargeBody, LargeTranslation
 from kanji.models import KanjiBody, KanjiPronunciation
 from words.models import WordBody
-from app.scripts.reference import jref
-from app.scripts.tests import mock_db, ref_break
+from app.reference.jref import jref
+from app.tests import ref_break
 
 class LargeBodyTest(TestCase):
 

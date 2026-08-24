@@ -1,8 +1,8 @@
 from django.test import TestCase
-from app.scripts.tests import mock_db
+from app.tests import mock_db
 from particles.models import Particle
 from base_chars.models import Hiragana
-from app.scripts.reference import jref
+from app.reference.jref import jref
 
 class ParticleTestCase(TestCase):
     def setUp(self):

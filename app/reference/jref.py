@@ -1,7 +1,7 @@
 from base_chars.models import Hiragana, Katakana
 from particles.models import Particle
 from kanji.models import KanjiBody, KanjiComprised, KanjiDefinition, KanjiPronunciation
-from app.scripts.ref_exceptions import ModelNotFound, IDNotNumber, CategoryNotValid
+from app.reference.ref_exceptions import ModelNotFound, IDNotNumber, CategoryNotValid
 from words.models import WordBody
 import math
 import re

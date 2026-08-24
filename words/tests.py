@@ -1,8 +1,8 @@
 from django.test import TestCase
 from kanji.models import KanjiBody, KanjiPronunciation
 from words.models import WordBody
-from app.scripts.reference import jref
-from app.scripts.tests import mock_db
+from app.reference.jref import jref
+from app.tests import mock_db
 
 class WordBodyTest(TestCase):
     def setUp(self):

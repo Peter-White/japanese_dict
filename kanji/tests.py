@@ -1,8 +1,8 @@
 from django.test import TestCase
 from kanji.models import KanjiBody, KanjiComprised, KanjiDefinition, KanjiPronunciation
-from app.scripts.reference import jref
+from app.reference.jref import jref
 from kanji.scripts.prop_scripts import order_manage
-from app.scripts.tests import mock_db
+from app.tests import mock_db
 
 class KanjiBodyTest(TestCase):
     def setUp(self):

@@ -1,6 +1,6 @@
 from django.shortcuts import render, HttpResponse
 from kanji.models import KanjiDefinition, KanjiBody
-from app.scripts.reference import jref
+from app.reference.jref import jref
 from django.views.decorators.csrf import csrf_exempt
 from django.http import JsonResponse
 from django.core import serializers

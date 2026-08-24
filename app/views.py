@@ -3,7 +3,7 @@ from django.core import serializers
 from django.http import JsonResponse
 import json
 from django.views.decorators.csrf import csrf_exempt
-from app.scripts.reference import jref
+from app.reference.jref import jref
 
 # Create your views here.
 def index(request):

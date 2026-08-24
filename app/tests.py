@@ -1,7 +1,7 @@
 from django.test import TestCase
-from app.scripts.reference import jref, ref_obj_fetch
-from app.scripts.ref_exceptions import ModelNotFound
-from app.scripts.tests import mock_db
+from app.reference.jref import jref, ref_obj_fetch
+from app.reference.ref_exceptions import ModelNotFound
+from app.scripts.data_test import mock_db
 from base_chars.models import Hiragana
 
 class JrefTest(TestCase):

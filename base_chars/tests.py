@@ -1,5 +1,5 @@
 from django.test import TestCase
-from app.scripts.tests import mock_db
+from app.scripts.data_test import mock_db
 from base_chars.models import Katakana, Hiragana
 
 class HiraganaKatakanaTestCase(TestCase):
