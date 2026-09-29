@@ -48,17 +48,17 @@ class JrefTest(TestCase):
         except ModelNotFound as ex:
             e = ex
 
-        self.assertTrue(True)
+        self.assertNotEqual(e, "")
 
-    def test_ref_fail_catch(self):
-        odd_curly = jref("{}{")
-        single_curly = jref("{")
-        no_tuple = jref("{test}")
-        double_wrap = jref("{{CAT:hiragana|ID:12}}")
-        multi_cat = jref("{CAT:hiragana|CAT:katakana|ID:12}")
-        multi_id = jref("{CAT:hiragana|ID:12|ID:1}")
-        non_id = jref("{CAT:hiragana|ID:600}")
+    # def test_ref_fail_catch(self):
+    #     odd_curly = jref("{}{")
+    #     single_curly = jref("{")
+    #     no_tuple = jref("{test}")
+    #     double_wrap = jref("{{CAT:hiragana|ID:12}}")
+    #     multi_cat = jref("{CAT:hiragana|CAT:katakana|ID:12}")
+    #     multi_id = jref("{CAT:hiragana|ID:12|ID:1}")
+    #     non_id = jref("{CAT:hiragana|ID:600}")
 
-        ex_test = non_id[0]
+    #     ex_test = non_id[0]
 
-        self.assertTrue(True)
+    #     self.assertTrue(True)

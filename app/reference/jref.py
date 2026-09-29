@@ -46,12 +46,12 @@ def ref_obj_fetch(jmodel, ref_id):
     try:
         model_objs = model_objs.objects
     except:
-        raise ModelNotFound("Model does not exist")
+        raise ModelNotFound(f"Model does not exist", jmodel)
 
     try:
         return model_objs.get(id=ref_id).to_dict
     except :
-        raise ModelNotFound(f"ID {ref_id} is invalid")
+        raise ModelNotFound(f"ID {ref_id} is invalid for {jmodel}", jmodel)
 
 def ref_fetch(ref):
     try:
